@@ -1,0 +1,33 @@
+<!Doctype>
+<html>
+<title></title>
+
+<head>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="two.js"></script>
+</head>
+
+<body>
+    <div id="demo"></div>
+    <script type="text/javascript">
+        window.onload = storeCookie;
+
+        function storeCookie() {
+            var username = '';
+            if (document.cookie != '') {
+                username = document.cookie;
+            }
+            document.getElementById("username").value = username;
+            document.getElementById("username").onblur = setCookie;
+
+         function setCookie(){
+             console.log(document.getElementById("username").value);
+             document.cookie = document.getElementById("username").value;
+         console.log(document.cookie);
+         }
+        }
+    </script>
+    <input type="text" name="username" id="username" value="">
+</body>
+
+</html>

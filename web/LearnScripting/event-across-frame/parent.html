@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" dir="ltr" lang="en">
+    <head>  
+        <!-- jQuery JavaScript Library v1.4.2  -->
+        <script type="text/javaScript" src="jqueryc.js"></script>
+    </head>
+    <body>
+        <script type="text/javaScript">
+            // In case your frame is in subdoamin 
+            //document.domain = 'yourdomain.com';
+            $(function(){
+            
+               $('#myFrame').bind('load',function(){
+                   var ref = this.contentWindow.ref;
+                   //You can think that ref = $(this.contentWindow.test) but thery are different
+                   //they are two diferent references this might be a bug
+                   ref.bind('myEvent',function(){
+                      alert('myEvent was triggered :)');
+                   });
+               });
+            });
+        </script>
+        <iframe src="frame.html"  width="800px" id='myFrame'></iframe>
+    </body>
+</html>

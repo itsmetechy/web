@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+ $(document).ready(function () {
+ 	$("#searchterm").keyup(function(e){
+        var q = $("#searchterm").val();
+        $.getJSON("http://en.wikipedia.org/w/api.php?callback=?",
+        {
+          srsearch: q,
+          action: "query",
+          list: "search",
+          format: "json"
+        },
+        function(data) {
+          $("#results").empty();
+          $("#results").append("Results for <b>" + q + "</b>");
+          $.each(data.query.search, function(i,item){
+            $("#results").append("<div><a href='http://en.wikipedia.org/wiki/" + encodeURIComponent(item.title) + "'>" + item.title + "</a><br>" + item.snippet + "</div>");
+          });
+        });
+      });
+ });
+</script>
+<style type="text/css">
+* {
+	margin:0px;
+	padding:0px;
+}
+.wrap{ position:relative; }
+.contentFill { position:relative; }
+.input { display:none; position:absolute; top:0px; border:0px; background:#CCC }
+</style>
+</head>
+
+<body>
+	<h1>Search Wikipedia!</h1>
+	<br />
+    <input id="searchterm" />
+    <button id="search">search</button>
+    <div id="results"></div>
+ 
+</body>
+</html>

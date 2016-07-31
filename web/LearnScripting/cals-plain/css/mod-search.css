@@ -1,0 +1,344 @@
+.fL { float:left; }
+.fR { float:right; }
+.clear { clear:both; }
+.search-wrapper { border:#cacbcd 1px solid; }
+.search-wrapper .search-box { padding:8px 0 0 10px; }
+.search-wrapper .search-box input[type="text"] {
+	border: 1px solid #CCC;
+	font: 16px/16px Arial, helvetica, sans-serif;
+	height: 18px;
+	margin-right:10px;
+	padding:8px;
+	width: 222px;
+}
+.search-wrapper .tab-wrapper {
+	background: #eaebeb; /* Old browsers */
+	background: -moz-linear-gradient(top, #eaebeb 0%, #eaebeb 50%, #e2e2e2 51%, #e2e2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eaebeb), color-stop(50%, #eaebeb), color-stop(51%, #e2e2e2), color-stop(100%, #e2e2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #eaebeb 0%, #eaebeb 50%, #e2e2e2 51%, #e2e2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #eaebeb 0%, #eaebeb 50%, #e2e2e2 51%, #e2e2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #eaebeb 0%, #eaebeb 50%, #e2e2e2 51%, #e2e2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #eaebeb 0%, #eaebeb 50%, #e2e2e2 51%, #e2e2e2 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaebeb', endColorstr='#e2e2e2', GradientType=0 ); /* IE6-9 */
+	border-bottom: 1px solid #CCC;
+	height: 45px;
+	margin:1px 1px 0 0;
+}
+.search-wrapper .tab-wrapper ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.search-wrapper .tab-wrapper ul li {
+	font:bold 15px 'Arial', sans-serif;
+	float: left;
+}
+.search-wrapper .tab-wrapper ul li a {
+	color: black;
+	display:block;
+	height:35px;
+	padding-top:10px;
+}
+.search-wrapper .tab-wrapper ul li a:hover, .search-wrapper .tab-wrapper ul li a.currentSearch {
+	background: #bbbbbb; /* Old browsers */
+	background: -moz-linear-gradient(top, #bbbbbb 0%, #cccccc 25%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bbbbbb), color-stop(25%, #cccccc), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #bbbbbb 0%, #cccccc 25%, #cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #bbbbbb 0%, #cccccc 25%, #cccccc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #bbbbbb 0%, #cccccc 25%, #cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #bbbbbb 0%, #cccccc 25%, #cccccc 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bbbbbb', endColorstr='#cccccc', GradientType=0 ); /* IE6-9 */
+}
+.search-wrapper .tab-wrapper ul li a.currentSearch { cursor:default; }
+.search-wrapper .tab-wrapper ul li a span {
+	border-left: 1px solid white;
+	box-shadow:inset 1px 0px 0px #ccc;
+	-moz-box-shadow:inset 1px 0px 0px #ccc;
+	-webkit-box-shadow:inset 1px 0px 0px #ccc;
+	display:block;
+	height:26px;
+	line-height:26px;
+	min-width: 30px;
+	padding: 0 12px;
+	text-align: center;
+}
+.search-wrapper .tab-wrapper ul li:first-child { border-left: 1px solid #ccc; }
+.search-wrapper .tab-wrapper ul li:first-child a span {
+	border-left:none;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.search-wrapper .sw-inner { padding:25px 23px; }
+.search-wrapper .sw-inner h2 {
+	border-bottom:#CCC 1px solid;
+	color: #000;
+	font: 25px/26px 'Arial', sans-serif;
+	padding:5px 0;
+}
+.search-wrapper .all-first { padding-bottom:20px; }
+.search-wrapper .all-first .af-content {
+	padding-left:23px;
+	width:380px;
+}
+.search-wrapper .all-first .af-image { margin-top:20px; }
+.search-wrapper .all-first .af-content h3 {
+	font: 18px/20px 'Arial', sans-serif;
+	padding-bottom:6px;
+}
+.search-wrapper .all-first .af-content h3, .search-wrapper .all-first .af-content h3 a { color:#0066CC; }
+.search-wrapper .all-first .af-content h6 {
+	color:#333;
+	font: bold 13px/13px 'Arial', sans-serif;
+	padding-bottom:6px
+}
+.search-wrapper .all-first .af-content p {
+	color:#666;
+	font: 13px/16px Arial, sans-serif;
+	padding-top:10px;
+}
+.search-wrapper .all-first .af-content .af-rating {
+	background:url(../_siteconfigs/automotive_com/images/bghtml5/consumer-review.gif) 0 -20px no-repeat;
+	display:inline-block;
+	height:20px;
+	width:110px;
+}
+.search-wrapper .all-first .af-content .af-rating span {
+	background:url(../_siteconfigs/automotive_com/images/bghtml5/consumer-review.gif) 0 0 no-repeat;
+	display:block;
+	height:20px;
+	text-indent:-9999px;
+}
+.search-wrapper .all-first .af-content .af-rating span.af-rating-1 { width:20%; }
+.search-wrapper .all-first .af-content .af-rating span.af-rating-2 { width:40%; }
+.search-wrapper .all-first .af-content .af-rating span.af-rating-3 { width:60%; }
+.search-wrapper .all-first .af-content .af-rating span.af-rating-4 { width:80%; }
+.search-wrapper .all-first .af-content .af-rating span.af-rating-5 { width:100%; }
+.search-wrapper .all-first .af-content .con-reviews {
+	color:#0066CC;
+	font: 12px/20px Arial, sans-serif;
+	padding-left:5px;
+}
+.search-wrapper .all-first .adt-info {
+	border-left:#CCC 1px solid;
+	color:#000;
+	font:12px/14px Arial, Helvetica, sans-serif;
+	padding:10px 0 12px 15px;
+	width:180px;
+}
+.search-wrapper .all-first .adt-info p:first-child {
+	border-bottom:#CCC 1px solid;
+	margin-bottom:15px;
+	padding-bottom:10px;
+}
+.search-wrapper .all-first .adt-info .adt-info-dollar {
+	color: #106A84;
+	font: 20px/20px 'Arial', sans-serif;
+}
+.search-wrapper .all-first .adt-info p.group span {
+	background-image:url(../_siteconfigs/automotive_com/images/bghtml5/fuel-seat.png);
+	background-repeat:no-repeat;
+	padding-left:7%;
+	text-align:center;
+	width:43%;
+}
+.search-wrapper .all-first .adt-info p.group span.fL { background-position:left 5px; }
+.search-wrapper .all-first .adt-info p.group span.fR { background-position:3px -82px; }
+.search-wrapper .all-first .adt-info p.group span strong { font:normal 18px/20px Arial, Helvetica, sans-serif; }
+.search-wrapper .sw-inner .article-row {
+	border-top:#CCC 1px solid;
+	min-height:90px;
+	padding:23px 0 23px 160px;
+}
+.search-wrapper .sw-inner .article-wrapper .article-row:first-child { border-top:none; }
+.search-wrapper .sw-inner .article-row .article-image {
+	position:absolute;
+	margin-left:-160px;
+}
+.search-wrapper .sw-inner .article-row a.article-image span {
+	background:url(../_siteconfigs/automotive_com/images/bghtml5/sw-video-play-btn.png) center center no-repeat;
+	height:87px;
+	cursor:pointer;
+	position:absolute;
+	text-indent:-9999px;
+	width:137px;
+}
+.search-wrapper .sw-inner .article-row .article-image img { display:block; }
+.search-wrapper .sw-inner .article-row h3 {
+	font: 20px/20px 'Arial', sans-serif;
+	padding-bottom:6px;
+}
+.search-wrapper .sw-inner .article-row h3, .search-wrapper .sw-inner .article-row h3 a { color:#0066CC; }
+.search-wrapper .sw-inner .article-row .article-date {
+	color:#333;
+	font: bold 13px/13px 'Arial', sans-serif;
+	padding-bottom:6px
+}
+.search-wrapper .sw-inner .article-row p {
+	color:#666;
+	font: 13px/18px Arial, sans-serif;
+	padding-top:10px;
+}
+.search-wrapper .sw-inner .article-row p a { color:#0066CC; }
+.sw-pagination {
+	margin: 5px 0;
+	padding: 0 0 20px;
+}
+.sw-bottom-pager .sw-pagination {
+	margin: 5px 0 0;
+	padding: 0 0 20px;
+}
+.sw-pagination .sw-center {
+	overflow: hidden;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+}
+.sw-pagination .sw-center ul {
+	display: inline-block;
+	float: none;
+	list-style: none outside none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+.sw-pager li {
+	display: block;
+	float: left;
+	list-style: none outside none;
+	padding: 0 3px;
+	position: relative;
+}
+.sw-pager .btn, .sw-prev span, .sw-next span { cursor: pointer; }
+.sw-prev.btn.btnblock span.btn-inner, .sw-next.btn.btnblock span.btn-inner { color: #FFFFFF; }
+.sw-pager .btn-inner { padding: 3px 8px; }
+.sw-pager .sw-prev .btn-inner, .sw-pager .sw-next .btn-inner { padding: 9px 25px; }
+.sw-pager li.activebtn .btn-inner {
+	background-color:#CACACA;
+	background:#CACACA;
+	background:-moz-linear-gradient(top, #DADBDB 0%, #DADBDB 50%, #CACACA 50%, #CACACA 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #DADBDB), color-stop(50%, #DADBDB), color-stop(50%, #CACACA), color-stop(100%, #CACACA));
+	background:-webkit-linear-gradient(top, #DADBDB 0%, #DADBDB 50%, #CACACA 50%, #CACACA 100%);
+	background:-o-linear-gradient(top, #DADBDB 0%, #DADBDB 50%, #CACACA 50%, #CACACA 100%);
+	background:-ms-linear-gradient(top, #DADBDB 0%, #DADBDB 50%, #CACACA 50%, #CACACA 100%);
+filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#DADBDB', endColorstr='#CACACA', GradientType=0 );
+	background:linear-gradient(top, #DADBDB 0%, #DADBDB 50%, #CACACA 50%, #CACACA 100%);
+	font-weight:bold;
+	cursor:default;
+}
+.sw-pager .sw-next, .sw-pager .sw-prev {
+	color: #000000;
+	font: 15px/16px 'Arial', sans-serif;
+	padding: 2px;
+	margin-top:5px;
+}
+.sw-pager .sw-next a, .sw-pager .sw-prev a { color:#0063c2; }
+.sw-pager .sw-next {
+	margin-left: 7px;
+	width:54px;
+}
+.sw-pager .sw-prev { margin-right: 10px; }
+.sw-pager .sw-next:after {
+	content: " ››";
+	float: right;
+	font-size: medium;
+	padding: 0 5px;
+}
+.sw-pager .sw-prev:before {
+	content: "‹‹ ";
+	float: left;
+	font-size: medium;
+	padding: 0 5px;
+}
+.search-wrapper .sw-inner .image-wrapper a {
+	float:left;
+	margin-left:14px;
+	margin-top:24px;
+}
+.search-wrapper .sw-inner .image-wrapper a:first-child { margin-left:0; }
+.search-wrapper .sw-inner .image-wrapper a img { display:block; }
+.search-wrapper .sw-inner .sw-view-more-wrapper {
+	background-color:#bdbec0;
+	height:1px;
+	margin:50px 0;
+}
+.search-wrapper .sw-inner .sw-view-more {
+	margin-top:-8px;
+	position:absolute;
+	text-align:center;
+	width:750px;
+}
+.search-wrapper .sw-inner .sw-view-more a {
+	background-color:#FFF;
+	color:#0063c2;
+	font-size:20px;
+	padding:0 5px;
+}
+.search-wrapper .sw-inner ul.sw-video {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.search-wrapper .sw-inner ul.sw-video li {
+	float:left;
+	margin-left:14px;
+	margin-top:24px;
+	width:139px;
+}
+.search-wrapper .sw-inner ul.sw-video li:first-child { margin-left:0; }
+.search-wrapper .sw-inner ul.sw-video li a {
+	color:#0066CC;
+	font: 18px/20px 'Arial', sans-serif;
+}
+.search-wrapper .sw-inner ul.sw-video li a span {
+	background:url(../_siteconfigs/automotive_com/images/bghtml5/sw-video-play-btn.png) center center no-repeat;
+	height:87px;
+	cursor:pointer;
+	position:absolute;
+	text-indent:-9999px;
+	width:137px;
+}
+.search-wrapper .sw-inner ul.sw-video li a img {
+	display:block;
+	padding-bottom:5px;
+}
+.search-wrapper .sw-inner ul.sw-recent {
+	list-style:disc;
+	margin:0 0 0 25px;
+	padding-bottom:10px;
+}
+.search-wrapper .sw-inner ul.sw-recent li { padding-top:22px; }
+.search-wrapper .sw-inner ul.sw-recent li h3 {
+	color:#000;
+	font:bold 16px/16px Arial, Helvetica, sans-serif;
+	padding-bottom:8px;
+}
+.search-wrapper .sw-inner ul.sw-recent li p {
+	color:#bdbec0;
+	font:14px/16px Arial, Helvetica, sans-serif;
+}
+.search-wrapper .sw-inner ul.sw-recent li p a { color:#0066CC; }
+.search-wrapper .sw-inner ul.sw-photo {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.search-wrapper .sw-inner ul.sw-photo li {
+	float:left;
+	margin-left:14px;
+	margin-top:24px;
+	width:139px;
+}
+.search-wrapper .sw-inner ul.sw-photo li:first-child { margin-left:0; }
+.search-wrapper .sw-inner ul.sw-photo li a {
+	color:#0066CC;
+	font: 18px/20px 'Arial', sans-serif;
+}
+.search-wrapper .sw-inner ul.sw-photo li a img {
+	display:block;
+	padding-bottom:5px;
+}
+.mod-research .research-item {
+    display: none;
+    padding: 0 0 20px;
+}

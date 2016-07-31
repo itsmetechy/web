@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Learn</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var createGrid = {
+                    createDiv: '',
+                    targetDiv: $('#eyeTesterGrid'),
+
+                    totalGrid:function(numLine){
+                    for( i = 1; i < (numLine +1); ++i){
+                        this.createDiv += "<ul><li>"+ i +"</li></ul>";
+                        //this.totalGrid(i);
+                        //console.log(i);
+                    }
+
+                    this.targetDiv.append(this.createDiv);
+                    this.totalGrid(numLine - 1);
+
+                    }
+            }
+
+
+//            function totalGrid(numLine){
+//
+//                for( i = 1; i < (numLine +1); ++i){
+//                    createDiv += "<ul><li>"+ i +"</li></ul>";
+//                    // console.log(i);
+//                    totalGrid(i);
+//                }
+//                targetDiv.append(createDiv);
+//            }
+
+
+            createGrid.totalGrid(6);
+
+
+
+
+        });
+
+    </script>
+</head>
+<body>
+    <div id="eyeTesterGrid"></div>
+</body>
+</html>

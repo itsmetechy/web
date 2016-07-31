@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+ 	function scrolllist(){
+		var getwidth = $('li').width();
+ 		$('ul').animate({marginLeft:getwidth},200);	
+		getwidth +=70;
+		setTimeout(scrolllist,5000);
+	}
+	scrolllist();
+  		/*start new*/
+		var counts = $('li').size();
+ 		 
+	    $('#next').click(function(){
+  		$('ul').animate({marginLeft:'+=70px'},200);
+		});
+ 		$('#prev').click(function(){
+		$('ul').animate({marginLeft:'-=70px'},200);
+ 		})
+		 
+ });
+</script>
+<style type="text/css">
+* {
+	margin:0px;
+	padding:0px;
+}
+#photos ul {
+	width:1000px;
+	float:left;
+}
+#photos ul li {
+	display:inline;
+	padding:0px 20px;
+	width:80px;
+	border:1px solid #ccc;
+}
+.rule {
+	width:198px;
+	overflow:hidden;
+	height:20px;
+	border:1px solid red;
+	padding:5px 5px;
+}
+</style>
+</head>
+
+<body>
+<div id="photos"> <a href="#" id="prev">prev</a>
+  <div class="rule">
+    <ul>
+      <li>test</li>
+      <li>test</li>
+      <li>test</li>
+    </ul>
+  </div>
+  <a href="#" id="next">next</a> </div>
+ </body>
+</html>

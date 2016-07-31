@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
+ <script>
+	$(document).ready(function(){
+		//$(".box:last").css({border:'none',color:'red'});
+		//$(.box:last-child{border-bottom:none;});
+		//$('.box').last().css('border', 'none');
+		//$('.box').last().css('border', 'none');
+		 $('.box:nth-child(4n+4)').css({border:'none',color:'red'});
+		 // $('.box:nth-child(4n)').css({border:'none',color:'red'});
+		//$('.box:last').css('color', 'red');
+		//$(".box:last").css({backgroundColor: "#333", color: "red"});
+		//$('.box:odd').css({border:'none',color:'red'});
+		//$('.box:eq(3)').css({border:'none',color:'red'});
+		
+	});
+</script>
+<style type="text/css">
+	.wrap{height:auto; width:500px; margin:0 auto;}
+	.box{height:100px; width:100px; float:left; border-right:5px solid #ccc;}
+	.bor-right{ border-right:1px dotted #666666; margin-top:3px; float:left; width:251px;}
+	/*div.box:nth-child(4n+4){border:none; color:red};*/
+</style>	
+</head>
+
+<body>
+<div class="wrap">
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+    	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+	<div class="box">test</div>
+
+</div>
+</body>
+</html>

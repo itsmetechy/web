@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JQuery Collapse</title>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<style>
+	.baby{color:red; font-size:40px;}
+	.daddy{color:green; font-size:20px;}
+	.orange{background:orange;}
+</style>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('span').parent().css('background','red')
+  $('div.container')   // find some spans inside those divs and add a class to them
+  .find('span').addClass('baby');
+  
+  $('p').addClass('daddy');
+  //.find('p').addClass('daddy');
+// pop those spans off the "stack",
+// returning to the previous collection (div.container)
+//.end()
+  // add a class to the parent of each div.container
+ // .parent().addClass('daddy');
+  });
+</script>
+
+</head>
+<body>
+<div>
+test
+<div class="container">
+
+	<span>test</span>
+	<p>paragraph</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+<style type="text/css">
+	.contentBox { height:300px; width:500px; border:dashed 2px #ccc; position:relative; }
+	.loader { position:absolute; background:url(images/loading.gif) no-repeat 50%; height:100%; width:100%; }
+</style>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$(".load").trigger('click');
+		$('.load').click(function(){
+		x=$('li').toArray()
+		for(i=0;i<x.length;i++){
+			alert(x[i].innerHTML);
+		}			
+		})
+
+	})
+</script>
+</head>
+<body>
+<a href="#" class="load">Load File</a>
+<ul>
+	<li>shiv</li>
+    <li>srini</li>
+    <li>gowri</li>
+</ul>
+</body>
+</html>

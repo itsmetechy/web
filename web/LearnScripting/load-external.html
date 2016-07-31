@@ -1,0 +1,49 @@
+< !DOCTYPE HTML>
+<html>
+<head>
+<title>Form, Autofocus: HTML5</title>
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/jquery.cookie.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans|Kavoon' rel='stylesheet' type='text/css'>
+<script type="text/javascript">
+$(document).ready(function(){
+$.cookie("top", "500");
+$.cookie("left", "200");
+var getLeft =  $.cookie("left") ;
+$('a').click(function(){
+	var getTop = $(this).s().top;
+	$('body').append('<p>test</p>');
+	$('p').css('top',getLeft)
+});
+});
+ 
+
+</script>
+<style type="text/css">
+select,option {font-family: 'Kavoon', cursive; font-weight:bold;}
+</style>
+
+</head>
+<body>
+ 
+<form>
+<select>
+<option>some text</option>
+<option>some text</option>
+<option>some text</option>
+<option>some text</option>
+</select>
+	<input type="text" />
+	<input type="text" />
+	<input type="text" autofocus/>
+	<button>Done</button>
+</form>
+
+
+
+<br><br><br><br><br><br>
+
+ <a href="#">click</a>
+ 
+</body>
+</html>

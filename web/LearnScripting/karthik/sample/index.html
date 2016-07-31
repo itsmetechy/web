@@ -1,0 +1,77 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome ::</title>
+<link rel="stylesheet" href="tabular.css">
+<script type="text/javascript" src="../../js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+  $(function(){
+	 var setIframeHeight = '240px';
+	 $('.tabular').find('iframe').height(setIframeHeight); 
+	  
+	  
+    $('.close').on('click', function(e){
+      e.preventDefault();
+	  var totalTabular = $('.tabular').length;
+	  var visibleTabular = $('.tabular:visible').length;	  
+	  if(visibleTabular == ( totalTabular - visibleTabular )){
+		  	var windowHeight = $(window).height();
+			var defaultIframeHeight = $('.tabular').find('.data_container').first().height();
+			var titleHeight = $('.tab_title').height();
+			var currentTopposition = $('.tabular:visible').find('iframe').offset().top; 			
+			var newIframeHeight =  windowHeight - ( currentTopposition + titleHeight );
+	
+			$('.tabular:visible').find('iframe').height(newIframeHeight);
+			
+	  }
+      $(this).closest('.tabular').slideUp();
+	 $(this).parents('.row').find('.tabular').animate({
+		width:'95%'
+	 });
+    });	
+ });
+</script>
+</head>
+
+<body>
+<div>
+  <div class="row tabular_container">
+    <div class="tabular">
+      <div class="tab_title">
+        <h1> Tab Heading </h1>
+        <a class="close" href="#"><img src="close.png" width="24" height="24" alt="close"></a> </div>
+      <div class="data_container">
+        <iframe src="http://www.ottawa.edu/" allowtransparency="yes" scrolling="no" height="100%" width="100%" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div class="tabular">
+      <div class="tab_title">
+        <h1> Tab Heading </h1>
+        <a class="close" href="#"><img src="close.png" width="24" height="24" alt="close"></a> </div>
+      <div class="data_container">
+        <iframe src="http://www.wenda.io/" allowtransparency="yes" scrolling="no" height="100%" width="100%" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="tabular">
+      <div class="tab_title">
+        <h1> Tab Heading </h1>
+        <a class="close" href="#"><img src="close.png" width="24" height="24" alt="close"></a> </div>
+      <div class="data_container">
+        <iframe src="http://www.w3schools.com/" allowtransparency="yes" scrolling="no" height="100%" width="100%" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div class="tabular">
+      <div class="tab_title">
+        <h1> Tab Heading </h1>
+        <a class="close" href="#"><img src="close.png" width="24" height="24" alt="close"></a> </div>
+      <div class="data_container">
+        <iframe src="http://www.sitepoint.com/" allowtransparency="yes" scrolling="no" height="100%" width="100%" frameborder="0"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

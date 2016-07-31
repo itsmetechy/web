@@ -1,0 +1,39 @@
+<html>
+	<title></title>
+	<head>
+	<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script>
+	$(document).ready(function(){
+		
+	$('.box').each(function(){
+			$(this).bind('scroll',function(){
+				var collectWidth = $(this).find('.content').width();
+				var leftPos = $(this).scrollLeft();
+				var holderWidth = $(this).width();
+						if ( leftPos == (collectWidth - holderWidth)) {
+			            	var leftPos = $('.box').scrollLeft(holderWidth);	
+        				}else{
+							var leftPos = $('.box').scrollLeft(leftPos);	
+						}
+			});		
+	});
+	});
+	</script>
+	<style>
+		.box{ width:500px; overflow-x:scroll; }
+		.clear { clear:both;}
+		.content{ height:50px; width:9000px; background:#ccc;}
+	</style>
+	</head>
+	<body>
+	<div class="box clear">
+		<div class="content" style="width:600px;">asrsre</div>
+	</div>
+	<div class="box clear">
+		<div class="content">asrsre</div>
+	</div>
+	<div class="box clear">
+		<div class="content">asrsre</div>
+	</div>
+	</body>
+</html>

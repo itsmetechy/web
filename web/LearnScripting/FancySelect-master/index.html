@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="A better select for discerning web developers everywhere.">
+		<meta name="designer" content="Octopus Creative">
+		<meta name="developer" content="Octopus Creative">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+
+		<title>FancySelect » Octopus Code</title>
+
+		<link rel="stylesheet" media="screen, projection" href="fancySelect.css">
+ 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="fancySelect.js"></script>
+		<script>
+			$(document).ready(function() {
+				$('#basic-usage-demo').fancySelect();
+							$('.bContent ul').each(function(){
+							var getClass = $(this).attr('class');
+							alert(getClass);
+						});			
+				$('#basic-usage-demo').change(function(){
+						//var checkValue = $('this').data('filter');
+						//alert(checkValue);
+						var getValue = $('.options .selected').value();
+						debugger;
+						var currentText = $('.options .selected').text();
+						if(getValue==1){
+						$('bContent ul').hide();
+						$('.'+currentText).fadeIn();		
+						}else{
+							$('bContent ul').hide();
+							$('.nodata').fadeIn();	
+							}
+					})
+				//
+//				var menu = $('#top').find('menu');
+//				$(window).on('resize', positionMenuArrow);
+//				menu.on('click', 'a', function(e) {
+//					var el = $(this),
+//						href = el.attr('href'),
+//						currentSection = $('#main').find('.current');
+//
+//					e.preventDefault();
+//
+//					menu.find('.current').removeClass('current');
+//
+//					el.addClass('current');
+//
+//					positionMenuArrow();
+//
+//					if (currentSection.length) {
+//						currentSection.fadeOut(300).promise().done(function() {
+//							$(href).addClass('current').fadeIn(300);
+//						});
+//					} else {
+//						$(href).addClass('current').fadeIn(300);
+//					}
+//				});
+//			menu.find('a:first').trigger('click')
+			});
+		</script>
+	</head>
+
+	<body>
+
+    <select id="basic-usage-demo">
+        <option value="0">Html</option>
+        <option value="1">Css</option>
+        <option value="1">Jquery</option>
+        <option value="0">php</option>
+    </select>
+<div class="bContent">
+<ul class="Jquery">
+	<li>Selector</li>
+    <li>Traversing</li>
+    <li>Selector</li>
+    <li>Traversing</li>
+</ul>
+<ul class="Css">
+	<li>Selector</li>
+    <li>Traversing</li>
+    <li>Selector</li>
+    <li>Traversing</li>
+</ul>
+<ul class="nodata">
+	<li>no data</li>
+</ul>
+</div>
+	</body>
+</html>

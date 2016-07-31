@@ -1,0 +1,140 @@
+@font-face {
+	font-family: 'HelveticaNeueLTStdMedRegular';
+	src: url('../fonts/helveticaneueltstd-md-webfont.eot');
+	src: url('../fonts/helveticaneueltstd-md-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/helveticaneueltstd-md-webfont.woff') format('woff'), url('../fonts/helveticaneueltstd-md-webfont.ttf') format('truetype'), url('../fonts/helveticaneueltstd-md-webfont.svg#HelveticaNeueLTStdMedRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.mod-rr-article { color: #333; }
+.mod-rr-article .rr-article-titlewrap { padding-bottom: 10px; }
+.rr-article-section {
+	border-top: #CCC 1px solid;
+	padding-top: 20px;
+}
+.mod-rr-article .rr-article-title { font: normal 30px/32px 'HelveticaNeueLTStdMedRegular'; }
+.mod-rr-article .rr-article-subtitle { font: normal 20px/22px Arial, Helvetica; }
+.rr-article-image { margin-bottom: 5px; }
+.rr-article-image img {
+	border: #ccc 1px solid;
+	width: 100%
+}
+.rr-article-date {
+	background-color: #981311;
+	color: #FFF;
+	font: 20px/20px Arial, Helvetica;
+	margin-left: 1px;
+	margin-top: 1px;
+	padding: 10px 15px;
+	position: absolute;
+	text-align: center;
+}
+.rr-article-date .article-date {
+	display: block;
+	font: bold 48px/48px Arial, Helvetica;
+}
+.mod-rr-article .rr-article-title-s { font: normal 25px/27px 'HelveticaNeueLTStdMedRegular'; }
+.mod-rr-article .rr-article-subtitle-s {
+	display: block;
+	font: bold 20px/22px Arial, Helvetica;
+	padding-bottom: 15px;
+}
+.rr-list { list-style: disc; }
+.rr-list li { padding-bottom: 3px; }
+.rr-text, .rr-list {
+	font: 16px/22px Arial, Helvetica;
+	padding-bottom: 20px;
+}
+.rr-title {
+	font: bold 18px/20px Arial, Helvetica;
+	padding-bottom: 7px;
+}
+.rr-quote {
+	border-left: #981311 3px solid;
+	font: normal 26px/28px Arial, Helvetica;
+	margin: 0 auto 20px;
+	padding-left: 10px;
+	width: 90%;
+}
+.rr-more {
+	border-bottom: #CCC 1px solid;
+	border-top: #CCC 1px solid;
+	font: bold 16px/32px Arial, Helvetica;
+	text-align: center;
+}
+.rr-more a { color: #0066cc; }
+.rr-art-det {
+	font: normal 14px/18px Arial, Helvetica;
+	padding-bottom: 5px;
+}
+.rr-art-det strong {
+	font-size: 16px;
+	font-weight: bold;
+}
+.rr-art-det a { color: #0066cc; }
+.rr-art-comment {
+	background: url(../_siteconfigs/automotive_com/images/bghtml5/comment-icon.gif) left 2px no-repeat;
+	padding-left: 16px;
+}
+.rr-art-stats {
+	background: url(../_siteconfigs/automotive_com/images/bghtml5/stats-icon.gif) left 2px no-repeat;
+	padding-left: 20px;
+}
+.rr-nexr-prev {
+	float: right;
+	width: 200px;
+}
+.rr-nexr-prev img {
+	border: #CCC 1px solid;
+	cursor: pointer;
+	margin-bottom: 4px;
+}
+.group .rr-nexr-prev:first-child { float: left; }
+.rr-np-head {
+	color: #000;
+	font: bold 16px/18px Arial, Helvetica;
+	padding-bottom: 5px;
+}
+.rr-nexr-prev a {
+	font: bold 16px/22px Arial, Helvetica;
+	color: #0066cc;
+}
+.rr-nexr-prev .rr-article-date { font: 12px/12px Arial, Helvetica; }
+.rr-nexr-prev .rr-article-date .article-date { font: bold 24px/24px Arial, Helvetica; }
+.rr-row {
+	border-top: #CCC 1px solid;
+	padding: 20px 0;
+}
+.rr-row .rr-row-img {
+	float: left;
+	width: 200px;
+}
+.rr-row .rr-row-txt {
+	float: right;
+	width: 410px;
+}
+.rr-row .rr-article-date { font: 12px/12px Arial, Helvetica; }
+.rr-row .rr-article-date .article-date { font: bold 24px/24px Arial, Helvetica; }
+.rr-row .rr-art-det { padding-bottom: 0; }
+.rr-row .rr-text {
+	padding-bottom: 0;
+	padding-top: 10px;
+}
+.rr-row .rr-txt-head {
+	color: #000;
+	font: bold 18px/22px Arial, Helvetica;
+	padding-bottom: 5px;
+}
+.rr-post-navi {
+	border-bottom: #CCC 1px solid;
+	border-top: #CCC 1px solid;
+	font-size: 16px;
+	height: 51px;
+	line-height: 51px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.rr-post-navi a {
+	color: #0066cc;
+	float: right;
+}
+.rr-post-navi a:first-child { float: left; }

@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: url('../fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MyriadPro-Regular.woff') format('woff'),
+         url('../fonts/MyriadPro-Regular.ttf') format('truetype'),
+         url('../fonts/MyriadPro-Regular.svg#MyriadProRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.main-left {
+	float: left;
+	width: 478px;
+	position: relative;
+}
+.mod-mini-social{
+	border: 1px solid #ccc;
+	border-radius: 5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	width: 100%;
+	float: left;
+}
+.right-rail {
+	float: right;
+	width: 160px;
+}
+.mini-join-conv-logo{
+	width: 158px;
+	height: 30px;
+	margin: 0 0 10px;
+	float: right;
+}
+ul.mod-tabs{
+	margin-left:0;
+	height: 50px;
+}
+ul.mod-tabs li{
+	list-style-type: none;	
+	display: inline-block;
+	border-left: 1px solid #ccc;
+	height: 44px;
+	cursor: pointer;
+	position: relative;
+	zoom: 1;
+	filter: alpha(opacity=55);
+	opacity: 0.55;
+	margin: 3px -5px 3px 0;
+}
+ul.mod-tabs li:first-child{
+	border-left: 0;
+}
+ul.mod-tabs li span{
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/mini-social-icons.png');	
+	height: 31px;
+	width: 31px;
+	margin: 9px;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+}
+ul.mod-tabs li .fb{	background-position: left top; width: 31px}
+ul.mod-tabs li .tw{	background-position: -31px top; width: 31px}
+ul.mod-tabs li .instagram{background-position: -62px top; width: 31px}
+ul.mod-tabs li.mini .mini-logo{
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/mini-social-icons.png');
+	background-position: 0px -33px;
+	height: 33px;
+	width: 78px;
+	margin: 10px;
+	float: right;
+	cursor: default;
+}
+ul.mod-tabs li .hdr-txt{
+	display: none;
+	font: bold 22px/50px Arial, Verdana;
+	color: #000;
+	position: absolute;
+	left: 50px;
+	top: 0;
+}
+ul.mod-tabs li.expand .hdr-txt{
+	display: block;
+}
+
+ul.mod-tabs li.expand{
+	background: #fff;
+	width: 60%;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+ul.mod-tabs li.mini{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.mini-tab-content{
+	border: 1px solid #ccc;
+	border-top: none;
+	border-radius: 0 0 5px 5px;
+	-webkit-border-radius:0 0 5px 5px;
+	-moz-border-radius:0 0 5px 5px;
+	width: 96%;
+	padding: 10px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	margin-bottom: 20px;
+}
+.mini-tab-content .tabcontent {
+	display: none;
+}
+
+.twitter-timeline{
+	width: 780px;
+	height: 480px;
+}
+
+
+.tabcontent-hdr a{
+	color: #000;
+	font: bold 13px/18px Arial, helvetica, sans-serif;
+	padding-left: 15px;
+	padding-bottom: 10px;
+	display: block;
+	width: 280px;
+}
+.tw-tabcontent-hdr{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.tabcontent-hdr .insta-img{
+	float: left;
+}
+
+.tabcontent-hdr .insta-content{
+	float: right;
+	margin-left: 20px;
+	width: 69%;
+}
+.tabcontent-hdr .insta-content .title{
+	color: #000;
+	font: bold 18px/18px  helvetica, sans-serif;
+}
+.tabcontent-hdr .insta-content .title:after{
+	content: '\25bc';
+	font-size: 10px;
+	position: relative;
+	top: -3px;
+	left: 3px;
+	color: #595959;
+}
+
+.tabcontent-hdr .insta-content .desc span{
+	font-weight: bold;
+}
+
+.tabcontent-hdr .insta-content .desc a{
+	font: normal 14px/18px  helvetica, sans-serif;
+	color: #227d9f;
+	display: inline-block;
+	padding: 0;
+}

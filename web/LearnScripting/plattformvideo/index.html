@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script src="http://www.plattform.com/sites/all/modules/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript">
+	$(function(){
+		$('button').on('click', function(){
+			$('#plattform_bg_video').fadeIn();
+		});
+	});
+</script>
+<style>
+*{ margin:0px; padding:0px; }
+#homepage_section_1 {
+    width: 100%;
+    min-height: 634px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-color:#000;
+    overflow: visible;
+    display: block;
+    border-bottom: 7px solid #7a1600;
+	position:relative;
+}
+#homepage_section_1 button {
+	position:absolute; left:50%; bottom:10%; 
+}
+#homepage_section_1 video { position:absolute; width:100%; height:100%; left:0px; }
+iframe{ position:fixed; width:100%; height:100%; top:0; display:block;}
+span {
+    position: absolute;
+    color: #fff;
+    z-index: 120;
+    height: 20px;
+    width: 150px;
+    border: 2px solid red;
+	top:0px;
+	right:0px;	
+}
+</style>
+</head>
+
+<body>
+<div id="homepage_section_1">
+<!--<video controls="controls" autoplay="autoplay" preload="auto">
+  <source src="img/2014_HolidayVideo_YT_FINAL.mp4"/>
+</video>-->
+<button>click to play</button>
+</div>
+<div id="plattform_bg_video">
+<span>close</span><iframe width="100%" height="100%" src="https://www.youtube.com/embed/dvjvJ3Rue_g?wmode=transparent&list=PLJA6VL0mJ2znUB2QK21XGhZH8M9lCVMT8&autoplay=1" frameborder="0" allowfullscreen></iframe></div>
+</div>
+</body>
+</html>

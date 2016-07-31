@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+			<title>Page Title</title>
+			<script type="text/javascript" src="https://ajax.microsoft.com/ajax/jquery/jquery-1.4.3.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function () {
+					$("#Example1").click(function () {
+						alert($("#myDiv").css("background-color"));
+					});
+
+					$("#Example2").click(function () {
+						$("#myDiv").css("background-color", "black");
+					});
+
+					$("#Example3").click(function () {
+						$("#myDiv").css({ "background-color": "black", "border-width": "15px" });
+					});
+
+					$("#Example4").click(function () {
+						alert($("#myDiv").height());
+					});
+
+					$("#Example5").click(function () {
+						$("#myDiv").height(200);
+					});
+
+					$("#Example6").click(function () {
+						alert($("#myDiv").width());
+					});
+
+					$("#Example7").click(function () {
+						$("#myDiv").width(200);
+					});
+
+					$("#Example8").click(function () {
+						alert($("#myDiv").innerHeight());
+					});
+
+					$("#Example9").click(function () {
+						alert($("#myDiv").innerWidth());
+					});
+
+					$("#Example10").click(function () {
+						alert($("#myDiv").outerHeight());
+					});
+
+					$("#Example11").click(function () {
+						alert($("#myDiv").outerHeight(true));
+					});
+
+					$("#Example12").click(function () {
+						alert($("#myDiv").outerWidth());
+					});
+
+					$("#Example13").click(function () {
+						alert($("#myDiv").outerWidth(true));
+					});
+
+					$("#Example14").click(function () {
+						alert($(window).height());
+					});
+
+					$("#Example15").click(function () {
+						alert($(window).width());
+					});
+				});
+			</script>
+			<style type="text/css">
+				#myDiv { background-color: red; border: thick solid blue; height: 100px; width: 100px; padding: 20px; margin: 20px; }
+			</style>
+		</head> 
+		<body>
+			<div id="myDiv"></div>
+			<p><button id="Example1">Example 1: Get color</button></p>
+			<p><button id="Example2">Example 2: Change color</button></p>
+			<p><button id="Example3">Example 3: Change color and border size</button></p>
+			<p><button id="Example4">Example 4: Get content height</button></p>
+			<p><button id="Example5">Example 5: Change the height</button></p>
+			<p><button id="Example6">Example 6: Get content width</button></p>
+			<p><button id="Example7">Example 7: Change the width width</button></p>
+			<p><button id="Example8">Example 8: Get the inner height</button></p>
+			<p><button id="Example9">Example 9: Get the inner width</button></p>
+			<p><button id="Example10">Example 10: Get the outer height</button></p>
+			<p><button id="Example11">Example 11: Get the outer height with margins</button></p>
+			<p><button id="Example12">Example 12: Get the outer width</button></p>
+			<p><button id="Example13">Example 13: Get the outer width with margins</button></p>
+			<p><button id="Example14">Example 14: Get the height of the window</button></p>
+			<p><button id="Example15">Example 15: Get the width of the window</button></p>
+		</body>
+</html>

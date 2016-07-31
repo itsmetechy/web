@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+ $( document ).ready(function() {
+$('li').animate({
+  opacity: .5,
+  height: '30px'
+},
+{
+  
+});
+
+   });
+</script>
+<style>
+ /*	.test a:hover table data{display:block;}*/
+	.test a:hover{color:red}
+	.test a:hover .data{display:block !important; height:100px; width:250px; background:red;}
+	.data1 li{height:0px;}
+</style>
+
+</head>
+
+<body>
+<div class="test"><a  href="#">test</a></div>
+ <div class="data">
+ <ul class="data1">
+ 	<li>test</li>
+    <li>test</li>
+    <li>test</li>
+    <li>test</li>
+ </ul>
+ </div>
+<div class="stopp">
+ <ul>
+ 	<li>test</li>
+    <li>test</li>
+    <li>test</li>
+    <li>test</li>
+ </ul>
+ </div>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!Doctype>
+<html>
+<title></title>
+
+<head>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="two.js"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="demo"></div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            var pizza = function() {
+                this.crust = 'thin';
+                this.toppings=3;
+                this.size = 'Regular';
+                var branch = 'Adyar';
+                
+
+                
+                var getBranchh = function(){
+                    return branch;
+                };
+                
+                this.getBranch = function(){
+                    return branch;
+                };
+                
+               
+                //non functional object
+               // var temp = {};
+               // temp.getBranchh = getBranchh;
+               // return temp;
+                    
+            };
+            
+            var kfc =  new pizza();
+            console.log(kfc);
+        });
+    </script>
+
+</body>
+
+</html>

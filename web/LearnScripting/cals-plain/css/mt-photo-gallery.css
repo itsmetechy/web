@@ -1,0 +1,705 @@
+/*BEGIN: ACCESIBILITY*/
+.mod-photos-content{
+	float: left;
+}
+.no-js .mod-photo-gallery{
+	width:auto;
+}
+
+.no-js .mod-photo-gallery .gallery{
+	height:auto;
+	margin:0;
+}
+
+.no-js .mod-photo-gallery .img-item{
+	background:none;
+	font:normal 16px/22px Arial, helvetica;
+	float:left;
+	height:auto;
+	padding:20px;
+	width:auto;
+}
+
+.no-js .mod-photo-gallery .img-item h2{
+	font:bold 18px/22px Arial, helvetica;
+	text-align:center;
+}
+
+.no-js .mod-photo-gallery .view{
+	height:auto;
+	padding-bottom:20px;
+	width:auto;
+}
+
+.no-js .mod-photo-gallery .related-bar,
+.no-js .mod-photo-gallery .related-galleries{
+	display:block;
+	position:relative;
+}
+
+.no-js .thumb-pager{
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+.image-title{
+	font:bold 20px/42px Arial, helvetica;
+}
+/*END: ACCESIBILITY*/
+
+/*BEGIN: GALLERY*/
+.mod-photo-gallery{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	position:relative;
+	width: 623px;
+}
+
+.mod-photo-gallery .top-title{
+	color: #000;
+	font: bold 24px/28px Arial,helvetica,sans-serif;
+	margin: 0;
+}
+
+.mod-photo-gallery .article-return{
+	background: #0096ce;
+	background: -moz-linear-gradient(top,  #0096ce 0%, #0082bc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0096ce), color-stop(100%,#0082bc))
+	background: -webkit-linear-gradient(top,  #0096ce 0%,#0082bc 100%);
+	background: -o-linear-gradient(top,  #0096ce 0%,#0082bc 100%);
+	background: -ms-linear-gradient(top,  #0096ce 0%,#0082bc 100%);
+	background: linear-gradient(to bottom,  #0096ce 0%,#0082bc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0096ce', endColorstr='#0082bc',GradientType=0 );
+	border:1px solid #494d4c;
+	color:#fff;
+	float:right;
+	font:normal 16px/40px Arial, helvetica;
+	padding:0 32px;
+	text-decoration:none;
+}
+
+.mod-photo-gallery .article-return:hover{
+	background: #0082bc;
+	background: -moz-linear-gradient(top,  #0082bc 1%, #0096ce 98%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#0082bc), color-stop(98%,#0096ce));
+	background: -webkit-linear-gradient(top,  #0082bc 1%,#0096ce 98%);
+	background: -o-linear-gradient(top,  #0082bc 1%,#0096ce 98%);
+	background: -ms-linear-gradient(top,  #0082bc 1%,#0096ce 98%);
+	background: linear-gradient(to bottom,  #0082bc 1%,#0096ce 98%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0082bc', endColorstr='#0096ce',GradientType=0 );
+	border:1px solid #000;
+}
+
+.mod-photo-gallery .view-wrap{
+	position:relative;
+	width:623px;
+	margin-bottom: 30px;
+	top: 20px;
+}
+
+.mod-photo-gallery .gallery{
+	background-color:#FFF;
+	border: 1px solid #ccc;
+	height:390px;
+	margin-bottom:13px;
+	overflow:hidden;
+	position:relative;
+	width:623px;
+	z-index:10;
+	margin: 0 auto;
+}
+
+.mod-photo-gallery .resize-thumbs{
+	overflow:hidden;
+	position:relative;
+}
+
+.mod-photo-gallery .view{
+	height: 490px;
+	overflow:hidden;
+	position:relative;
+	width:99999px;
+}
+
+.mod-photo-gallery .thumb-page{
+	float:left;
+	height:490px;
+	overflow:hidden;
+	position:relative;
+	width: 640px;
+}
+
+.js .mod-photo-gallery .img-item{
+	background-position:center center;
+	background-repeat:no-repeat;
+	border:1px solid #ccc;
+	cursor:pointer;
+	float:left;
+	height: 140px;
+	margin: 0;
+	width: 140px;
+	position: relative;
+}
+.js .mod-photo-gallery .item-wrap{
+	margin: 0 20px 15px 0;
+	display: inline-block;
+	width: 140px;
+	height: 140px;
+}
+.mod-photo-gallery .viewed-item .item-inner{
+	background-color:transparent;
+	background-position:center center;
+	background-repeat:no-repeat;
+	height:140px;
+	width:140px;
+}
+
+.mod-photo-gallery .view .current-item{
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	border:1px solid #ccc;
+	cursor:default;
+}
+
+.mod-photo-gallery .view .img-item.current-item:hover{
+	border:1px solid #000;
+}
+
+.mod-photo-gallery .view .current-item .item-inner,
+.mod-photo-gallery .view .current-item:hover .item-inner{
+	background-color:#000;
+	background-color:rgba(0, 0, 0, 0.7);
+	background-image:none;
+}
+
+.js .mod-photo-gallery .img-item .item-inner{
+	height:140px;
+	width:140px;
+	position: absolute;
+	top: 0;
+}
+
+.ie7 .mod-photo-gallery .img-item:hover .item-inner,
+.ie8 .mod-photo-gallery .img-item:hover .item-inner{
+	background-color:transparent;
+}
+
+#loading{
+	background: url('/images/ajax-loader-sm.gif') no-repeat scroll 50% 50% transparent;
+	height: 20px; width: 20px;
+	float: left;
+	margin-top: -29px;
+	display: none;
+}
+
+.ie7 .mod-photo-gallery .view .current-item .item-inner,
+.ie7 .mod-photo-gallery .view .current-item:hover .item-inner,
+.ie8 .mod-photo-gallery .view .current-item .item-inner,
+.ie8 .mod-photo-gallery .view .current-item:hover .item-inner{
+	background-color:transparent;
+	background-image:url('../static_html/automotive_com/local/img/simoverlay.png');
+	background-repeat:repeat;
+}
+
+.mod-photo-gallery .gallery-item{
+	background-position:center center;
+	background-repeat:no-repeat;
+	display:none;
+	height:390px;
+	width:623px;
+}
+
+.js .mod-photo-gallery .prev-btn{
+	background:url(../i/g/arrows.png) no-repeat left bottom transparent;
+	cursor:pointer;
+	height:58px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	position: absolute;
+	left: 20px;
+	top: 180px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 50px;
+	z-index: 50;
+}
+
+.js .mod-photo-gallery .next-btn{
+	background:url('../_siteconfigs/automotive_com/images/bghtml5/g/arrows.png') no-repeat left top transparent;
+	cursor:pointer;
+	height:58px;
+	opacity: 0.6;
+	filter: alpha(opacity=60);
+	position: absolute;
+	right: 20px;
+	top: 180px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 50px;
+	z-index: 50;
+}
+
+.mod-photo-gallery .prev-btn:hover,
+.mod-photo-gallery .next-btn:hover{
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+
+.mod-photo-gallery .prev-btn:hover{
+	background-position:right bottom;
+}
+
+.mod-photo-gallery .next-btn:hover{
+	background-position:right top;
+}
+
+.mod-photo-gallery .info-bar{
+	background: #474747;
+	zoom: 1;
+	width: 100%;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.mod-photo-gallery .info-bar .caption{
+	color:#fff;
+	display:inline-block;
+	font:normal 18px/30px helvetica, Arial;
+	padding:9px;
+	width:600px;
+}
+.mod-photo-gallery .info-bar .count{
+	color: #fff;
+	font: bold 16px/39px helvetica, sans-serif;
+	display: inline-block;
+	width: 120px;
+	text-align: right;
+}
+.mod-photo-gallery .zoom-in{
+	background:url('../_siteconfigs/automotive_com/images/bghtml5/g/zoom-in.png') no-repeat center center transparent;
+	cursor:pointer;
+	display:none;
+	left:0;
+	height:100%;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:999;
+}
+
+.mod-photo-gallery .related-bar{
+	background-color: transparent;
+	background-color: rgba(0, 0, 0, 0.65);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+	zoom: 1;
+	display:none;
+	top:0;
+	left: 1px;
+	overflow:hidden;
+	position: absolute;
+	text-align:center;
+	width: 100%;
+	z-index: 1005;
+}
+
+.mod-photo-gallery .related-galleries{
+	display:none;
+	overflow:hidden;
+}
+
+.mod-photo-gallery .related-bar .title{
+	color:#fff;
+	font:bold 24px/55px Arial;
+}
+
+.mod-photo-gallery .related-bar .item-group{
+	overflow:hidden;
+	padding: 0 10px;
+}
+
+.mod-photo-gallery .related-bar .item-group.btm{
+	padding-left: 115px;
+}
+
+.mod-photo-gallery .related-bar .gallery-link{
+	color:#fff;
+	cursor:pointer;
+	display:block;
+	float:left;
+	margin:0 10px;
+	position:relative;
+	text-align:left;
+	text-decoration:none;
+	width:177px;
+}
+
+.mod-photo-gallery .related-bar .img-overlay {
+	background: #000;
+	background: rgba(0, 0, 0, 0.5);
+	color:#fff;
+	cursor:pointer;
+	font:bold italic 18px/111px Arial, helvetica;
+	left: 0;
+	height: 111px;
+	position: absolute;
+	text-decoration:underline;
+	text-align:center;
+	top: 0;
+	width: 100%;
+}
+
+.mod-photo-gallery .related-bar .gallery-link:hover{
+	color:#008cc4;
+	text-decoration:underline;
+}
+
+.mod-photo-gallery .related-bar .gallery-link img{
+	border:1px solid #aaa;
+	display:block;
+}
+
+.mod-photo-gallery .related-bar .gallery-link .gallery-title{
+	display:block;
+	font:normal 14px/16px Arial;
+	overflow:hidden;	
+	margin:5px 0 20px;
+}
+
+.mod-photo-gallery .related-bar .back,
+.mod-photo-gallery .related-bar .next{
+	color:#fff;
+	cursor:pointer;
+	font:bold 14px/40px Arial;
+	padding:0 15px;
+	text-decoration:none;
+}
+
+.mod-photo-gallery .related-bar .back{
+	float:left;
+}
+
+.mod-photo-gallery .related-bar .next{
+	float:right;
+}
+
+.mod-photo-gallery .related-bar .back:hover,
+.mod-photo-gallery .related-bar .next:hover,
+.mod-photo-gallery .related-bar .related:hover{
+	color:#008cc4;
+	text-decoration:underline;
+}
+
+.mod-photo-gallery .related-bar .related{
+	color:#fff;
+	cursor:pointer;
+	display:inline-block;
+	font:bold 14px/40px Arial;
+	text-decoration:underline;
+	width: 150px;
+	float: right;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.ie7 .mod-photo-gallery .related-bar .related{
+	float:left;
+}
+
+.thumb-pager{
+	border-top: 1px dashed #999999;
+	padding: 15px 0;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.thumb-pager .page-info{
+	display:inline-block;
+	overflow:hidden;
+	position:relative;
+	width:444px;
+	height: 40px;
+}
+
+.thumb-pager .page-info .info{
+	display:inline-block;
+	font:normal 16px/36px Helvetica, Arial;
+}
+
+.thumb-pager .page-info .arrow {
+	background: url(../_siteconfigs/automotive_com/images/bghtml5/carousel-nav.png) no-repeat 0 0;
+	cursor: pointer;
+	display: block;
+	height: 38px;
+	text-indent: -9999px;
+	top:0;
+	position:absolute;
+	width: 23px;
+}
+
+.thumb-pager .page-info .back {
+	background-position: 0 -38px;
+	left: 100px;
+}
+
+.thumb-pager .page-info .back:hover {
+	background-position: 0 0;
+}
+
+.thumb-pager .page-info .forward {
+	background-position: 0 -152px;
+	right: 100px;
+}
+
+.thumb-pager .page-info .forward:hover {
+	background-position: 0 -190px;
+}
+
+.thumb-pager .page-info .forward.disabled,
+.thumb-pager .page-info .forward.disabled:hover {
+	background-position: 0 -114px;
+	cursor:default;
+}
+
+.thumb-pager .page-info .back.disabled,
+.thumb-pager .page-info .back.disabled:hover {
+	background-position: 0 -76px;
+	cursor:default;
+}
+
+.thumb-pager .back-article{
+	float:left;
+}
+
+.thumb-pager .next-gallery{
+	float:right;
+	position:relative;
+}
+
+.thumb-pager .next-gallery img{
+	border:1px solid #9A9A9A;
+	display:none;
+	left:0;	
+	position:absolute;
+	top:36px;
+}
+
+/* dialog popups */
+.simsd-overlay {
+	background-color: #000000;
+	background-color: hsla(0,0%,0%,0.8);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+}
+
+.ie7 .simsd-overlay {
+	background-image: url(../_siteconfigs/automotive_com/images/bghtml5/g/simoverlay.png);
+	background-color: transparent;
+	background-position: 0 0;
+}
+
+.simsd-container {
+	background: #ffffff;
+}
+
+.gallery-simsd-container .simsd-header{
+	cursor:pointer;
+	display:none;
+	position: absolute !important;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index:40;
+}
+
+.gallery-simsd-container .simsd-close{
+	background:url('../_siteconfigs/automotive_com/images/bghtml5/g/zoom-out.png') no-repeat center center transparent;
+	cursor:pointer;
+	height:100%;
+	margin:0;
+	position: absolute;
+	right: 0px;
+	text-indent:9999px;
+	top: 0px;
+	width: 100%;
+	z-index: 50;
+}
+
+.fx-high-res{
+	display:none;
+	position:relative;
+}
+
+.fx-high-res .image{
+	background:#000;
+	width:968px;
+}
+
+.fx-high-res img{
+	display:block;
+	margin:0 auto;
+	width:968px;
+}
+
+.fx-high-res .dw-bar{
+	background:#000;
+	overflow:hidden;
+	position:relative;
+	z-index:60;
+}
+
+.fx-high-res .dw-bar .hr-caption{
+	color:#fff;
+	display:block;
+	float:left;
+
+	font:bold 14px/20px Arial, helvetica;
+	padding:9px;
+	width:490px;
+}
+
+.fx-high-res .dw-bar .download{
+	color:#0096cb;
+	cursor:pointer;
+	display:block;
+	float:right;
+	font:bold 14px/20px Arial, helvetica;
+	padding:9px;
+	text-decoration:underline;
+}
+
+.mod-photo-gallery .clr{
+	clear:both;
+}
+
+.dart_ad{
+	display:block;
+}
+
+.mod-right-ad{
+	margin-bottom:20px;
+}
+
+.mod-right-galleries{
+	margin-bottom:20px;
+}
+
+.mod-right-galleries .title{
+	color:#fff;
+	background:#d0061a;
+	display:block;
+	font:bold 13px/38px Helvetica, Arial;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.mod-right-galleries .list-item{
+	border-bottom:1px dashed #999999;
+	color:#2f343b;
+	display:block;
+	font:bold 13px/16px Arial;
+	padding:5px 0;
+	text-decoration:none;
+}
+
+.mod-right-galleries .list-item:hover{
+	color:#008cc4;
+	text-decoration:underline;
+}
+
+/*END GALLERY*/
+
+
+
+/*	Article Bar */
+.gallery .article-bar{
+	backgroung: #000;
+	width: 100%;
+	background: rgba(0 0 0 0.7);
+}
+
+/* PAGINATION */
+ul#thumbPagination{
+	display:inline;
+	list-style: none;
+	margin:0 10px;
+	padding:0;
+	vertical-align:middle;
+}
+ul#thumbPagination li{
+	cursor: pointer;
+	color:#4591f3;
+	font: bold 14px/14px Helvetica, Arial, sans-serif;
+	margin:0 4px;
+}
+ul#thumbPagination li.currentGalleryPage{ cursor:default; color:#595959 }
+ul#thumbPagination li:hover { text-decoration:underline }
+ul#thumbPagination li.currentGalleryPage:hover { text-decoration:none }
+
+.btn-inner:hover {
+	background: #000;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=0 );
+}
+.btn-inner {
+	background: #333333;
+	background: -moz-linear-gradient(top, #515556 0%, #515556 50%, #030303 50%, #030303 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#515556), color-stop(50%,#515556), color-stop(50%,#030303), color-stop(100%,#030303));
+	background: -webkit-linear-gradient(top, #515556 0%,#515556 50%,#030303 50%,#030303 100%);
+	background: -o-linear-gradient(top, #515556 0%,#515556 50%,#030303 50%,#030303 100%);
+	background: -ms-linear-gradient(top, #515556 0%,#515556 50%,#030303 50%,#030303 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#515556', endColorstr='#030303',GradientType=0 );
+	background: linear-gradient(top, #515556 0%,#515556 50%,#030303 50%,#030303 100%);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #F2F2F2;
+	display: inline-block;
+	padding: 10px;
+}
+ul#thumbPagination li.currentGalleryPage .btn-inner {
+	background-color: #CACACA;
+	background: #CACACA;
+	background: -moz-linear-gradient(top, #DADBDB 0%, #DADBDB 50%, #CACACA 50%, #CACACA 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DADBDB), color-stop(50%,#DADBDB), color-stop(50%,#CACACA), color-stop(100%,#CACACA));
+	background: -webkit-linear-gradient(top, #DADBDB 0%,#DADBDB 50%,#CACACA 50%,#CACACA 100%);
+	background: -o-linear-gradient(top, #DADBDB 0%,#DADBDB 50%,#CACACA 50%,#CACACA 100%);
+	background: -ms-linear-gradient(top, #DADBDB 0%,#DADBDB 50%,#CACACA 50%,#CACACA 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DADBDB', endColorstr='#CACACA',GradientType=0 );
+	background: linear-gradient(top, #DADBDB 0%,#DADBDB 50%,#CACACA 50%,#CACACA 100%);
+	font-weight: bold;
+	cursor: auto;
+}
+.mod-button .butn {
+	background: #fff;
+	border: 1px solid #E0E1E2;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	font: normal 14px/14px arial;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#fullScreenLoading {
+	background:url('../_siteconfigs/automotive_com/images/bghtml5/loading-gif.gif') no-repeat center center rgba(255, 255, 255, 0.8);
+	height:390px;
+	width: 623px;
+	position:absolute;
+	left:1px;
+	top:1px;
+	z-index:9999;
+}

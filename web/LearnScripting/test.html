@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function() {
+
+            if (jQuery('body').hasClass('section-visual-identity')) {
+                var currentPosition = jQuery('.quickThrough').offset().top;
+                jQuery(window).scroll(function() {
+                    if (jQuery(window).scrollTop() + 62 > currentPosition) {
+                        jQuery('.quickThrough').addClass('easyfix');
+                    } else {
+                        jQuery('.quickThrough').removeClass('easyfix');
+                    }
+                });
+
+            }
+
+
+
+            jQuery('.quickThrough li a').click(function(e) {
+                e.preventDefault();
+                var getHref = jQuery(this).attr('href'),
+                    windowScroll = jQuery(window).scrollTop(),
+                    idCheck = getHref.slice(1),
+                    htmlHeight = jQuery('html').height(),
+                    targetHeight = jQuery('#' + idCheck),
+                    currentOffset = jQuery('#' + idCheck).offset().top - 10,
+                    newPosition = htmlHeight - windowScroll;
+                console.log(windowScroll, currentOffset);
+                //console.log(newPosition);
+
+                jQuery("html, body").animate({
+                    scrollTop: newPosition
+                });
+
+            });
+
+
+            jQuery('body').on('click', function() {
+                jQuery('.videoWrapper').fadeIn();
+            });
+            jQuery(document).keyup(function(e) {
+                if (e.keyCode === 27) {
+                    jQuery('.videoWrapper').fadeOut();
+                }
+            });
+            jQuery('.closeVid').on('click', function() {
+                jQuery('.videoWrapper').fadeOut();
+            });
+            
+            
+            
+            
+            
+            
+        });
+    </script>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .content {
+            margin-top: 300px;
+            background: black;
+            color: white;
+        }
+        
+        .content-wrap {
+            float: right;
+        }
+        
+        #brand-options,
+        #logos-options,
+        #color-options,
+        #font-options {
+            height: 500px;
+            width: 500px;
+            background: #ccc;
+            border-bottom: 2px solid red;
+        }
+        
+        .section-visual-identity .quickThrough.easyfix {
+            position: fixed;
+            top: 75px;
+            padding-left: 0;
+        }
+        
+        .videoWrapper {
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .videoWrapper .popWrapper {
+            background: #000;
+            padding: 10px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -320px;
+            margin-top: -157px;
+        }
+    </style>
+</head>
+
+<body class="section-visual-identity">
+    <div class='wrap'>
+        <ul class="quickThrough">
+            <li><a href="#brand-options">Brand Assets</a></li>
+            <li><a href="#logos-options" class="">Logos</a></li>
+            <li><a href="#color-options" class="act">Colors</a></li>
+
+            <li><a href="#font-options">Fon<li><a href="#brand-options">Brand Assets</a></li>ts</a>
+            </li>
+
+        </ul>
+        <div class="content-wrap">
+            <section id="brand-options">Brand Options</section>
+            <section id="logos-options">Logo Options</section>
+            <section id="color-options">Color Options</section>
+            <section id="font-options">Font Options</section>
+        </div>
+    </div>
+    <div class="videoWrapper">
+        <div class="popWrapper">
+            <span class="closeVid">X</span>
+            <iframe width="560" height="315" src="//www.youtube.com/embed/jpldOdMH2w0?rel=0" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+    </div>
+    <script type="text/javascript">
+    var getUrl = "http://discover.graceland.edu";
+				var baseUrl = "http://discover.graceland.edu/";
+					if (baseUrl == 'http://discover.graceland.edu/') {
+						document.write('<input type="hidden" name="returntourl" id="returntourl" value="http://discover.graceland.edu/thankYou.asp" />');
+					} else {
+						document.write('<input type="hidden" name="returntourl" id="returntourl" value="http://plattformstuff.com/preview/dash/graceland/135331/ppc/thankyou.asp" />');
+					}
+    </script>
+</body>
+
+</html>

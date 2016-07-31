@@ -1,0 +1,106 @@
+.mod-cars-sale-home {
+    border: 1px solid #CCC;
+    float: right;
+	height:171px;
+	margin-bottom:20px;
+    width: 414px;
+}
+
+.mod-cars-sale-home h2 {
+    background: #E2E2E2;
+   	background: -moz-linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+   	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(50%,#EBEBEB), color-stop(50%,#E2E2E2), color-stop(100%,#E2E2E2));
+   	background: -webkit-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	background: -o-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	background: -ms-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#E2E2E2',GradientType=0 );
+   	background: linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+    color: #000;
+    font: normal 22px/24px 'Arial', sans-serif;
+    margin: 1px 1px 1px 1px;
+    padding: 7px 11px 9px;
+}
+
+
+.mod-cars-sale-home p {
+    color:#000100;
+	font: normal 10px/13px 'Arial', sans-serif;
+}
+
+.mod-cars-sale-home p input {
+    margin:0;
+	padding:0;
+}
+
+.mod-cars-sale-home .mod-cars-sale-content {
+	border-top: 1px solid #CCC;
+	padding-top:12px;
+}
+
+.mod-cars-sale-home .mod-cars-sale-selects {
+	float:left;
+    padding: 1px 0 0 13px;
+	width:170px;
+}
+
+.mod-cars-sale-home .mod-selects-range {
+	float:right;
+    padding-right: 12px;
+	/*width:170px;*/
+}
+
+.mod-cars-sale-home .error {
+	background:#EFDBDB;
+}
+
+.mod-cars-sale-home select {
+   color: #000;
+   font: normal 12px/14px 'Arial', sans-serif;
+   height:19px;
+   margin-bottom: 11px;
+   padding: 0;
+   width: 158px;
+}
+
+.mod-cars-sale-home .btn {
+    font: normal 14px/14px arial;
+	margin-top:9px;
+    width: 195px;
+}
+
+.mod-cars-sale-home .btn-inner {
+	border:none;
+	color: #fff;
+	cursor:pointer;
+	padding:7px 0px 6px;
+	width:195px;
+}
+
+.mod-cars-sale-home .range {
+   margin-bottom: 11px;
+}
+
+.mod-cars-sale-home .range span {
+   color:#000;
+   vertical-align:middle;
+}
+
+.mod-cars-sale-home .mod-cars-sale-selects select.small-select {
+   margin:0;
+   width: 71px;   
+}
+
+.mod-cars-sale-home .mod-selects-range select.small-select {
+   margin:0;
+   width: 92px;   
+}
+
+.mod-cars-sale-home .mod-selects-range input.small-select {
+   width: 88px;   
+}
+
+.mod-cars-sale-home .mod-research-list{
+	float:right;
+	padding:13px 17px 0 0;
+	width:305px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html ng-app="myFirstModule">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+       $("input").bind("keyup paste", function(){
+    setTimeout(jQuery.proxy(function() {
+        this.val(this.val().replace(/[^0-9]/g, ''));
+    }, $(this)), -1);
+});
+        });
+    </script>
+</head>
+
+<body>
+    <div>
+        <input type="color" nav="favcolor" placeholder="Only Numbers">
+        <button>Calculate</button>
+
+    </div>
+</body>
+
+</html>

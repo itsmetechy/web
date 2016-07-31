@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script src="scripts/easyXDM.js" type="text/javascript"></script>
+<script type="text/javascript" language="javascript">
+
+    var transport = new easyXDM.Socket(/** The configuration */{
+    remote: "http://www.OTHERDOMAIN.com/resize_intermediate.html?url=testpages/resized_iframe_1.html",
+
+    //ID of the element to attach the inline frame to
+    container: "embedded",
+    onMessage: function (message, origin) {
+        var settings = message.split(",");
+        //Use jquery on a masterpage.
+        //$('iframe').height(settings[0]);
+        //$('iframe').width(settings[1]);
+
+        //The normal solution without jquery if not using any complex pages (default)
+        this.container.getElementsByTagName("iframe")[0].style.height = settings[0];
+        this.container.getElementsByTagName("iframe")[0].style.width = settings[1];
+    }
+	var Height = document.getElementById('iFrameId').contentWindow.document.body.scrollHeight;
+
+document.getElementById('iFrameId').height = Height;
+
+});
+
+</script>
+
+</head>
+
+<body>
+    <div id="embedded"></div>
+</body>
+
+</html>

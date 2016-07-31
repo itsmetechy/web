@@ -1,0 +1,50 @@
+.mod-hp-makes {
+	background:#f7f7f7;
+	border: 1px solid #ccc;
+	color:#ccc;
+	margin-bottom:20px;
+	overflow:hidden;
+    width: 978px;
+}
+.mod-hp-makes .make-column{
+	border-left: 1px solid #ccc;
+	float:left;
+	overflow:hidden;
+    width: 162px;
+}
+
+.mod-hp-makes .make-column-separate{
+	padding:12px 0;
+}
+
+.mod-hp-makes div.make-column:first-child{
+	border-left: none;
+}
+
+.mod-hp-makes-list{
+	display:none;
+}
+
+.mod-hp-makes a {
+	color:#333333;
+	display:block;
+	font: bold 14px/26px Arial, helvetica, sans-serif;
+	text-decoration:none;
+}
+
+.mod-hp-makes a:hover {
+    color: #0096CB;
+}
+
+.mod-hp-makes .make-column ul {
+    margin:0;
+}
+
+.mod-hp-makes .make-column ul li{
+    margin-left: 34px;
+	text-indent:-3px;
+}
+
+.mod-hp-makes .make-column ul li:hover{
+    color: #0096CB;
+}

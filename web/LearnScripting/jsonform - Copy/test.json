@@ -1,0 +1,630 @@
+{
+   "ID":40593,
+   "DisplayValue":"Regent University - Online",
+   "Curriculum":[
+      {
+         "CurriculumID":559681,
+         "CurriculumDisplayValue":"A.A Business",
+         "OptionGroupDisplayOrder":10,
+         "OptionGroupDisplayValue":"Associate's Programs"
+      },
+      {
+         "CurriculumID":559682,
+         "CurriculumDisplayValue":"A.A Christian Studies",
+         "OptionGroupDisplayOrder":10,
+         "OptionGroupDisplayValue":"Associate's Programs"
+      },
+      {
+         "CurriculumID":559683,
+         "CurriculumDisplayValue":"A.A Criminal Justice",
+         "OptionGroupDisplayOrder":10,
+         "OptionGroupDisplayValue":"Associate's Programs"
+      },
+      {
+         "CurriculumID":559684,
+         "CurriculumDisplayValue":"A.A General Studies",
+         "OptionGroupDisplayOrder":10,
+         "OptionGroupDisplayValue":"Associate's Programs"
+      },
+      {
+         "CurriculumID":559685,
+         "CurriculumDisplayValue":"A.A History",
+         "OptionGroupDisplayOrder":10,
+         "OptionGroupDisplayValue":"Associate's Programs"
+      },
+      {
+         "CurriculumID":559686,
+         "CurriculumDisplayValue":"A.A Information Systems",
+         "OptionGroupDisplayOrder":10,
+         "OptionGroupDisplayValue":"Associate's Programs"
+      },
+      {
+         "CurriculumID":559687,
+         "CurriculumDisplayValue":"A.A Psychology",
+         "OptionGroupDisplayOrder":10,
+         "OptionGroupDisplayValue":"Associate's Programs"
+      },
+      {
+         "CurriculumID":559688,
+         "CurriculumDisplayValue":"B.A Biblical & Theological Studies",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559689,
+         "CurriculumDisplayValue":"B.A Christian Ministry",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559690,
+         "CurriculumDisplayValue":"B.A Communication",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559691,
+         "CurriculumDisplayValue":"B.A English",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559692,
+         "CurriculumDisplayValue":"B.A Government",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559693,
+         "CurriculumDisplayValue":"B.A History",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":569529,
+         "CurriculumDisplayValue":"B.A History & Social Science",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559694,
+         "CurriculumDisplayValue":"B.A International Studies",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559695,
+         "CurriculumDisplayValue":"B.A Leadership Studies",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":576929,
+         "CurriculumDisplayValue":"B.S Accounting",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559696,
+         "CurriculumDisplayValue":"B.S Business - Accounting",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":576940,
+         "CurriculumDisplayValue":"B.S Business - Economics",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559697,
+         "CurriculumDisplayValue":"B.S Business - General Management",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559699,
+         "CurriculumDisplayValue":"B.S Business - Human Resource Management",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559700,
+         "CurriculumDisplayValue":"B.S Business - Marketing",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559701,
+         "CurriculumDisplayValue":"B.S Criminal Justice",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":576931,
+         "CurriculumDisplayValue":"B.S Cybersecurity",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":576933,
+         "CurriculumDisplayValue":"B.S Healthcare Management",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":569530,
+         "CurriculumDisplayValue":"B.S in Professional Studies",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559702,
+         "CurriculumDisplayValue":"B.S Information Systems Technology",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":559703,
+         "CurriculumDisplayValue":"B.S Psychology",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":577308,
+         "CurriculumDisplayValue":"B.S. in Computer Science",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":577309,
+         "CurriculumDisplayValue":"RN to BSN",
+         "OptionGroupDisplayOrder":20,
+         "OptionGroupDisplayValue":"Bachelor's Programs"
+      },
+      {
+         "CurriculumID":575819,
+         "CurriculumDisplayValue":"LLM Degree",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569568,
+         "CurriculumDisplayValue":"M.A Law Business Management",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569572,
+         "CurriculumDisplayValue":"M.A Law Human Resources Management",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569574,
+         "CurriculumDisplayValue":"M.A Law Non-Profit Management",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569534,
+         "CurriculumDisplayValue":"M.A. in Film-Television",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577437,
+         "CurriculumDisplayValue":"M.A. in Government, American Government",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577439,
+         "CurriculumDisplayValue":"M.A. in Government, International Politics",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577441,
+         "CurriculumDisplayValue":"M.A. in Government, Political Theory",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":576937,
+         "CurriculumDisplayValue":"M.Ed. Leadership in Math Education",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569581,
+         "CurriculumDisplayValue":"Master of Arts Clinical Mental Health Counseling",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569585,
+         "CurriculumDisplayValue":"Master of Arts Human Services Counseling",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569588,
+         "CurriculumDisplayValue":"Master of Arts in Government, American Government",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569590,
+         "CurriculumDisplayValue":"Master of Arts in Government, International Politics",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569600,
+         "CurriculumDisplayValue":"Master of Arts in Government, Political Theory",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569535,
+         "CurriculumDisplayValue":"Master of Arts in Journalism",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569604,
+         "CurriculumDisplayValue":"Master of Arts in Organizational Leadership",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569536,
+         "CurriculumDisplayValue":"Master of Arts in Practical Theology",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569537,
+         "CurriculumDisplayValue":"Master of Arts in Strategic Communication",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569538,
+         "CurriculumDisplayValue":"Master of Arts in Theatre",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569611,
+         "CurriculumDisplayValue":"Master of Arts Marriage & Family Counseling",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569615,
+         "CurriculumDisplayValue":"Master of Arts School Counseling",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":575455,
+         "CurriculumDisplayValue":"Master of Business Administration",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569539,
+         "CurriculumDisplayValue":"Master of Divinity",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569540,
+         "CurriculumDisplayValue":"Master of Education Career Switcher w/ Lic",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569541,
+         "CurriculumDisplayValue":"Master of Education Christian School Admin",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569542,
+         "CurriculumDisplayValue":"Master of Education Curriculum & Instruction",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569545,
+         "CurriculumDisplayValue":"Master of Education Educational Leadership",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569548,
+         "CurriculumDisplayValue":"Master of Education in Student Affairs",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569553,
+         "CurriculumDisplayValue":"Master of Education Individualized Deg Plan",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569558,
+         "CurriculumDisplayValue":"Master of Education K-12 Special Ed",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569563,
+         "CurriculumDisplayValue":"Master of Education Reading Specialist",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569566,
+         "CurriculumDisplayValue":"Master of Education TESOL",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569632,
+         "CurriculumDisplayValue":"Master of Public Administration, Emergency Management & Homeland Security",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569633,
+         "CurriculumDisplayValue":"Master of Public Administration, General Public Administration",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":576919,
+         "CurriculumDisplayValue":"Master of Public Administration, Law",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569634,
+         "CurriculumDisplayValue":"Master of Public Administration, Non-Profit & Faith-Based Organizations",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569635,
+         "CurriculumDisplayValue":"Master of Public Administration, Public Leadership & Management",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":576938,
+         "CurriculumDisplayValue":"Master of Science in Psychology",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569575,
+         "CurriculumDisplayValue":"Master of Theological Studies",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569570,
+         "CurriculumDisplayValue":"MFA Film-Television",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577445,
+         "CurriculumDisplayValue":"MPA in Emergency Management & Homeland Security",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577451,
+         "CurriculumDisplayValue":"MPA in General Public Administration",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577443,
+         "CurriculumDisplayValue":"MPA in Law",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577447,
+         "CurriculumDisplayValue":"MPA in Non-Profit & Faith-based Organizations",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":577449,
+         "CurriculumDisplayValue":"MPA in Public Leadership & Management",
+         "OptionGroupDisplayOrder":25,
+         "OptionGroupDisplayValue":"Graduate Programs"
+      },
+      {
+         "CurriculumID":569603,
+         "CurriculumDisplayValue":"Doctor of Strategic Leadership",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":575817,
+         "CurriculumDisplayValue":"Ed.D. Education",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":569560,
+         "CurriculumDisplayValue":"Ed.S Special Education Leadership",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":576935,
+         "CurriculumDisplayValue":"Ed.S. Leadership in Math Education",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":569582,
+         "CurriculumDisplayValue":"Ph.D Communication",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":569640,
+         "CurriculumDisplayValue":"Ph.D Counselor Education & Supervision",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":569645,
+         "CurriculumDisplayValue":"Ph.D Org. Leadership",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":575818,
+         "CurriculumDisplayValue":"Ph.D. Education",
+         "OptionGroupDisplayOrder":27,
+         "OptionGroupDisplayValue":"Doctorate Programs"
+      },
+      {
+         "CurriculumID":569527,
+         "CurriculumDisplayValue":"Advancing Leadership Certificate",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569528,
+         "CurriculumDisplayValue":"Autism Certificate",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569531,
+         "CurriculumDisplayValue":"Career Switcher Certificate",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":570452,
+         "CurriculumDisplayValue":"Certificate in Addiction",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":576921,
+         "CurriculumDisplayValue":"Certificate in Biblical Studies",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":570453,
+         "CurriculumDisplayValue":"Certificate in Christian Education",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":576923,
+         "CurriculumDisplayValue":"Certificate in Christian Formation & Spirituality",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":576925,
+         "CurriculumDisplayValue":"Certificate in Church Leadership",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569595,
+         "CurriculumDisplayValue":"Certificate in Clinical Mental Health Counseling",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":570454,
+         "CurriculumDisplayValue":"Certificate in Gifted and Talented Education",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":577435,
+         "CurriculumDisplayValue":"Certificate in Governement",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569596,
+         "CurriculumDisplayValue":"Certificate in Marriage & Family Counseling",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":576927,
+         "CurriculumDisplayValue":"Certificate in Practical Ministry",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569597,
+         "CurriculumDisplayValue":"Certificate in School Counseling",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569532,
+         "CurriculumDisplayValue":"Certificate in Theatre Practices",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569598,
+         "CurriculumDisplayValue":"Certificate in Trauma Counseling",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":577453,
+         "CurriculumDisplayValue":"Certificate in Worship & Media",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569562,
+         "CurriculumDisplayValue":"Certificate of Advanced Graduate Studies",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569602,
+         "CurriculumDisplayValue":"Certificate of Graduate Studies in Leadership",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569533,
+         "CurriculumDisplayValue":"Divinity Certificate",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      },
+      {
+         "CurriculumID":569586,
+         "CurriculumDisplayValue":"TESOL Certificate Non-degree",
+         "OptionGroupDisplayOrder":30,
+         "OptionGroupDisplayValue":"Professional & Continuing Education Programs"
+      }
+   ]
+}

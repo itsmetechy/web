@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>MultiPrint - Home</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
+<style type="text/css">
+*{margin:0px; padding:0px;}
+body{background:url(bg-home.jpg) repeat-x;}
+.header{height:50px; border-bottom:1px solid white; background:#282973; box-shadow:0px 0px 5px #000;}
+.wrap{margin:0px auto;}
+.box{height:300px; width:300px; float:left; background:blue; border-radius:150px; -moz-border-radius:150px; text-align:center}
+.box1{height:200px; width:200px; background:#fff; border-radius:100px; -moz-border-radius:100px; margin:50PX auto; }
+.box:hover{opacity:0.5; transition:0.5s; -moz-transition:0.5s;}
+.tab1{height:50px; width:150px; border-radius:5px;  -moz-border-radius:5px; background:pink;}
+.tab2{height:50px; width:150px; border-radius:5px;  -moz-border-radius:5px; background:green;  margin-top:10px; margin-left:5px; }
+ul li{position:relative;}
+</style>
+<script type="text/javascript">
+$(document).ready(function(){
+var count = $("li").size();
+alert(count);
+$('li').hide().each(function( i ) {
+ $(this).delay( i * 400 ).fadeIn().slideDown("slow");
+});
+
+})
+</script>
+
+</head>
+<body>
+<div class="header">
+	
+</div>
+<div class="wrap">
+<li> http://www.wpbundle.com/</li>
+<li>https://www.hellowallet.com/</li>
+<li>http://www.mikimotoamerica.com/</li>
+<li>http://www.thinkluke.com/</li>
+<li>http://www.slicejack.com/#</li>
+<li>http://www.kickstarter.com/(footer)</li>
+<li>http://patterntap.com/pattern/footer-contact-form-pixel-plant(contact form)</li>
+<li>https://www.pixelplant.com/</li>
+<li>http://www.jucanti.com.br/</li>
+<li>http://www.carnationgroup.com/works/telenor/mobile-internet-tablets</li>
+<li>http://www.awwwards.com/page/9</li>
+<li>http://hitmo-studio.com/#hitmo</li>
+<li>http://www.behance.net/Jucanti</li>
+<li>http://naldzgraphics.net/inspirations/50-blue-website-designs-to-inspire-and-impress-you/</li>
+<li>http://www.careathand.com/(blue color mobileapps)</li>
+<li>http://www.cspire.com/ (blue color websites with tabs and search box extension)</li>
+<li>http://www.puma.com/running(footer)</li>
+<li>http://www.behance.net/gallery/SKYPE-UI/4781907</li>
+</div>
+</body>
+</html>

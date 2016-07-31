@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+var getInputlength = $('input').length;
+if(getInputlength>=5){
+	alert('element five');
+	}else{
+		alert('less than 5')
+		}
+alert(getInputlength);
+});
+</script>
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+</style>
+</head>
+
+<body>
+<input type="checkbox" class="all">
+<br>
+<div class="list">
+  <input type="checkbox" class="case">
+  <br>
+  <input type="checkbox" class="case">
+  <br>
+  <input type="checkbox" class="case">
+  <br>
+  <input type="checkbox" class="case">
+</div>
+</body>
+</html>

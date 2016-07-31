@@ -1,0 +1,373 @@
+.bg-overview {
+float: left;
+width: 100%;
+}
+.bg-overview .main-left{
+	float: left;
+	min-height: 600px;
+	width: 800px;
+	position: relative;
+	z-index: 2000;
+}
+.bg-overview .right-rail {
+	float: right;
+	width: 160px;
+	position: relative;
+	z-index: 1;
+}
+.mod-tabbed-container{
+	/*border: 1px solid #ccc;*/
+	width: 100%;
+	font: 14px/24px Arial, Verdana;
+}
+.mod-tabbed-container h3{
+	font: 14px/24px Arial, Verdana;
+	color: #6e6d6d;
+}
+
+.mod-tabbed-container h3:hover{
+	color: #0e74db;
+}
+.mod-tabbed-container .selected h3:hover{
+	color: #6e6d6d;
+}
+.mod-tabbed-container .disable h3, .mod-tabbed-container .disable h3:hover{
+	color: #dadcda;
+}
+.mod-tabbed-container ul{
+	margin:0;
+}
+.mod-tabbed-container ul li{
+	color: #0265CB;
+	list-style-type: none;
+	float: left;
+	border-right: 1px solid #ccc;
+	padding: 5px 0;
+	width: 158px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;	
+	border: 1px solid #ccc;
+	border-left: 0;
+}
+/*.mod-tabbed-container ul li:hover{
+	text-decoration: underline;
+}*/
+
+/*.mod-tabbed-container ul li:hover:after{
+	content: '';
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-bottom: 5px solid #ccc;
+	position: absolute;
+	bottom: 0px;
+	left: 95px;
+}*/
+.mod-tabbed-container ul li.selected{
+	cursor:default;
+	color: #666666;
+	border-bottom: 0;
+	height: 28px;
+	margin-top: -3px;
+	border-left: 1px solid #ccc;
+	margin-left: -1px;
+}
+.mod-tabbed-container ul li.selected:hover{
+	text-decoration: none;
+}
+
+.mod-tabbed-container ul li:first-child{
+	border-left: 1px solid #ccc;
+
+}
+
+.mod-tabbed-container .disable{
+	color: #ccc;
+	cursor: auto;
+}
+.mod-tabbed-container .disable:hover:after{
+	content: '';
+	border:0;
+}
+.mod-tabbed-container .disable:hover{
+	cursor: default;
+	text-decoration: none;
+	
+}
+
+/*.mod-tabbed-container ul li.selected:after{
+	content: '';
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-bottom: 5px solid #ccc;
+	position: absolute;
+	bottom: 0px;
+	left: 95px;
+}*/
+
+.mod-tabbed-content{
+	margin: 20px 0;
+	position: relative;
+}
+
+.mod-tabbed-content .tabContent{
+	display: none;
+}
+.mod-tabbed-content p {
+	color: #666666;
+	font: 16px/24px 'Arial', sans-serif;
+	margin: 10px 0 0 0;
+}
+
+.mod-tabbed-content .tabContent h3{
+	font: bold 18px/21px Arial, Verdana;
+	color: #000;
+	margin: 10px 0;
+}
+.tab-header{
+	margin: 30px 0 20px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.tab-header .heading{ 
+	color: #000;
+	font: bold 24px/30px Arial, Verdana;
+	display: inline-block;
+	min-width: 600px;
+	float: left;
+}
+.bg-overview .share-blk{
+	width: 735px;
+	float: left;
+	margin: 10px 0;
+	padding: 10px 30px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+.bg-overview .share-blk h3{
+	font: 23px/30px Arial, Verdana;
+	color: #000;
+	display: inline-block;
+}
+.bg-overview .share-blk .article-social-share {
+	float: right;
+	margin-top: 7px;
+}
+.rating-container h3{
+	color: black;
+	font: bold 18px/21px Arial, Verdana;
+	display: inline-block;
+	float: left;
+}
+.rating-container .automotive-rating{
+	float: left;
+	width: 100%;
+}
+.rating-container .avg-rating{
+	float: left;
+	width: 50%;
+}
+
+.tabContent img{
+	float: right;
+	margin: 20px 0 10px 20px;
+}
+
+.tabContent ul li{
+	color: #666666;
+	font: 16px/24px 'Arial', sans-serif;
+	margin-left: 30px;
+}
+
+/*	WHEEL RATING */
+
+.rating-container .mod-main-wheel-section {
+	padding: 0 20px;
+	display: inline-block;
+}
+
+span.mod-wheel-rating {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/wheel-rating.gif') no-repeat 0 0 transparent;
+	display: inline-block;
+	height: 23px;
+	margin: 0 0;
+	padding: 0 0;
+	width: 129px;
+}
+span.mod-wheel-rating-4-5{
+	background-position:0 -30px;
+}
+
+span.mod-wheel-rating-4-0{
+	background-position:0 -60px;
+}
+
+span.mod-wheel-rating-3-5{
+	background-position:0 -90px;
+}
+
+span.mod-wheel-rating-3-0{
+	background-position:0 -120px;
+}
+
+span.mod-wheel-rating-2-5{
+	background-position:0 -150px;
+}
+
+span.mod-wheel-rating-2-0{
+	background-position:0 -180px;
+}
+
+span.mod-wheel-rating-1-5{
+	background-position:0 -210px;
+}
+
+span.mod-wheel-rating-1-0{
+	background-position:0 -240px;
+}
+
+span.mod-wheel-rating-0-5{
+	background-position:0 -270px;
+}
+
+span.mod-wheel-rating-0-0{
+	background-position:0 -300px;
+}
+
+/* RED STAR RATING */
+
+.rating-container .mod-main-redstar-section {
+	padding: 13px 0;
+}
+
+.rating-container span.mod-redstar-rating {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/star-rating-red.png') no-repeat 0 0 transparent;
+	display: inline-block;
+	height: 14px;
+	margin: 0 0;
+	padding: 0 0;
+	width: 80px;
+}
+.rating-container span.mod-redstar-rating-4-5{
+	background-position:0 -14px;
+}
+
+.rating-container span.mod-redstar-rating-4-0{
+	background-position:0 -28px;
+}
+
+.rating-container span.mod-redstar-rating-3-5{
+	background-position:0 -42px;
+}
+
+.rating-container span.mod-redstar-rating-3-0{
+	background-position:0 -56px;
+}
+
+.rating-container span.mod-redstar-rating-2-5{
+	background-position:0 -70px;
+}
+
+.rating-container span.mod-redstar-rating-2-0{
+	background-position:0 -84px;
+}
+
+.rating-container span.mod-redstar-rating-1-5{
+	background-position:0 -98px;
+}
+
+.rating-container span.mod-redstar-rating-1-0{
+	background-position:0 -112px;
+}
+
+.rating-container span.mod-redstar-rating-0-5{
+	background-position:0 -126px;
+}
+
+.rating-container span.mod-redstar-rating-0-0{
+	background-position:0 -140px;
+}
+
+
+.avg-rating .usr-rvw{
+	font: 14px/21px Arial, Vedana;
+}
+
+.avg-rating .usr-rvw a{
+	color: #005DBD;
+}
+
+.avg-rating .usr-rvw a:hover{
+	text-decoration: underline;
+}
+
+
+.bg-overview .compare-dealer{
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(244,245,245,1) 89%, rgba(247,247,247,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(73%,rgba(255,255,255,1)), color-stop(89%,rgba(244,245,245,1)), color-stop(100%,rgba(247,247,247,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 30px;
+	margin-bottom: 20px;
+}
+
+.bg-overview .compare-dealer h2{
+	color: #000;
+	font: 23px/30px Arial, Verdana;
+}
+
+.bg-overview .new-model{
+	background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,1) 73%, rgba(244,245,245,1) 89%, rgba(247,247,247,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(73%,rgba(255,255,255,1)), color-stop(89%,rgba(244,245,245,1)), color-stop(100%,rgba(247,247,247,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,1) 73%,rgba(244,245,245,1) 89%,rgba(247,247,247,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-9 */
+
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+.bg-overview .new-model h2{
+	color: #000;
+	font: bold 22px/30px Arial, Verdana;
+	display: inline-block;
+	padding: 30px;
+}
+
+.bg-overview .new-model span.img{
+	float: right;
+	display: inline-block;
+	width: 220px;
+	padding-top: 12px;
+}
+
+.bg-overview .bottom-cnt{
+	width: 100%;
+	margin: 30px 0;
+}
+
+.bg-overview .bottom-cnt .twt-container{
+	width: 482px;
+	float: left;
+}
+
+.bg-overview .bottom-cnt .mrac-container{
+	width: 303px;
+	float: right;
+}

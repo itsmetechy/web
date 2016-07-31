@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$('a').click(function(e){
+//		var getCount = $('div').length;
+	//	if(getCount==0){
+		//e.preventDefault();
+		//$('a').after('<span>Nothing to remove</span>');
+		//}else{
+			//$(this).next().remove();
+		//}
+		$('.wrap,.wrap1,.wrap2').remove();
+	})
+});
+</script>
+</style>
+</head>
+
+<body>
+<a href="#">remove</a>
+<div class="wrap">wrap</div>
+<div class="wrap1">wrap1</div>
+<div class="wrap2">wrap2</div>
+</body>
+</html>

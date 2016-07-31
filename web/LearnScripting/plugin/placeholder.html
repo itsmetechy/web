@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>First Jquery Plugin</title>
+<script type="text/javascript" src="../js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="pluginjs/jquery.helloworld.js"></script>
+<script type="text/javascript">
+	
+	$(document).ready(function(){
+		$.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
+		var selector = $('input[type=text]'), getVal;
+/*selector.each(function(){
+			var getPlaceholder = $(this).attr('title');
+			$(this).val(getPlaceholder);
+		});*/
+		$('<div>', {id:'test', class:'shiva'}).appendTo('body');
+		
+		selector.attr('value', function(){
+			return this.title;
+		});
+
+		selector.focus(function(){
+            $this = $(this)
+			getVal = $this.val();
+			$this.val('');
+		}).blur(function(){
+			$this.val(getVal);
+		});
+	});
+	
+</script>
+<style type="text/css">
+ul li{ font-size:30px; display:block; text-align:center; }
+</style>
+</head>
+
+<body>
+<h2></h2>
+<input type="text" name="text" title="First Name">
+<input type="text" title="Last Name">
+
+<ul>
+	<li>tab container</li>
+    <li>container</li>
+    <li>tab container</li>
+	<li>sarsa</li>
+    <li>awserew</li>
+    <li>6</li>    
+</ul>
+</body>
+</html>

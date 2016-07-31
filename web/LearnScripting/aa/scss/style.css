@@ -1,0 +1,104 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333; }
+
+h1 {
+  color: #f6214d; }
+
+.fL {
+  float: left; }
+
+.fR {
+  float: right; }
+
+header {
+  color: #fff;
+  position: fixed;
+  height: 60px;
+  width: 100%; }
+  header a {
+    color: #fff;
+    text-decoration: none; }
+  header .menu {
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    min-height: 584px;
+    top: 61px;
+    position: absolute;
+    right: 0px;
+    width: 314px; }
+    header .menu ul li a {
+      line-height: 60px;
+      padding-left: 28px;
+      display: block;
+      font-size: 23px;
+      border-bottom: 1px solid #818181; }
+
+.quickContainer {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 61px;
+  width: 100%; }
+  .quickContainer .loginSection {
+    min-height: 500px;
+    width: 100%; }
+    .quickContainer .loginSection .col2 {
+      border-right: 1px solid red;
+      float: left;
+      width: 50%; }
+    .quickContainer .loginSection .autoSign {
+      width: 500px;
+      float: right;
+      margin-top: 50px; }
+      .quickContainer .loginSection .autoSign h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 25px; }
+      .quickContainer .loginSection .autoSign p {
+        color: #5e5e5e; }
+
+.baseColor {
+  background: rgba(0, 0, 0, 0.8); }
+  .baseColor .logo {
+    background: #f6214d url(../img/car-icon.png) no-repeat bottom center;
+    border-right: 1px solid #818181;
+    display: block;
+    height: 60px;
+    text-indent: -999em;
+    width: 60px; }
+  .baseColor .targetArea {
+    width: 740px;
+    margin: 13px auto 0 auto;
+    float: left; }
+    .baseColor .targetArea .formField .state {
+      width: 180px; }
+    .baseColor .targetArea .formField input {
+      border: 0px;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      color: #fff;
+      padding: 0px 5px;
+      text-transform: uppercase;
+      font-size: 25px; }
+  .baseColor .quickTab {
+    position: relative; }
+
+.mainBlock {
+  /*  background: url(../img/navopen.jpg) no-repeat top left; */
+  height: 100%;
+  width: 100%; }
+
+.quickTab .loginWrap {
+  margin-top: 23px;
+  margin-right: 20px; }
+.quickTab .quickNav {
+  background: url(../img/quicknav.png) no-repeat center;
+  border-left: 1px solid #818181;
+  height: 60px;
+  text-indent: -999em;
+  width: 60px; }
+
+.targetArea, .logo {
+  display: none !important; }
+
+/*# sourceMappingURL=style.css.map */

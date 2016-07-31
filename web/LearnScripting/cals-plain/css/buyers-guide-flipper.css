@@ -1,0 +1,268 @@
+.bGuide-flipper-wrapper {
+	border:#bcbec0 1px solid;
+	height:443px;
+	width:618px;
+}
+.bGuide-flipper-wrapper h2 {
+	background: #E2E2E2;
+	background: -moz-linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EBEBEB), color-stop(50%, #EBEBEB), color-stop(50%, #E2E2E2), color-stop(100%, #E2E2E2));
+	background: -webkit-linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+	background: -o-linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+	background: -ms-linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#E2E2E2', GradientType=0 );
+	background: linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+	color: #000;
+	font: bold 24px/40px 'Arial', sans-serif;
+	height:40px;
+	margin: 1px;
+	padding: 0 10px;
+}
+.advanced-slider-bGuide {
+	border-top:#bcbec0 1px solid;
+	position: relative;
+	overflow: visible;
+	outline: none;
+	height:400px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+}
+.advanced-slider-bGuide * {
+	margin: 0;
+	padding: 0;
+}
+.advanced-slider-bGuide .slider-main { height:400px; }
+.advanced-slider-bGuide .slide-wrapper {
+	position: relative;
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.advanced-slider-bGuide ul.slides {
+	position: absolute;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 618px;
+	height: 400px;
+	z-index: -1;
+}
+.advanced-slider-bGuide li.slide {
+	position: absolute;
+	display: block;
+	margin: 0;
+	padding: 0 0 82px;
+	width: 100%;
+	height: 318px;
+	visibility: hidden;
+	list-style: none;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	z-index:0;
+}
+.ie7 .advanced-slider-bGuide li.slide.active, .ie7 .advanced-slider-bGuide li.slide.transition { visibility: visible; }
+.advanced-slider-bGuide li.slide > a {
+	display:block;
+	height:318px;
+	left:0;
+	position:absolute;
+	top:0;
+	width:100%;
+	z-index:99;
+}
+.advanced-slider-bGuide li.slide .image {
+	position: absolute;
+	z-index:79;
+}
+.ie7 .advanced-slider-bGuide li.slide .image, .ie8 .advanced-slider-bGuide li.slide .image { cursor:pointer; }
+.advanced-slider-bGuide li.slide img.image {
+	max-width: 618px !important;
+	max-height: 318px !important;
+	border: 0 none;
+}
+.advanced-slider-bGuide .preloader {
+	position: absolute;
+	background: url(../_siteconfigs/automotive_com/images/bghtml5/preloader2.gif) no-repeat;
+	width: 62px;
+	height: 14px;
+	z-index: 15;
+	top:158px !important;
+}
+.advanced-slider-bGuide .crslbGuide-info {
+	background-color:#FFF;
+	border-top:#bcbec0 1px solid;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	height:81px;
+	width:618px;
+	z-index:89;
+}
+.advanced-slider-bGuide .crslbGuide-info h4 {
+	bottom:120px;
+	color:#646464;
+	font: bold 24px/27px Arial, Helvetica, sans-serif;
+	left: 0;
+	position:absolute;
+	text-align:center;
+	width:618px;
+}
+.advanced-slider-bGuide .slide-buttons .left, .advanced-slider-bGuide .slide-buttons .right, .advanced-slider-bGuide .slide-buttons .middle { float: left; }
+.glossy-square-gray-bGuide .slide { background-color: #FFF; }
+.glossy-square-gray-bGuide .slide-arrows a.previous, .glossy-square-gray-bGuide .slide-arrows a.next {
+	background-image:url(../_siteconfigs/automotive_com/images/bghtml5/bGuide_caresul_arrow.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	display: block;
+	height: 51px;
+	position: absolute;
+	text-indent: -999em;
+	top:130px;
+	width: 25px;
+	z-index:0;
+}
+.glossy-square-gray-bGuide .slide-arrows a.previous {
+	background-position:0 0;
+	left: 20px;
+}
+.glossy-square-gray-bGuide .slide-arrows a.previous:hover { background-position:0 -51px; }
+.glossy-square-gray-bGuide .slide-arrows a.next {
+	background-position:-25px 0;
+	right:20px;
+}
+.glossy-square-gray-bGuide .slide-arrows a.next:hover { background-position:-25px -51px; }
+.advanced-slider-bGuide .slide-buttons {
+	bottom:5px;
+	position: absolute;
+	z-index: 99;
+}
+.advanced-slider-bGuide .slide-buttons a {
+	position: relative;
+	cursor: pointer;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+}
+.glossy-square-gray-bGuide .slide-buttons .buttons-inner a {
+	background: url(../_siteconfigs/automotive_com/images/bghtml5/bGuide-flipper-button.png) no-repeat;
+	background-position: 0 0;
+	width: 11px;
+	height: 11px;
+	margin: 0 4px;
+}
+.glossy-square-gray-bGuide .slide-buttons .buttons-inner a.over { background-position: 0 -11px; }
+.glossy-square-gray-bGuide .slide-buttons .buttons-inner a.select {
+	background-position: 0 -11px;
+	cursor:default;
+}
+ul.bGuideCarDet {
+	height:81px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+ul.bGuideCarDet li {
+	float:left;
+	height:81px;
+}
+ul.bGuideCarDet li.bGCDmpg { width:120px; }
+ul.bGuideCarDet li.bGCDmpg > span > a { width:120px; }
+ul.bGuideCarDet li.bGCDseats { width:97px; }
+ul.bGuideCarDet li.bGCDseats > span > a { width:96px; }
+ul.bGuideCarDet li.bGCDhp { width:128px; }
+ul.bGuideCarDet li.bGCDhp > span > a { width:127px; }
+ul.bGuideCarDet li.bGCDengine { width:143px; }
+ul.bGuideCarDet li.bGCDengine > span > a { width:142px; }
+ul.bGuideCarDet li.bGCDmsrp { width:130px; }
+ul.bGuideCarDet li.bGCDmsrp > span > a { width:129px; }
+ul.bGuideCarDet li > span {
+	border-left:#bcbec0 1px solid;
+	display:block;
+	height:67px;
+	margin:7px 0 0;
+}
+ul.bGuideCarDet li:first-child span { border-left:none; }
+ul.bGuideCarDet li > span > a {
+	background-color:none;
+	height:61px;
+	padding-top:20px;
+	position:absolute;
+	text-align:center;
+	top:0;
+}
+ul.bGuideCarDet li > span > a:hover, ul.bGuideCarDet li > span > a.hovered { background-color:#edf4fb; }
+ul.bGuideCarDet li > span > a > span {
+	background-image:url(../_siteconfigs/automotive_com/images/bghtml5/bGuideCarDet.png);
+	background-repeat:no-repeat;
+	cursor:pointer;
+	display:inline-block;
+	line-height:18px;
+}
+ul.bGuideCarDet li.bGCDmpg > span > a > span {
+	background-position:0 4px;
+	padding-left:30px;
+	min-width:50px;
+}
+ul.bGuideCarDet li.bGCDseats > span > a > span {
+	background-position:0 -76px;
+	padding-left:25px;
+	min-width:40px;
+}
+ul.bGuideCarDet li.bGCDhp > span > a > span {
+	background-position:0 -157px;
+	padding-left:25px;
+	min-width:70px;
+}
+ul.bGuideCarDet li.bGCDengine > span > a > span {
+	background-position:0 -234px;
+	padding-left:30px;
+	min-width:75px;
+}
+ul.bGuideCarDet li.bGCDmsrp > span > a > span {
+	background-position:0 -318px;
+	padding-left:16px;
+	min-width:80px;
+}
+ul.bGuideCarDet li > span > a > span > span {
+	color:#2069c1;
+	cursor:pointer;
+	font-size:11px;
+}
+ul.bGuideCarDet li > span > a > span > strong {
+	color:#343434;
+	cursor:pointer;
+	font-size:16px;
+}
+.slider-bGuide-review {
+	padding:10px;
+	position:absolute;
+	z-index:11;
+}
+span.slider-bGuide-review-ratings {
+	background-image:url(../_siteconfigs/automotive_com/images/bghtml5/bg-overview-ratings-red-star.png);
+	background-repeat:no-repeat;
+	display:block;
+	height:24px;
+	margin-bottom:3px;
+	width:112px;
+}
+span.bGuide-review-0-0 { background-position:0 0; }
+span.bGuide-review-0-5 { background-position:0 -24px; }
+span.bGuide-review-1-0 { background-position:0 -48px; }
+span.bGuide-review-1-5 { background-position:0 -72px; }
+span.bGuide-review-2-0 { background-position:0 -96px; }
+span.bGuide-review-2-5 { background-position:0 -120px; }
+span.bGuide-review-3-0 { background-position:0 -144px; }
+span.bGuide-review-3-5 { background-position:0 -168px; }
+span.bGuide-review-4-0 { background-position:0 -192px; }
+span.bGuide-review-4-5 { background-position:0 -216px; }
+span.bGuide-review-5-0 { background-position:0 -240px; }
+.slider-bGuide-review a {
+	color:#0059be;
+	font-size:13px;
+}
+.slider-bGuide-review a:hover { text-decoration:underline; }

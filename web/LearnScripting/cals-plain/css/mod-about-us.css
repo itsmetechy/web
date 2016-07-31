@@ -1,0 +1,301 @@
+.page-about-us h1{
+    border-bottom:1px solid #cbcbcb;
+	color: #000;
+    font: normal 26px/26px 'Arial', sans-serif;
+    margin-bottom: 6px;
+	padding-bottom: 8px;
+}
+
+.page-about-us .intro-text{
+	color: #666;
+    font: normal 12px/18px Arial, sans-serif;
+	margin-bottom: 20px;
+}
+
+.mod-about-us {
+    background:#fff;
+	border: 1px solid #CCC;
+	margin-bottom:20px;
+}
+
+.mod-about-us h2 {
+    background: #E2E2E2;
+   	background: -moz-linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+   	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(50%,#EBEBEB), color-stop(50%,#E2E2E2), color-stop(100%,#E2E2E2));
+   	background: -webkit-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	background: -o-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	background: -ms-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#E2E2E2',GradientType=0 );
+   	background: linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+	border-bottom: 1px solid #CCC;
+    color: #000;
+    font: normal 22px/44px 'Arial', sans-serif;
+    margin: 1px 1px 1px 1px;
+    padding: 0 20px;
+}
+
+.mod-about-us .contact-info .btn {
+	margin-top:9px;
+    width: 215px;
+}
+
+.mod-about-us .contact-info .btn-inner {
+	border:none;
+	color: #fff;
+	cursor:pointer;
+	font: bold 14px/14px Arial, sans-serif;
+	padding:9px 0;
+	width:215px;
+}
+
+.mod-about-us .contact-info .btn-inner:hover {
+	text-decoration:none;
+}
+
+.mod-about-us .mod-about-item{
+	border-top:1px solid #ccc;
+	padding:19px 20px 0 78px;
+	position:relative;
+}
+
+.mod-about-us .mod-about-item .icons{
+	background:url('../_siteconfigs/automotive_com/images/bghtml5/about-us.jpg') no-repeat top left;
+	height:47px;
+	left:20px;
+	position:absolute;
+	top:27px;
+	width:37px;
+}
+
+.mod-about-us .mod-about-item:first-child + div .icons{
+	background-position:0 -47px;
+}
+
+.mod-about-us .mod-about-item:first-child + div + div .icons{
+	background-position:0 -94px;
+}
+
+.mod-about-us .mod-about-item:first-child + div + div + div .icons{
+	background-position:0 -141px;
+}
+
+.mod-about-us .mod-about-item > a,
+.mod-about-us .mod-about-item .anchor-title{
+	color: #0066cc;
+	display:inline-block;
+	font: normal 18px/20px Arial, sans-serif;
+	margin-bottom:15px;
+}
+
+.mod-about-us .mod-about-item .anchor-title h3{
+	cursor:pointer;
+	font: normal 18px/20px Arial, sans-serif;
+}
+
+.mod-about-us .mod-about-item > a h3 {
+	font: normal 18px/20px Arial, sans-serif;
+}
+
+.mod-about-us .mod-about-item > a:hover,
+.mod-about-us .mod-about-item h3:hover{
+	text-decoration:underline;
+}
+
+.mod-about-us .mod-about-item p{
+	color: #666;
+	font: normal 12px/16px Arial, sans-serif;
+	padding-bottom:16px;
+}
+
+.mod-about-us .contact-info div{
+	float:left;
+	padding-bottom:16px;
+}
+
+.mod-about-us .contact-info div a{
+	color:#0066cc;
+}
+
+.mod-about-us .contact-info div a:hover{
+	text-decoration:underline;
+}
+
+.mod-about-us .contact-info div p{
+	font: normal 11px/18px Arial, sans-serif;
+	margin-right:50px;
+	padding:0;
+}
+
+.mod-about-us .contact-info div:first-child + div .label{
+	width:50px;
+}
+
+.mod-about-us .contact-info .label{
+	display:inline-block;
+	font-weight:bold;
+	width:60px;
+}
+
+/*DIALOG POPUP*/
+.contact-popup {
+	background: #fff;
+	border: 1px solid #CCC;
+    display: none;
+	margin: 0;
+	padding: 0;	
+	position:fixed;
+	width:806px;
+	z-index: 2000001;
+}
+
+.contact-popup .btn-close { 
+	background: url("../_siteconfigs/automotive_com/images/bghtml5/close.png") no-repeat left top;
+	cursor:pointer;
+    display: block; 
+    height: 41px; 
+	margin:0;
+    overflow: hidden; 
+	position: absolute;
+	right: -20px;
+    text-indent: -99999px; 
+	top: -20px;
+    width: 41px; 
+}
+
+.contact-popup .btn-close:hover { 
+	background-position:top right;
+}
+
+.contact-popup .email-resize{
+	padding:15px;
+}
+
+.contact-popup .title{
+    background: #E2E2E2;
+   	background: -moz-linear-gradient(top, #EBEBEB 0%, #EBEBEB 50%, #E2E2E2 50%, #E2E2E2 100%);
+   	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EBEBEB), color-stop(50%,#EBEBEB), color-stop(50%,#E2E2E2), color-stop(100%,#E2E2E2));
+   	background: -webkit-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	background: -o-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	background: -ms-linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+   	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EBEBEB', endColorstr='#E2E2E2',GradientType=0 );
+   	background: linear-gradient(top, #EBEBEB 0%,#EBEBEB 50%,#E2E2E2 50%,#E2E2E2 100%);
+	border-bottom: 1px solid #CCC;
+    color: #000;
+    font: normal 22px/44px 'Arial', sans-serif;
+    margin: 1px 1px 1px 1px;
+    padding: 0 20px;
+}
+
+.contact-popup p{
+	color: #666;
+	font: normal 12px/18px Arial, sans-serif;
+	padding-bottom:20px;
+}
+
+.contact-popup .form-left{
+	float:left;
+	font-size:0;
+	width:350px;
+}
+
+.contact-popup .form-left div{
+	margin-bottom:5px;
+}
+
+.contact-popup .form-left .select-box{
+	font: normal 12px/23px Arial, sans-serif;
+	height:23px;
+	margin:0;	
+	padding:0;
+	vertical-align:top;
+	width:254px;
+}
+
+.contact-popup .form-left .text-box{
+	font: normal 12px/19px Arial, sans-serif;
+	height:19px;
+	margin:0;
+	padding:0;
+	vertical-align:top;
+	width:250px;
+}
+
+.contact-popup .form-left .label{
+	border:1px solid #fff;	
+	color:#000;
+	display:inline-block;
+	font: bold 12px/21px Arial, sans-serif;
+	padding-right:10px;
+	text-align:right;
+	vertical-align:top;
+	width:75px;
+}
+
+.contact-popup .form-left .double .text-box{
+	width:80px;
+}
+
+.contact-popup .form-left .double .select-box{
+	font: normal 12px/23px Arial, sans-serif;
+	height:23px;
+	margin:0;	
+	width:60px;
+}
+
+.contact-popup .form-right{
+	float:right;
+	width:406px;
+}
+
+.contact-popup .form-right textarea{
+	height:134px;
+	max-height:134px;
+	max-width:404px;
+	padding:0;
+	width:404px;
+}
+
+.contact-popup .submit-container{
+	text-align:right;
+}
+
+.contact-popup .submit-container .btn {
+	margin-top:9px;
+    width: 132px;
+}
+
+.contact-popup .submit-container .btn-inner {
+	border:none;
+	color: #fff;
+	cursor:pointer;
+	font: bold 14px/14px Arial, sans-serif;
+	padding:10px 0;
+	width:132px;
+}
+
+.contact-popup .site-errors{
+	display:none;
+}
+
+.contact-popup .error {
+	background:#EFDBDB;
+}
+
+.contact-popup .thanks {
+	display:none;
+}
+
+.contact-popup .thanks span{
+	font-weight:bold;
+}
+
+.fx-overlay {
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.5);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+.ie7 .fx-overlay {
+	background: url("../_siteconfigs/automotive_com/images/bghtml5/simoverlay.png") top left transparent;
+}

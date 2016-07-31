@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('a').mouseover(function(){
+		 var tip = $('a').attr('rel');
+		 $(this).append('<span>' + tip + '</span>').fadeIn('slow');
+		})
+		$('a').mouseout(function(){
+			$('span').remove();
+		}) 
+		mousemove()
+ 	})
+</script>
+<style type="text/css">
+*{margin:0px; padding:0px;}
+div{}
+a{color:#000; text-decoration:none;}
+span{background:#000; padding:10px; color:#fff; border-radius:5px; -moz-border-radius:5px; position:absolute; top:20px;}
+</style>
+</head>
+
+<body>
+<div>
+<a href="#" rel="this is tool tip">hoverhover hoverhoverhov erhoverhoverhove hoverhoverhover hoverhover</a>
+
+</div>
+</body>
+</html>

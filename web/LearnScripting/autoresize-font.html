@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+ #box{height:100px; width:100px; padding:50px; border:1px solid #ccc;}
+p{font-size:18px;}
+</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function()
+	{
+		var reduce = $('#text').css('font-size');
+		var textSize = parseFloat(reduce);
+		$('a').click(function(){
+ 		textSize +=2;
+		$('#text').css('font-size',textSize);
+	
+	 })
+});
+</script>
+</head>
+
+<body>
+<div>
+<a href="#">Larger Text</a>
+<p id="text">
+This is some text. This is some text. This is some text. This is some text. This
+is some text. This is some text. This is some text. This is some text. This is some
+text. This is some text. This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text. This is some text. This
+is some text. This is some text.
+</p>
+
+</div>
+</body>
+</html>

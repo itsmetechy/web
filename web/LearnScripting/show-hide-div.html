@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript"  src="jquery.js"></script>
+<script type="text/javascript">
+     $(document).ready(function(){  
+      
+      $('#filters a').click(function(e){
+		  e.preventDefault();
+		  var gt = $(this).attr('id');
+ 		  $('#content ul li').show();
+		  $('#content ul li:not(.' + gt + ')').hide();
+		})
+ 
+})
+</script>
+<style type="text/css">
+	.box{height:100px; width:100px; background:green; position:relative;} 
+	.caption{height:100px; width:100px; background:black; position:absolute; top:0px; color:#fff; text-align:center;} 
+
+</style>
+</head>
+
+<body>
+	 	    <!-- the filters div -->  
+    <div id='filters'><a href='#'>All</a> <a href='#' id='bestof'>Best Of</a> <a href='#' id='jquery'>jQuery</a> <a href='#' id='php'>PHP</a> <a href='' id='html'>HTML</a> <a href='#' id='css'>CSS</a></div>  
+      
+    <!-- the content div -->  
+    <div id='content'>  
+        <!-- the unordered list where we store the content in list items -->  
+        <ul>  
+            <li class='bestof'>Best of September- 10 web development articles and tutorials</li>  
+            <li class='jquery php'>14 jQuery and non-jQuery Rich Text Editors</li>  
+            <li class='php'>How to know where your visitors are coming from</li>  
+            <li class='php'>How speed improving using single quotes instead of double quotes really is</li>  
+            <li class='jquery html'>Automatic input field focus on page load</li>  
+            <li class='jquery php'>Checking username availability with ajax using jQuery</li>  
+            <li class='jquery css html'>Hover effect with jQuery and CSS</li>  
+            <li class='jquery css html'>Zebra stripes with jQuery and CSS</li>  
+            <li class='jquery html'>Maxlength for textarea using jQuery</li>  
+        </ul>  
+    </div>   	 
+</body>
+ 
+</html>

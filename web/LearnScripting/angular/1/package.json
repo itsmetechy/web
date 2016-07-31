@@ -1,0 +1,17 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "No0thing But Angular",
+  "main": "index.jtml\u001b[D\u001b[D\u001b[\u001b[3~\u001b[3~h",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^2.2.3"
+  },
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1"
+  },
+  "author": "Shiv",
+  "license": "ISC"
+}

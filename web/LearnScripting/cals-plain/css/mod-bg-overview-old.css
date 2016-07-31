@@ -1,0 +1,268 @@
+.bg-overview .main-left{
+	float: left;
+	min-height: 600px;
+	width: 800px;
+	position: relative;
+	z-index: 2000;
+}
+.bg-overview .right-rail {
+	float: right;
+	width: 160px;
+	position: relative;
+	z-index: 1;
+}
+.mod-tabbed-container{
+	border: 1px solid #ccc;
+	width: 100%;
+	font: 14px/24px Arial, Verdana;
+}
+.mod-tabbed-container h3{
+	font: 14px/24px Arial, Verdana;
+}
+.mod-tabbed-container ul{
+	margin:0;
+}
+.mod-tabbed-container ul li{
+	color: #0265CB;
+	list-style-type: none;
+	float: left;
+	border-left: 1px solid #ccc;
+	padding: 5px 0;
+	width: 199px;
+	text-align: center;
+	cursor: pointer;
+	position: relative;	
+}
+.mod-tabbed-container ul li:hover{
+	text-decoration: underline;
+}
+
+.mod-tabbed-container ul li:hover:after{
+	content: '';
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-bottom: 5px solid #ccc;
+	position: absolute;
+	bottom: 0px;
+	left: 95px;
+}
+.mod-tabbed-container ul li.selected{
+	cursor:default;
+	color: #666666;
+}
+.mod-tabbed-container ul li.selected:hover{
+	text-decoration: none;
+}
+
+.mod-tabbed-container ul li:first-child{
+	border-left: 0;
+}
+.mod-tabbed-container ul li span.commingSoon{ display:none; }
+.mod-tabbed-container ul li.disable:hover span.commingSoon{ display:block; }
+.mod-tabbed-container ul li.disable:hover h3.actualText{ display:none; }
+.mod-tabbed-container .disable{
+	color: #ccc;
+	cursor: auto;
+}
+.mod-tabbed-container .disable:hover:after{
+	content: '';
+	border:0;
+}
+.mod-tabbed-container .disable:hover{
+	color: #000;
+	text-decoration: none;
+}
+
+.mod-tabbed-container ul li.selected:after{
+	content: '';
+	width: 0; 
+	height: 0; 
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;	
+	border-bottom: 5px solid #ccc;
+	position: absolute;
+	bottom: 0px;
+	left: 95px;
+}
+
+.mod-tabbed-content{
+	margin: 20px 0;
+	position: relative;
+}
+
+.mod-tabbed-content .tabContent{
+	display: none;
+}
+.mod-tabbed-content p {
+	color: #666666;
+	font: 16px/24px 'Arial', sans-serif;
+	margin: 0 0 10px 0;
+}
+
+.mod-tabbed-content .tabContent h3{
+	font: bold 18px/21px Arial, Verdana;
+	color: #000;
+	margin: 10px 0 0;
+}
+.tab-header{
+	margin: 40px 0 20px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.tab-header .heading{ 
+	color: #000;
+	font: bold 24px/30px Arial, Verdana;
+	display: inline-block;
+	min-width: 600px;
+	float: left;
+}
+.tab-header .article-social-share {
+	float: right;
+	margin-top: 5px;
+}
+.rating-container h3{
+	color: black;
+	font: bold 18px/21px Arial, Verdana;
+}
+.rating-container .automotive-rating{
+	float: left;
+	width: 50%;
+}
+.rating-container .avg-rating{
+	float: left;
+	width: 50%;
+}
+
+.tabContent img{
+	float: right;
+	margin: 20px 0 10px 20px;
+}
+
+.tabContent ul li{
+	color: #666666;
+	font: 16px/24px 'Arial', sans-serif;
+	margin-left: 30px;
+}
+
+/*	WHEEL RATING */
+
+.rating-container .mod-main-wheel-section {
+	padding: 10px 0;
+}
+
+span.mod-wheel-rating {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/wheel-rating.gif') no-repeat 0 0 transparent;
+	display: inline-block;
+	height: 23px;
+	margin: 0 0;
+	padding: 0 0;
+	width: 129px;
+}
+span.mod-wheel-rating-4-5{
+	background-position:0 -30px;
+}
+
+span.mod-wheel-rating-4-0{
+	background-position:0 -60px;
+}
+
+span.mod-wheel-rating-3-5{
+	background-position:0 -90px;
+}
+
+span.mod-wheel-rating-3-0{
+	background-position:0 -120px;
+}
+
+span.mod-wheel-rating-2-5{
+	background-position:0 -150px;
+}
+
+span.mod-wheel-rating-2-0{
+	background-position:0 -180px;
+}
+
+span.mod-wheel-rating-1-5{
+	background-position:0 -210px;
+}
+
+span.mod-wheel-rating-1-0{
+	background-position:0 -240px;
+}
+
+span.mod-wheel-rating-0-5{
+	background-position:0 -270px;
+}
+
+span.mod-wheel-rating-0-0{
+	background-position:0 -300px;
+}
+
+/* RED STAR RATING */
+
+.rating-container .mod-main-star-section {
+	padding: 13px 0 0px;
+}
+
+.rating-container span.mod-star-rating {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/star-rating.png') no-repeat 0 0 transparent;
+	display: inline-block;
+	height: 14px;
+	margin: 0 0;
+	padding: 0 0;
+	width: 80px;
+}
+.rating-container span.mod-star-rating-4-5{
+	background-position:0 -14px;
+}
+
+.rating-container span.mod-star-rating-4-0{
+	background-position:0 -28px;
+}
+
+.rating-container span.mod-star-rating-3-5{
+	background-position:0 -42px;
+}
+
+.rating-container span.mod-star-rating-3-0{
+	background-position:0 -56px;
+}
+
+.rating-container span.mod-star-rating-2-5{
+	background-position:0 -70px;
+}
+
+.rating-container span.mod-star-rating-2-0{
+	background-position:0 -84px;
+}
+
+.rating-container span.mod-star-rating-1-5{
+	background-position:0 -98px;
+}
+
+.rating-container span.mod-star-rating-1-0{
+	background-position:0 -112px;
+}
+
+.rating-container span.mod-star-rating-0-5{
+	background-position:0 -126px;
+}
+
+.rating-container span.mod-star-rating-0-0{
+	background-position:0 -140px;
+}
+
+
+.avg-rating .usr-rvw{
+	font: 14px/21px Arial, Vedana;
+}
+
+.avg-rating .usr-rvw a{
+	color: #005DBD;
+}
+
+.avg-rating .usr-rvw a:hover{
+	text-decoration: underline;
+}

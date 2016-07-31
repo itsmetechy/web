@@ -1,0 +1,143 @@
+.cnt-main {
+	width: 800px;
+}
+.mod-bg-pg-main {
+	margin: 0 0;
+	padding: 0 0 0 17px;
+	float: left;
+	width: 623px;
+}
+.mod-bg-pg-main .main-title {
+	border-bottom: 1px solid #ccc;
+	color: #000;
+	font: 28px/28px Arial, sans-serif;
+	margin: 5px 0 20px 0px;
+	width: 100%;
+	padding-bottom: 10px;
+}
+.mod-bg-pg-main .trim-container {
+	float: left;
+	color: #000;
+}
+.mod-bg-pg-main .view-container {
+	float: right;
+	color: #000;
+}
+.mod-bg-pg-main .mod-select-trim {
+	width: 288px;
+}
+.mod-bg-pg-main .mod-select-view {
+	width: 210px;
+}
+.mod-bg-pg-main .mod-select {
+	color: #333;
+	display: block;
+	font: normal 10px/14px Arial, sans-serif;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+.right-rail {
+	float: right;
+}
+.left-rail {
+	float: left;
+}
+.mod-bg-pg-main .trim-view {
+	display: inline-block;
+	font: 14px/18px Arial, Verdana, sans-serif;
+	float: left;
+	margin-right: 5px;
+}
+
+
+/*gallery popup starts*/
+.mod-gallery-thumb {
+	float: left;
+}
+.mod-gallery-thumb ul {
+	margin-left: 0px;
+	margin-top: 10px;
+}
+.mod-gallery-thumb ul li {
+	float: left;
+	list-style-type: none;
+	margin: 0 15px 15px 0
+}
+.mod-gallery-popup {
+	background-color:rgba(0,0,0,0.5);
+	display: none;
+	position: absolute;
+	z-index:20000000;
+}
+
+.popupWrap {
+	height:741px;
+	display:none;
+	left:50%;
+	margin-left:-475px;
+	margin-top:-321px;	
+	position:fixed;
+	top:50%;
+	text-align:center;
+	width:952px;
+	z-index:20000001;
+}
+.slideCaptionWrap{
+	background-color:#ffffff;
+	border-radius:5px;
+	height:682px;
+	overflow:hidden;
+	position:relative;
+	width:952px;
+}
+#popupSlide {
+	height:611px;
+	width:952px;
+}
+#popupSlide {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#popupSlide div.images{
+	float:left;	
+}
+#popupSlide img { 
+ 
+}
+#popupSlide a img{
+ height:auto;
+ width:auto;	
+}
+.popupWrap .popupClose {
+    position: absolute;
+    right: -20px;
+    top: -20px;
+}
+
+.popupWrap #Prev, .popupWrap #Next {
+	margin-top:-85px;
+}
+
+.popupWrap #Prev {
+	position:absolute;
+	left:0px;
+	top:50%;
+}
+.popupWrap #Next {
+	position:absolute;
+	right:0px;
+	top:50%;
+}
+.popupWrap .captionDiv {
+	background:#656565;
+	bottom:0px;
+	color:#fff;
+	font-size:18px;
+	padding:24px 10px;
+	text-align:left;
+	position:absolute;
+	width:98%;
+}
+
+/*gallery popup ends*/

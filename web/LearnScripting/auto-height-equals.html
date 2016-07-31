@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Untitled Document</title>
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         	var hL = $('.left').height();
+         	var hR = $('.right').height();
+        	
+        	if(hL>hR){
+        		var cH = hL-hR;
+         		$('.right').height(cH+hR);
+        	}else if(hL<hR){
+        		var sH = hR-hL;
+        		$('.left').height(sH+hL); 
+        	}
+        	$('.container').animate({'backgroundColor':'red'}, 2000);
+          })
+    </script>
+    <style type="text/css">
+        #slider{ width:915px; overflow:hidden;}
+        	#slider ul{position:absolute;}
+        	#slider ul li{height:100px; width:100px; border:1px solid #ccc; display:block; float:left; margin-right:20px; list-style-type:none;}
+        	.test{background:red;}
+        	.right{width:500px; float:left; border:1px solid green;}
+        	.left{border:1px solid red; width:150px; float:left;}
+        	.left ul li{float:left;}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <ul>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+                <li>test</li>
+
+
+            </ul>
+        </div>
+        <div class="right">
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        </div>
+    </div>
+
+</body>
+
+</html>

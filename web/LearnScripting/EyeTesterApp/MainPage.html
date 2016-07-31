@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Learntron - Eye Tester</title>
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<link href="main.css" type="text/css" rel="stylesheet"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var canvas;
+			var context;
+			var numRows=6;
+			var numCols=6;
+
+			var colorValues = [];
+			canvas=document.getElementById('colorGrid');
+			context=canvas.getContext('2d');
+			canvas.addEventListener("click",changeColor,false);
+
+			/* generate random unique colors*/
+			function randomColor() {
+				return ('#' + Math.floor(Math.random() * 16777215).toString(16));
+			}
+			/*-- color value comparsion is not perfect this code needs to be tunned more----*/
+			function checkUniqness(rancolor){
+				for(var i = 0; i < colorValues.length; i++) {
+					if(colorValues[i] == rancolor) return true;
+				}
+				return false;
+			}
+			/* adding colors to an array and loop through them to ensure colors are not repeated*/
+			function generateUniqueColor() {
+				var tempColor;
+				tempColor = randomColor();
+				while(checkUniqness(tempColor))
+				{
+					tempColor = randomColor();
+				}
+
+				colorValues.push(tempColor);
+				return tempColor;
+			}
+			/*==================================================*/
+			/* create rectangle shapes in canvas and fill them with unique colors*/
+			function fill(s,gx,gy){
+				context.fillStyle = s;
+				context.fillRect(gx, gy , lineSpacing, lineSpacing);
+			}
+
+			lineSpacing = canvas.width/numRows;
+			var gx;
+			var gy;
+			for(var i=0;i<numRows;i++){
+				for(var j=0;j<numCols;j++)
+				{
+					gx=i*lineSpacing;
+					gy=j*lineSpacing;
+					var color = generateUniqueColor();
+					fill(color, gx, gy);
+				}
+			}
+
+			//Creating right pane
+			var createDiv = {}, fontSize = 15, num = $('#txtLineNumber').val();
+
+			$('#txtLineNumber').change(function(){
+				num = $(this).val();
+				$('#eyeTesterGrid').empty();
+				createGrid(num);
+				setFontSize(fontSize);
+			});
+
+			function createGrid(num){
+				createDiv = '';
+				for(var i = 1; i<=num; i++){
+					createDiv += '<li> Line ' +i+ '</li>';
+					$('#eyeTesterGrid').append("<ul class='eachRow'>"+createDiv+"</ul>");
+				}
+				setFontSize();
+			}
+
+
+			function setFontSize(){
+				$('.eachRow').each( function(){
+					++fontSize;
+					$(this).find('li').css('font-size',fontSize);
+				});
+				fontSize = 15;
+			}
+			createGrid(num);
+
+
+		});
+		/* get color code from colorgrid on mouse click */
+		function changeColor(e){
+			// getting user coordinates
+			var x = e.offsetX;
+			var y = e.offsetY;
+			// getting image data and RGB values
+			var canvas = document.getElementById("colorGrid");
+			var context= canvas.getContext('2d');
+			var img_data = context.getImageData(x, y, 1, 1).data;
+			console.log(canvas.length);
+
+
+			var R = img_data[0];
+			var G = img_data[1];
+			var B = img_data[2];
+			var rgb = R + ',' + G + ',' + B;
+
+			document.getElementById("eyeTesterGrid").style ="background:rgb("+rgb+")" ;
+		}
+
+	</script>
+</head>
+<body>
+<div id="wrapper">
+	<header>
+		<h1>Eye Testing</h1>
+	</header>
+	<section id="inputSection">
+		<div style="padding:2%;">
+			<div>
+				<label>Property</label>
+				<select id="ddlProperty">
+					<option value="1">ForeColour</option>
+					<option value="2">BackColour</option>
+				</select>
+			</div>
+			<br/>
+			<div>
+				<label>Number of Lines</label>
+				<input id="txtLineNumber" type="number" value="4"/>
+				<br/>
+			</div>
+		</div>
+	</section>
+	<aside>
+		<div style="padding:2%;">
+			<div>
+				<canvas id="colorGrid" width="250" height="250" style="border:solid 1px #000000;"></canvas>
+				<div id="eyeTesterGrid"></div>
+			</div>
+		</div>
+	</aside>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,317 @@
+$backgroundBase: rgba(0, 0, 0, 0.8);
+$font: 'Open Sans',
+sans-serif;
+$themecolor: #f6214d;
+$contentColor: #333;
+$whiteColor: #fff;
+$bordercolor: #818181;
+$fbBtncolor: #3b5997;
+$fbBtnborder: #1c3b7b;
+$twitterBtncolor: #1bb5e7;
+$twitterBtnborder: #158db4;
+$signInBtncolor: #f6214d;
+$signInBtnborder: #cb1037;
+body {
+    font-family: $font;
+    color: $contentColor;
+}
+.clear {
+    clear: both;
+}
+h1 {
+    color: $themecolor;
+}
+.fL {
+    float: left;
+}
+.fR {
+    float: right;
+}
+header {
+    color: $whiteColor;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    a {
+        color: $whiteColor;
+        text-decoration: none;
+    }
+    .menu {
+        background: $backgroundBase;
+        display: none;
+        min-height: 584px;
+        top: 61px;
+        position: absolute;
+        right: 0px;
+        width: 314px;
+        ul {
+            li {
+                a {
+                    line-height: 60px;
+                    padding-left: 28px;
+                    display: block;
+                    font-size: 23px;
+                    border-bottom: 1px solid $bordercolor;
+                }
+            }
+        }
+    }
+}
+.quickContainer {
+    background: $backgroundBase;
+    padding-bottom: 10px;
+    position: absolute;
+    top: 61px;
+    width: 100%;
+    h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 25px;
+    }
+    .loginSection {
+        min-height: 500px;
+        width: 100%;
+        .col2 {
+            background: url(../img/or-center.png) no-repeat right center;
+            float: left;
+            width: 50%;
+            min-height: 490px;
+        }
+        .col2:last-child {
+            background: none !important;
+        }
+        .autoSign {
+            width: 500px;
+            float: right;
+            margin-top: 100px;
+            p.m-bot-20 {
+                margin-bottom: 20px;
+            }
+            span.cont {
+                float: left;
+                color: #fff;
+                width: 100%;
+                text-transform: uppercase;
+                text-align: center;
+                padding: 10px 0px;
+                width: 380px;
+            }
+            .fb-login {
+                background: $fbBtncolor url(../img/fb-icon.png) no-repeat 20px center;
+                border-bottom: 5px solid $fbBtnborder;
+                float: left;
+                height: 58px;
+                text-decoration: none;
+                width: 380px;
+                span {
+                    text-transform: uppercase;
+                    color: $whiteColor;
+                    font-size: 18px;
+                    border-left: 1px solid $fbBtnborder;
+                    line-height: 58px;
+                    text-align: left;
+                    padding-left: 20px;
+                    display: block;
+                    margin-left: 60px;
+                }
+            }
+            .twitter-login {
+                @extend .fb-login;
+                background: $twitterBtncolor url(../img/fb-icon.png) no-repeat 20px center;
+                border-bottom: 5px solid $twitterBtnborder;
+                span {
+                    border-left: 1px solid $twitterBtnborder;
+                }
+            }
+            p {
+                color: #B5B5B5;
+            }
+        }
+        .customSign {
+            @extend .autoSign;
+            float: left;
+            margin-left: 90px;
+            margin-top: 138px;
+            input {
+                background: transparent;
+                border: 1px solid #808080;
+                line-height: 53px;
+                font-size: 20px;
+                font-weight: normal;
+                margin-bottom: 15px;
+                padding-left: 15px;
+                width: 362px;
+            }
+            input.inputBtn {
+                @extend .fb-login;
+                background: $signInBtncolor;
+                border: 0px;
+                border-bottom: 5px solid $signInBtnborder;
+                color: #fff;
+                cursor: pointer;
+                text-transform: uppercase;
+            }
+            .fPassword {
+                color: $themecolor;
+                font-size: 14px;
+                text-decoration: none;
+            }
+        }
+    }
+    .signUp {
+        text-align: center;
+        color: $whiteColor;
+        a {
+            color: $themecolor;
+        }
+    }
+    .newSignup {
+        min-height: 440px;
+        width: 380px;
+        margin: 0 auto;
+        margin-top: 60px;
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .step1 {}
+        .step2,
+        .step3 {
+            display: none;
+        }
+        input {
+            background: transparent;
+            border: 1px solid #808080;
+            line-height: 53px;
+            font-size: 20px;
+            font-weight: normal;
+            margin-bottom: 15px;
+            padding-left: 15px;
+            width: 362px;
+        }
+        input.inputBtn {
+            @extend .fb-login;
+            background: $signInBtncolor;
+            border: 0px;
+            border-bottom: 5px solid $signInBtnborder;
+            color: #fff;
+            cursor: pointer;
+            text-transform: uppercase;
+            width: 381px;
+        }
+    }
+    .searchWrap {
+        margin: 20px 0px 0px 20px;
+        min-height: 500px;
+        h2 {
+            color: $whiteColor;
+            text-transform: uppercase;
+        }
+        h3 {
+            color: $whiteColor;
+            margin-bottom: 5px;
+        }
+        input.sp-search {
+            background: none;
+            border: 0px;
+            border-bottom: 1px solid $bordercolor;
+            line-height: 60px;
+            width: 98%;
+        }
+        .col2 {
+            float: left;
+            width: 50%;
+            h1 {
+                margin-bottom: 10px;
+            }
+            .driverAvailable {
+                float: left;
+                margin-bottom: 10px;
+                width: 225px;
+                span.driverImg {
+                    background: $themecolor;
+                    height: 60px;
+                    float: left;
+                    margin-right: 10px;
+                    width: 60px;
+                }
+                h2.driverName {
+                    color: #fff;
+                }
+                p.currentLoc {
+                    color: #fff;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .detailWrap {
+        //@extend .searchWrap;
+        display: block !important;
+        min-height:500px;
+        .details {
+            .cabDetails {
+                .driverPick {}
+            }
+            .bookHere {}
+        }
+    }
+}
+.baseColor {
+    background: $backgroundBase;
+    .logo {
+        background: $themecolor url(../img/car-icon.png) no-repeat bottom center;
+        border-right: 1px solid $bordercolor;
+        display: block;
+        height: 60px;
+        text-indent: -999em;
+        width: 60px;
+    }
+    .targetArea {
+        width: 740px;
+        margin: 13px auto 0 auto;
+        float: left;
+        .formField {
+            .state {
+                width: 180px;
+            }
+            .area {}
+            input {
+                border: 0px;
+                border-bottom: 1px solid $whiteColor;
+                background: transparent;
+                color: $whiteColor;
+                padding: 0px 5px;
+                text-transform: uppercase;
+                font-size: 25px;
+            }
+        }
+    }
+    .quickTab {
+        position: relative;
+    }
+}
+.mainBlock {
+    /*  background: url(../img/navopen.jpg) no-repeat top left; */
+    height: 100%;
+    width: 100%;
+}
+.quickTab {
+    .loginWrap {
+        margin-top: 23px;
+        margin-right: 20px;
+    }
+    .quickNav {
+        background: url(../img/quicknav.png) no-repeat center;
+        border-left: 1px solid $bordercolor;
+        height: 60px;
+        text-indent: -999em;
+        width: 60px;
+    }
+}
+.targetArea,
+.logo,
+.loginSection,
+.newSignup{
+    display: none !important;
+}

@@ -1,0 +1,94 @@
+.sitemap-cnt-module .select-brand {
+border: 1px solid #CCC;
+margin-bottom: 30px;
+overflow: hidden;
+}
+
+.sitemap-cnt-module .mod-sitemap-title {
+	color: black;
+	font: 28px/28px Arial,helvetica,sans-serif;
+}
+
+.sitemap-cnt-module{
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.sitemap-cnt-module .subhead{
+	color: #666;
+	font: 12px/16px 'Arial',sans-serif;
+	margin-bottom: 20px;
+	display: block;
+	width: 483px;
+	padding-top: 10px;
+}
+.sitemap-cnt-module .select-brand h2 {
+	background: #eaebeb; /* Old browsers */
+	background: -moz-linear-gradient(top,  #eaebeb 0%, #eaebeb 50%, #e2e2e2 51%, #e2e2e2 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eaebeb), color-stop(50%,#eaebeb), color-stop(51%,#e2e2e2), color-stop(100%,#e2e2e2)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eaebeb 0%,#eaebeb 50%,#e2e2e2 51%,#e2e2e2 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eaebeb 0%,#eaebeb 50%,#e2e2e2 51%,#e2e2e2 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eaebeb 0%,#eaebeb 50%,#e2e2e2 51%,#e2e2e2 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eaebeb 0%,#eaebeb 50%,#e2e2e2 51%,#e2e2e2 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaebeb', endColorstr='#e2e2e2',GradientType=0 ); /* IE6-9 */
+    border-bottom: 1px solid #CCCCCC;
+    color: #000000;
+    font: 22px/22px 'Arial',sans-serif;
+    margin: 1px;
+    padding: 11px 15px;
+}
+.sitemap-cnt-module .select-brand .container {
+	border-top: 1px solid #CCC;
+	padding: 10px 0;
+}
+.sitemap-cnt-module .select-brand .container div {
+	border-left: 1px solid #CCC;
+	margin-left: -1px;
+}
+
+.sitemap-cnt-module .select-brand .container ul.model-cnt{
+    column-rule: 1px solid #ccc;
+    -moz-column-count: 5;
+	-moz-column-gap: 40px;
+	-webkit-column-count: 5;
+	-webkit-column-gap: 40px;
+	column-count: 5;
+	-moz-column-rule-color:  #ccc;
+    -moz-column-rule-style:  solid;
+    -moz-column-rule-width:  1px;
+    -webkit-column-rule-color:  #ccc;
+    -webkit-column-rule-style: solid;
+    -webkit-column-rule-width:  1px;
+}
+.sitemap-cnt-module .select-brand .container .model-cnt li {
+	list-style-type: none;
+	font: 13px/15px Arial,Helvetica,sans-serif;
+	color: #06C;
+	margin: 7px 0;
+}
+
+.sitemap-cnt-module .select-brand .container .model-cnt li:last-child {
+border-right: none;
+}
+
+.sitemap-cnt-module .select-brand .container .model-cnt li a {
+color: #06C;
+}
+
+.sitemap-cnt-module .select-brand .accord{
+	background:url(../_siteconfigs/automotive_com/images/bghtml5/accordion_img.jpg) no-repeat;
+	cursor: pointer;
+	float: left;
+	width: 13px;
+	height: 14px;
+	position: absolute;
+	margin-top: -33px;
+	right: 30px;
+}
+.sitemap-cnt-module .select-brand .collapse{
+	background-position: 0 0;
+}
+
+.sitemap-cnt-module .select-brand .expand{
+	background-position: -14px 0;
+}

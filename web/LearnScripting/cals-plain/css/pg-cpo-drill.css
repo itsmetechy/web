@@ -1,0 +1,82 @@
+.cpo-drill .custom-select-btn {
+	width: auto;
+}
+.mod-cpo-drill-compare .custom-select-btn:hover {
+	text-decoration: none;
+}
+.cpo-drill .mod-cpo-drill-compare .cta-btn,
+.cpo-drill .mod-cpo-drill-compare .cta-btn:hover,
+.cpo-drill .mod-cpo-drill-compare .cta-btn:active,
+.cpo-drill .mod-cpo-drill-compare .cta-btn:visited,
+.cpo-drill .mod-cpo-drill-compare .cta,
+.cpo-drill .mod-cpo-drill-compare .cta:hover,
+.cpo-drill .mod-cpo-drill-compare .cta:active,
+.cpo-drill .mod-cpo-drill-compare .cta:visited,
+.cpo-drill .change-vehicle-btn,
+.cpo-drill .change-vehicle-btn:hover,
+.cpo-drill .change-vehicle-btn:active,
+.cpo-drill .change-vehicle-btn:visited {
+	color: #2467bd;
+	text-decoration: none;
+}
+.cpo-drill .mod-cpo-drill-compare .cta-btn:hover,
+.cpo-drill .mod-cpo-drill-compare .cta-btn:active,
+.cpo-drill .mod-cpo-drill-compare .cta:hover,
+.cpo-drill .mod-cpo-drill-compare .cta:active,
+.cpo-drill .change-vehicle-btn:hover,
+.cpo-drill .change-vehicle-btn:active {
+	text-decoration: underline;
+}
+.cpo-drill .asterisk {
+	font-size: 18px;
+	color: #c7171d;
+}
+.cpo-drill .title,
+.cpo-drill .copy {
+	margin: 0;
+}
+.cpo-drill .title {
+	font-size: 2em;
+}
+.cpo-drill .title-wrapper {
+	margin: 0 0 20px;
+	font-size: 14px;
+}
+.cpo-drill .change-vehicle-options {
+	margin: 10px 0 0 0;
+}
+.change-vehicle-options select.year{
+	width: 120px;
+}
+.change-vehicle-options select.make{
+	width: 140px;
+}
+.change-vehicle-options select.model{
+	width: 180px;
+}
+.drill-compare .year .option-resize {
+	width: 180px;
+}
+.drill-compare .year .select-list-item {
+	white-space: nowrap;
+}
+.drill-compare .year .mod-star-rating-cpo {
+	padding: 0 0 0 10px;
+}
+.mod-cpo-drill-compare .information:hover {
+	background-color: ##C91E3D;
+}
+.mod-cpo-drill-compare .copy .cta-btn:before {
+	color: black;
+	content: '\25b8';
+	display: inline-block;
+	font-size: 26px;
+	height: 16px;
+}
+
+
+body .drill-compare tr,
+body .drill-compare th,
+body .drill-compare td {
+	position: static;
+}

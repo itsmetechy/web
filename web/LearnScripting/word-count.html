@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<style type="text/css">
+#box {
+	height:100px;
+	width:100px;
+	padding:50px;
+	border:1px solid #ccc;
+}
+p {
+	font-size:18px;
+}
+</style>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+//$("#dvContent").html($("#dvContent").html().replace(/(\W)(jquery)(\W)/ig, "$1<span>$2</span>$3").replace(/^(jquery)(\W)/ig, "<span>$1</span>$2"));
+
+	this_sel = $("#dvContent");
+   var dvWords = $("#dvContent").html().split(' '); 
+  var dvHTML = ''
+  for (i=0; i < dvWords.length; i++) 
+  {   
+     if (dvWords[i].toLowerCase() == 'jquery') 
+     {
+        dvHTML += ' ' + '<span>' + dvWords[i] + '</span>';
+     }
+     else
+     {
+         dvHTML += ' ' + dvWords[i];           
+     }
+  }    
+   $("#dvContent").html(dvHTML);
+});
+</script>
+<style type="text/css">
+body {
+	font-family:Arial;
+	font-size : 10pt;
+}
+#dvContent span {
+	text-decoration: underline;
+	font-weight : bold;
+	color : Blue;
+}
+</style>
+</head>
+
+<body>
+<div>
+<div id="dvContent" class=""> Lorem ipsum dolor sit amet, consectetur adipiscing elit. jQuery In nulla est, congue quis sagittis vel, ullamcorper euismod mi. Duis gravida, nibh id placerat sagittis, quam tellus vestibulum nisl, a feugiat augue ipsum sit amet urna. Sed semper urna non odio bibendum blandit. Etiam eu jQuery orci ut arcu commodo dignissim. Curabitur sit amet massa velit. Fusce in felis ac ipsum ultrices elementum. Suspendisse potenti.Lorem ipsum dolor sit amet, consectetur jQuery adipiscing elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla facilisi. Suspendisse turpis nulla, mattis et scelerisque vitae, eleifend dictum nibh. Suspendisse at felis velit, sed sollicitudin enim. Aliquam erat volutpat. jQuery Quisque sed purus ac enim volutpat iaculis eget et risus. Donec consequat odio vel sem dignissim eu venenatis nisl vehicula. Suspendisse potenti.
+  
+  Maecenas et arcu et quam dapibus lobortis. Curabitur tincidunt tincidunt dictum. jQuery Sed porta cursus jQuery sodales. Cras sodales, ipsum non molestie malesuada, erat lacus faucibus orci, id venenatis leo nibh quis purus. Proin eu sem vitae felis pellentesque suscipit vitae id erat. In eros mi, egestas non cursus ac, bibendum ac nisl. Cras convallis elit jQuery in felis congue ut consectetur ipsum egestas.
+  
+  Pellentesque jQuery felis elit, posuere ut aliquet id, fermentum et purus. Quisque ac nunc vitae sapien eleifend sollicitudin. Proin nisl est, congue et adipiscing nec, rutrum non eros. Sed ultrices ullamcorper justo, in lobortis quam mollis ac. Proin ac lacinia eros. Integer jQuery suscipit consectetur scelerisque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean sem sapien, sollicitudin sed sodales non, cursus nec ipsum. Aenean pretium eros non felis accumsan vitae tristique quam dapibus. Donec eget quam sed sem varius rutrum eget nec mi. jQuery Cras ut ipsum nisl. </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+.mod-reviews { margin-bottom: 40px; }
+.mod-reviews .reivew-wrapper { margin-left: 20px; }
+.mod-section-overview-photo { margin-top: 50px; }
+.review-section {
+	border-bottom: #CCC 1px solid;
+	color: #333;
+	font: normal 16px/22px Arial, Helvetica, sans-serif;
+	padding: 25px 0;
+}
+.review-section .rs-main-heading {
+	color: #000;
+	font: normal 22px/22px Arial, Helvetica, sans-serif;
+}
+.review-section .rs-heading { font: normal 16px/22px Arial, Helvetica, sans-serif; }
+.review-section .rs-row { padding-top: 18px; }
+.review-section a { color: #0066cc; }
+.rs-row img {
+	border: #CCC 1px solid;
+	float: left;
+	margin-right: 10px
+}

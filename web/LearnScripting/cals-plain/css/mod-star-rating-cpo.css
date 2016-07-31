@@ -1,0 +1,42 @@
+.mod-star-rating-cpo {
+	font-size: 14px;
+	line-height: 1em;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: middle;
+}
+.mod-star-rating-cpo .star-wrapper,
+.mod-star-rating-cpo .rating {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/mod-star-rating-cpo-sprite.png');
+	background-repeat: repeat-x;
+}
+.mod-star-rating-cpo .star-wrapper {
+	background-position: 0 100%;
+	overflow: hidden;
+	width: 79px;
+}
+.mod-star-rating-cpo .rating {
+	background-position: 0 0;
+	display: inline-block;
+	float: left;
+	zoom: 1;
+	*display: inline;
+	text-indent: -110%;
+	width: 0;
+}
+.mod-star-rating-cpo .rating-max-5 .rating-1 {
+	width: 20%;
+}
+.mod-star-rating-cpo .rating-max-5 .rating-2 {
+	width: 40%;
+}
+.mod-star-rating-cpo .rating-max-5 .rating-3 {
+	width: 60%;
+}
+.mod-star-rating-cpo .rating-max-5 .rating-4 {
+	width: 80%;
+}
+.mod-star-rating-cpo .rating-max-5 .rating-5 {
+	width: 100%;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Regent Business QCF</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+<link href="css/quickform-styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body class="preview-version">
+<a href="page2.html">Click here for Check Session, this will work across website until user close the browser </a>
+<br /><br />
+<form name="quick-form" id="quick-form" action="http://webservices.plattformpartners.com/ilm/default.ashx" method="post">
+  <div id="form-title">
+    <img src="images/form-title.jpg" alt="" />
+  </div>
+  <!-- CLOSING FORM TITLE -->
+  
+  <div id="form-fields">
+<input id="LocationID" name="LocationID" type="hidden" value="37163" />    <div class="form-row">
+      <select id="CurriculumID" name="CurriculumID">
+        <option selected="selected" value="">Please select</option>
+      </select>
+      <br />
+    </div>
+    <div class="form-row">
+        <input name="firstname" id="firstname" type="text" title="First Name"/>
+        <br />
+
+    </div>
+    <div class="form-row">
+        <input name="lastname" id="lastname" type="text" title="Last Name"/>
+        <br />
+    </div>
+    <!-- CLOSING ROW -->
+
+    <div class="form-row">
+      <input name="email" id="email" type="text" title="Email"/>
+        <br />
+    </div>
+    <div class="form-row">
+        <input name="dayphone" id="dayphone" class="phone-input" type="tel" title="Phone Number" />
+        <br />
+    </div>
+    <!-- CLOSING ROW -->
+
+    <!-- CLOSING ROW -->
+
+    <div class="form-row">
+      <p class="express-consent">Clicking the "Request Information" button below constitutes your express written consent to be called and/or texted by Regent University at the number(s) you provided, regarding furthering your education. You understand that these calls may be generated using an automated technology.</p>
+    </div>
+    
+    <div class="submit-container">
+      <input name="submit" id="submit" type="submit" value="" />
+    </div>
+    <input type="hidden" name="returntourl" id="returntourl" value="thank-you.html">
+    <input type="hidden" name="subvendorcode" id="subvendorcode" value="0">
+    <input type="hidden" name="AffiliateLocationID" id="AffiliateLocationID" value="0">
+    <input type="hidden" name="leadsource" id="leadsource" value="SEO">
+    <input type="hidden" name="SearchEngine" id="SearchEngine" value="">
+    <input type="hidden" name="SearchKeyword" id="SearchKeyword" value="">
+    <input type="hidden" name="vendorid" id="vendorid" value="38791">
+    <input type="hidden" name="CampaignID" id="CampaignID" value="6419">
+    <input type="hidden" name="FormID" id="FormID" value="6211">
+  </div>
+  <!-- CLOSING FORM FIELDS -->
+  
+  <div class="clear"></div>
+  <!-- CLOSING CLEAR -->
+  
+</form>
+<div class="bottom-color"></div>
+<div id="test"></div>
+
+<script type="text/javascript">
+    var thankYouPage = 'thank-you.html';
+    var scriptExtension = 'html';
+    document.getElementById('returntourl').value = document.URL.replace( new RegExp('^([^\\?]+?)\\/?([^\/?]+.' + scriptExtension +')?(\\?.*)?$'),'$1\/' + thankYouPage +'$3');
+</script>
+<script type="text/javascript" src="http://leadsource.plattformad.com"></script> 
+<script type="text/javascript" src="http://artifacts.plattformad.com/repository/scripts/SEOKeywordEngineTracking.js"></script>
+<script type="text/javascript" src="https://webservices.plattformad.com/cfe/JSON.ashx?JSONAction=FormProgramsExtended&formid=6211&CurriculumCategoryID=3"></script> 
+<script type="text/javascript" src="http://webservices.plattformad.com/cfe/scripts/JSONObjectCurriculumHandlerCID.js"></script> 
+<script type="text/javascript">InitCurriculumDropDown('LocationID','CurriculumID');</script> 
+<!-- IF The school only has 1 location, add a hidden input field above for LocationID, delete the line above right above this, and use the below script (be sure to replace XXXXX with the LocationID value)  --> 
+<!--script type="text/javascript">
+__CurriculumObject = _LocationID;
+FillPrograms(XXXXX,'CurriculumID');
+</script--> 
+<!-- --> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+<script type="text/javascript" src="scripts/plugins.js"></script> 
+<script type="text/javascript" src="scripts/plattform-scripts.js"></script>
+<script type="text/javascript" src="scripts/traffic.js"></script>
+</body>
+</html>

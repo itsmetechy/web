@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script src="js/jquery-1.7.2.js" type="text/javascript"></script>
+<script src="https://preferences.truste.com/webservices/js?domain=sourceinterlink.com&type=epref"></script>
+<script type="text/javascript">
+var loadUrl = function(){
+var newUrl = "https://preferences-mgr.truste.com/?type=pop&affiliateId=42";
+var getUrl = 	$('.box_overlay').find('iframe').attr('src',newUrl);
+}
+$(window).load(function() {
+	$('.adchoices').live('click',function(){
+		setTimeout(loadUrl);
+});	
+});
+ $.ajax({
+type: "GET",
+dataType: "jsonp",
+cache: false,
+url: "https://api.instagram.com/v1/users/19922246/media/recent?access_token=471192080.1fb234f.4773e732e0044b3d9fb612c90099842b",
+success: function(data) {
+for (var i = 0; i < 20; i++) {
+$(".media-grid").append("<li><div style='margin: 0 0 5px 5px;'><a style='margin: 0;' target='_blank' href='" + data.data[i].link + "'><img style='height: 130px; width: 130px' src='" + data.data[i].images.thumbnail.url + "'></img></a></div></li>");
+}
+}
+}); 
+</script>
+<style type="text/css"></style>
+</head>
+<body>
+<iframe id="fed-modalIframeId" width="100%" height="100%" marginwidth="0" marginheight="0" frameborder="0" scrolling="auto" title="Source Interlink Companies Privacy Policy" src="test.html">Your browser does not support iframes
+	</iframe>
+<div class="log"></div>
+<a class="adchoices" rel="nofollow" onclick="s_objectID='Footer_AdChoices'" title="Ad Choices" href="javascript:TRUSTeWidget.Tab.link();" data-s-object-id="">Ad Choices</a>
+<footer class="fed-footer" style="margin-left: -80px; width: 1280px;">
+<div class="ctr-footer">
+		<div class="mod-footer">
+			<ul class="main addthis_toolbox addthis_32x32_style addthis_default_style">
+				<li class="logo">
+					<span>
+						<span class="visuallyhidden">Automotive.com</span>
+					</span>
+				</li>
+				<li class="twitter">
+					<a rel="me" class="addthis_button_twitter_follow" addthis:userid="myautomotive" onclick="s_objectID='Footer_SocialMedia:Twitter'" target="_blank" title="Follow on Twitter" href="#">
+						<i class="icon-twitter"></i><span class="visuallyhidden">Twitter</span>
+					</a>
+				</li>
+				<li class="facebook">
+					<a rel="me" class="addthis_button_facebook_follow" addthis:userid="automotivecom" onclick="s_objectID='Footer_SocialMedia:Facebook'" href="http://www.facebook.com/automotivecom" target="_blank" title="Follow on Facebook">
+						<i class="icon-facebook"></i><span class="visuallyhidden">Facebook</span>
+					</a>
+				</li>
+				<li class="google">
+					<a rel="publisher" class="addthis_button_google_follow" addthis:userid="115594716242198369274" onclick="s_objectID='Footer_SocialMedia:GooglePlus'" title="Follow on Google" href="https://plus.google.com/115594716242198369274" target="_blank">
+						<i class="icon-google-plus"></i><span class="visuallyhidden">Google +</span>
+					</a>
+				</li>
+				<li class="instagram">
+					<a rel="me" class="addthis_button_instagram_follow" addthis:userid="Automotive_com" onclick="s_objectID='Footer_SocialMedia:Instagram'" href="http://instagram.com/Automotive_com" target="_blank" title="Follow on Instagram">
+						<i class="icon-instagram"></i><span class="visuallyhidden">Instagram</span>
+					</a>
+				</li>
+				<li class="pintrest">
+					<a rel="me" class="addthis_button_pinterest_follow" addthis:userid="automotive" onclick="s_objectID='Footer_SocialMedia:Pinterest'" href="http://www.pinterest.com/automotive" target="_blank" title="Follow on Pinterest">
+						<i class="icon-pinterest-sign"></i><span class="visuallyhidden">Pinterest</span>
+					</a>
+				</li>
+				<li class="rss">
+					<a class="addthis_button_rss_follow" addthis:url="http://staging1.int.automotive.com/rss/" href="http://staging1.int.automotive.com/rss/" target="_blank" title="Subscribe">
+						<i class="icon-rss"></i><span class="visuallyhidden">RSS</span>
+					</a>
+				</li>
+
+				<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ed5718451d4b5ca"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;"><iframe id="_atssh633" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px; left: 0px; top: 0px;" src="//ct1.addthis.com/static/r07/sh142.html#iit=1386741530521&amp;tmr=load%3D1386741529163%26core%3D1386741529404%26main%3D1386741530507%26ifr%3D1386741530527&amp;cb=0&amp;cdn=1&amp;chr=UTF-8&amp;kw=trade-in%20quote%2Ccar%20trade-in%2Ctrade%20in%20quotes%2Ctrade%20in%20value%20quote%2Ctrade-in%20quotes%2Ccar%20trade%20quote%2Ccar%20trade&amp;ab=-&amp;dh=staging1.int.automotive.com&amp;dr=&amp;du=http%3A%2F%2Fstaging1.int.automotive.com%2Fused-cars%2Fstart.html&amp;dt=Car%20Trade-In%20Quote%20%7C%20Free%20New%20Car%20Trade-In%20Value%20Quote%20at%20Automotive.com&amp;dbg=0&amp;md=0&amp;cap=tc%3D0%26ab%3D0&amp;inst=1&amp;vcl=0&amp;jsl=33&amp;prod=undefined&amp;lng=en-US&amp;ogt=type%3Darticle%2Cimage%2Cdescription%2Ctitle%2Curl%2Csite_name%2Curl&amp;pc=men&amp;pub=ra-4ed5718451d4b5ca&amp;ssl=0&amp;sid=52a7ff19691327d5&amp;srpl=1&amp;srcs=1&amp;srd=1&amp;srf=1&amp;srx=1&amp;ver=300&amp;xck=1&amp;xtr=0&amp;og=url%3Dhttp%253A%252F%252Fwww.automotive.com%252Fused-cars%252Fstart.html%253Fsclear%253Dtrue%26site_name%3DAutomotive.com%26title%3DCar%2520Trade-In%2520Quote%2520%257C%2520Free%2520New%2520Car%2520Trade-In%2520Value%2520Quote%2520at%2520Automotive.com%26description%3DComplete%2520our%2520quick%2520and%2520easy%2520online%2520vehicle%2520trade-in%2520quote%2520form%2520to%2520compare%2520quotes%2520and%2520see%2520if%2520you%2520can%2520save%2520on%2520a%2520new%2520car%2520when%2520trading%2520in%2520your%2520used%2520vehicle!%26image%3Dhttp%253A%252F%252Fstatic.staging1.int.automotive.com%252F_SiteConfigs%252Fautomotive_com%252Fimages%252Ffb_logo.png%26type%3Darticle&amp;aa=0&amp;rev=125054&amp;ct=1&amp;xld=1&amp;xd=1"></iframe></div><script type="text/javascript" src="http://ct1.addthis.com/static/r07/core112.js"></script>
+				<script type="text/javascript">
+				var addthis_config = {
+				data_use_cookies: false,
+				data_use_flash: false,
+				data_ga_property: 'UA-8050270-3',
+				data_ga_social: true,
+				ui_click: true
+				};
+				</script>
+			<div class="atclear"></div></ul>
+			<div class="secondary-wrapper">
+				<ul class="secondary">
+					<script src="http://preferences.truste.com/webservices/js?domain=sourceinterlink.com&amp;type=epref" type="text/javascript"></script>
+					<li>
+						<a href="http://staging1.int.automotive.com/about-us/" onclick="s_objectID='Footer_AboutUs'" title="About Automotive.com" data-s-object-id="">About Us</a>
+					</li>
+					<li>
+						<a href="http://staging1.int.automotive.com/advertising/" onclick="s_objectID='Footer_Advertising'" title="Advertise on Automotive.com" data-s-object-id="">Advertising</a>
+					</li>
+					<li>
+						<a target="blank" href="https://signup.cj.com/member/brandedPublisherSignUp.do?air_refmerchantid=1512270" onclick="s_objectID='Footer_Affiliates'" rel="nofollow" title="Affiliates" data-s-object-id="">Affiliates</a>
+					</li>
+					<li>
+						<a href="http://staging1.int.automotive.com/sitemap/" onclick="s_objectID='Footer_Sitemap'" title="Automotive.com Sitemap" data-s-object-id="">Site Map</a>
+					</li>
+					<li>
+						<a href="#" class="dialog-lnk" data-dialog="terms" onclick="s_objectID='Footer_Terms'" title="Terms Automotive.com" data-s-object-id="">Terms</a>
+					</li>
+					<li>
+						<a href="http://staging1.int.automotive.com/newsletter/t3-18-1" onclick="s_objectID='Navbar_NewsletterSignUp';" title="Sign Up For Our Newsletter" data-s-object-id="Navbar_NewsletterSignUp">Newsletter</a>
+					</li>
+					<li>
+						<a href="javascript:TRUSTeWidget.Tab.link();" title="Ad Choices" onclick="s_objectID='Footer_AdChoices'" rel="nofollow" class="adchoices" data-s-object-id="">Ad Choices</a>
+					</li>
+					<li>
+						<a href="http://dealer.staging1.int.automotive.com/index.html" onclick="s_objectID='Footer_DealerInquires'" title="New Car Dealers Inquiries" data-s-object-id="">Dealer Inquires</a>
+					</li>
+					<li>
+						<a href="#" class="dialog-lnk" data-dialog="privacy" onclick="s_objectID='Footer_Privacy'" rel="nofollow" title="Privacy Policy" data-s-object-id="">Privacy</a>
+					</li>
+					<li>
+						<a href="#" class="dialog-lnk" data-dialog="usercontent" onclick="s_objectID='Footer_UserContent'" rel="nofollow" title="User Content" data-s-object-id="">User Content</a>
+					</li>
+				</ul>
+
+			</div>
+			<p>© <script>document.write(new Date().getFullYear());</script>2013 Automotive.com, LLC (a Source Interlink Media, LLC company) All rights reserved. HAWWBIIS3Q</p>
+		</div>
+	</div>
+</footer>
+</body>
+</html>

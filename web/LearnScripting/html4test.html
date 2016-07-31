@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML5 Test</title>
+<script type = "text/javascript" src="js/jquery-1.7.2.js"> </script>
+<script type = "text/javascript" src = "js/html5Test.js"> </script>
+<style type="text/css">
+div#options input { margin-left: 15px; }
+div#quizContainer {
+	width: 500px;
+	background-color: #FAFAFA;
+	padding: 10px;
+	padding-bottom: 35px;
+}
+#nextButton {
+	float: right;
+	width: 100px;
+	height: 25px;
+}
+#resultButton {
+	display: none;
+	float: right;
+	width: 100px;
+	height: 25px;
+}
+ul {
+	padding: 0px;
+	margin: 5px;
+}
+ul li { list-style: none; }
+</style>
+</head>
+<body>
+<div id = "quizContainer">
+	<div id ="questionContainer"> </div>
+	<div id="optionContainer"> </div>
+	<button id="nextButton" disabled>Next</button>
+	<button id="resultButton">Show Result</button>
+</div>
+<p id="resultInfo"></p>
+</body>
+</html>
