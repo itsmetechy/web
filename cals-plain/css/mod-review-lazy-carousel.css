@@ -1,0 +1,465 @@
+.advanced-slider-review .crslReview-info {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	cursor: pointer;
+	left: 0;
+	position: absolute;
+	bottom: 0;
+	padding: 10px;
+	width:644px;
+}
+.advanced-slider-review .crslReview-info h4 {
+	font: bold 25px/27px Arial, Helvetica, sans-serif;
+	padding: 0 10px;
+}
+.advanced-slider-review .crslReview-info p {
+	font: 11px/12px 'Verdana', sans-serif;
+	padding: 3px 10px;
+}
+.advanced-slider-review {
+	position: relative;
+	overflow: visible;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	height:450px !important;
+}
+.advanced-slider-review * {
+	margin: 0;
+	padding: 0;
+}
+.advanced-slider-review .slider-main {
+	position: relative;
+	padding:0 67px;
+	height: 450px !important;
+	z-index: 10;
+}
+.advanced-slider-review .slide-wrapper {
+	position: relative;
+	overflow: visible;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.advanced-slider-review ul.slides {
+	border:#cbcbcb 1px solid;
+	position: absolute;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 664px;
+	height: 327px;
+	z-index: -1;
+}
+.advanced-slider-review li.slide {
+	cursor:pointer;
+	position: absolute;
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 327px;
+	visibility: hidden;
+	list-style: none;
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+.ie7 .advanced-slider-review li.slide.active, .ie7 .advanced-slider-review li.slide.transition {
+	visibility: visible;
+}
+.advanced-slider-review li.slide > a {
+	display:block;
+	height:100%;
+	width:100%;
+}
+.advanced-slider-review li.slide .image, .advanced-slider-review li.slide .thumbnail, .advanced-slider-review li.slide .caption, .advanced-slider-review li.slide .html { position: absolute;/*margin-left:0 !important;
+	margin-top:0 !important;*/ }
+.advanced-slider-review li.slide img, .advanced-slider-review .thumbnail img {
+	max-width: none;
+	max-height: none;
+	border: 0 none;
+}
+.advanced-slider-review.webkit li.slide .html { overflow: hidden; }
+.advanced-slider-review.webkit li.slide iframe { opacity: 0; }
+.advanced-slider-review.webkit li.slide.transition iframe, .advanced-slider-review.webkit li.slide.active iframe { opacity: 1; }
+.advanced-slider-review .slice-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.advanced-slider-review .swipeable-container {
+	position: absolute;
+	width: 508px;
+	height: 256px;
+	overflow:hidden;
+}
+.advanced-slider-review .swipeable-container .slides {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+.advanced-slider-review .swipeable-container .slides .selectable {
+	-webkit-user-select: auto;
+	-moz-user-select: auto;
+	-o-user-select: auto;
+	user-select: auto;
+	cursor: auto;
+}
+.advanced-slider-review .slice {
+	display: block;
+	position: absolute;
+}
+.advanced-slider-review .preloader {
+	position: absolute;
+	background: url(../_siteconfigs/automotive_com/images/bghtml5/preloader2.gif) no-repeat;
+	width: 62px;
+	height: 14px;
+	z-index: 15;
+	top:158px !important;
+}
+.advanced-slider-review .slide-arrows { }
+.advanced-slider-review .slide-arrows a {
+	position: absolute;
+	z-index: 30;
+	cursor: pointer;
+}
+.advanced-slider-review .lightbox-icon {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	top: 50%;
+	left: 50%;
+	margin-top: -40px;
+	margin-left: -40px;
+	cursor: pointer;
+	z-index: 10;
+}
+.advanced-slider-review .slideshow-controls {
+	position: absolute;
+	z-index: 40;
+	cursor: pointer;
+}
+.advanced-slider-review .shadow {
+	position: absolute;
+	height: 94px;
+	margin-top: -50px;
+	z-index: 5;
+}
+.advanced-slider-review .shadow .shadow-left, .advanced-slider-review .shadow .shadow-right, .advanced-slider-review .shadow .shadow-middle { float: left; }
+.advanced-slider-review .timer-animation { position: absolute; }
+.advanced-slider-review canvas { position: absolute; }
+.advanced-slider-review .timer-animation .timer-animation-controls {
+	position: absolute;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -10px;
+}
+.advanced-slider-review .timer-animation .timer-animation-controls {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/player-arrows.png');
+	position: absolute;
+	top: 313px;
+}
+.advanced-slider-review .timer-animation.play .timer-animation-controls {
+	background-position: -25px 0px;
+	height: 15px;
+}
+.advanced-slider-review .timer-animation.pause .timer-animation-controls {
+	background-position: -25px 14px;
+	height: 15px;
+}
+.advanced-slider-review .caption-container {
+	overflow: hidden;
+	position: absolute;
+}
+.advanced-slider-review .caption-container .wrapper { position: absolute; }
+.advanced-slider-review .caption-container .background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.advanced-slider-review .thumbnail-wrapper { position: absolute; }
+.advanced-slider-review .thumbnail {
+	background-image: url(../_siteconfigs/automotive_com/images/bghtml5/preloader2.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+}
+.advanced-slider-review .slide-buttons {
+	position: absolute;
+	z-index: 20;
+}
+.advanced-slider-review .slide-buttons .left, .advanced-slider-review .slide-buttons .right, .advanced-slider-review .slide-buttons .middle { float: left; }
+.advanced-slider-review .slide-buttons a {
+	position: relative;
+	cursor: pointer;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+}
+.advanced-slider-review .thumbnail-scroller {
+	position: absolute;
+	z-index: 20;
+}
+.advanced-slider-review .thumbnail-scroller .visible-container {
+	margin-left:2px;
+	position: relative;
+	overflow: hidden;
+}
+.advanced-slider-review .thumbnail-scroller .container {
+	position: relative;
+	overflow: visible;
+	top: 0;
+	left: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.advanced-slider-review .thumbnail-scroller .thumbnail-wrapper {
+	cursor: pointer;
+	list-style: none;
+}
+.advanced-slider-review .thumbnail-scroller .lightbox-icon {
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 50%;
+	left: 50%;
+	margin-top: -15px;
+	margin-left: -15px;
+	cursor: pointer;
+}
+.advanced-slider-review .thumbnail .caption {
+	display:none;
+	height:58px !important;
+	width:228px;
+}
+.advanced-slider-review .thumbnail .caption .background {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+.advanced-slider-review .thumbnail .caption .content {
+	position: absolute;
+	width: 112px;
+	z-index: 20;
+}
+.advanced-slider-review .thumbnail-scroller .arrows a {
+	background-image:url(../_siteconfigs/automotive_com/images/bghtml5/review_caresul_arrow_control.png);
+	background-repeat:no-repeat;
+	color:#FFF;
+	cursor: pointer;
+	display:inline-block;
+	font:12px/12px Verdana, Geneva, sans-serif;
+	margin-left:25px;
+}
+.advanced-slider-review .thumbnail-scroller .buttons {
+	position: absolute;
+	width: auto;
+}
+.advanced-slider-review .thumbnail-scroller .buttons a {
+	position: absolute;
+	cursor: pointer;
+	text-decoration: none;
+}
+.advanced-slider-review-tooltip {
+	position: absolute;
+	z-index: 9999;
+}
+.glossy-square-gray-review .slide-wrapper { }
+.glossy-square-gray-review .slide { background-color: #FFF; }
+.glossy-square-gray-review .slide-arrows a.previous, .glossy-square-gray-review .slide-arrows a.next {
+	background-image:url(../_siteconfigs/automotive_com/images/bghtml5/review_caresul_arrow.png);
+	background-repeat:no-repeat;
+	cursor: pointer;
+	display: block;
+	height: 329px;
+	position: absolute;
+	text-indent: -999em;
+	top:0;
+	width: 60px;
+}
+.glossy-square-gray-review .slide-arrows a.previous {
+	background-position:0 center;
+	left: -67px;
+}
+.glossy-square-gray-review .slide-arrows a.previous:hover { background-position:-70px center; }
+.glossy-square-gray-review .slide-arrows a.next {
+	background-position:-210px center;
+	right:-67px;
+}
+.glossy-square-gray-review .slide-arrows a.next:hover { background-position:-140px center; }
+.glossy-square-gray-review .slideshow-controls.pause { background-position: 0 0; }
+.glossy-square-gray-review .slideshow-controls.play { background-position: -64px 0; }
+.glossy-square-gray-review .timer-animation {
+	top: 20px;
+	right: 20px;
+	display:none;
+}
+.glossy-square-gray-review .caption-container .background {
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+}
+.glossy-square-gray-review .caption-container .caption {
+	color: #FFF;
+	margin: 0;
+	padding: 8px;
+	font-size: 16px;
+	line-height: 18px;
+}
+.glossy-square-gray-review .slide-buttons { margin-top: 40px; }
+.glossy-square-gray-review .slide-buttons .buttons-inner a {
+	background: url(../i/buttons.png) no-repeat;
+	background-position: 0 0;
+	width: 14px;
+	height: 15px;
+	margin: 0 2px;
+}
+.glossy-square-gray-review .slide-buttons .buttons-inner a.over { background-position: -14px 0; }
+.glossy-square-gray-review .slide-buttons .buttons-inner a.select { background-position: -28px 0; }
+.glossy-square-gray-review .slide-buttons .buttons-inner a .number {
+	margin-top: 2px;
+	font-size: 8px;
+	line-height: 10px;
+	font-weight: bold;
+	color: #FFF;
+}
+.glossy-square-gray-review .slide-buttons .buttons-inner a.over .number { color: #FFF; }
+.glossy-square-gray-review .slide-buttons .buttons-inner a.select .number { color: #FFF; }
+.glossy-square-gray-review .slide-buttons .buttons-inner .thumbnail-wrapper { margin-bottom: 10px; }
+.glossy-square-gray-review .thumbnail { border: solid 1px #FFF; }
+.glossy-square-gray-review .thumbnail-scroller.horizontal {
+	background: #434343;
+	border:#CCC 1px solid;
+	bottom: 0;
+	left: 0px !important;
+	padding: 0;
+	bottom:0;
+	height:112px !important;
+	width:798px !important;
+}
+.glossy-square-gray-review .thumbnail-scroller.vertical {
+	right: 0;
+	top: 0;
+	padding: 50px 0;
+	margin-left: 30px;
+}
+.glossy-square-gray-review .thumbnail-scroller.vertical.overlay {
+	right: 80px;
+	margin-left: 0;
+}
+.glossy-square-gray-review .thumbnail-scroller .thumbnail-wrapper { margin: 14px 6px 10px; }
+.glossy-square-gray-review .thumbnail-scroller .thumbnail {
+	border: solid 1px #CCC;
+	-webkit-transition: 0.4s opacity;
+	-moz-transition: 0.4s opacity;
+	-ms-transition: 0.4s opacity;
+	-o-transition: 0.4s opacity;
+	transition: 0.4s opacity;
+	width: 75px;
+	margin:1px;
+}
+.glossy-square-gray-review .thumbnail-scroller .thumbnail.select {
+	margin:0;
+	border: 2px solid #349aff;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.glossy-square-gray-review .thumbnail-scroller .thumbnail:hover { border-color:#349aff; }
+.glossy-square-gray-review .thumbnail-scroller .thumbnail-wrapper .thumbnail.select::before {
+	content: '';
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 0 7.5px 8px 7.5px;
+	border-color: transparent transparent #349aff transparent;
+	left: 50%;
+	position: absolute;
+	top: -10px;
+	z-index: 2;
+	margin-left:-7.5px;
+}
+.glossy-square-gray-review .thumbnail-scroller .thumbnail-wrapper .thumbnail.select:hover {
+	cursor:default;
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
+.glossy-square-gray-review .thumbnail .caption .background {
+	background-color: #000;
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+}
+.glossy-square-gray-review .thumbnail .caption .content {
+	color: #FFF;
+	font-size: 11px;
+	line-height: 13px;
+	text-align: center;
+	padding: 8px 3px 0;
+	margin: 0;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows {
+	float: right;
+	padding-right:10px;
+	padding-top:5px;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.timer-animation-controls.pause {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/player-arrows.png') no-repeat;
+	background-position: -23px -13px;
+	height: 13px;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.timer-animation-controls.play {
+	background: url('../_siteconfigs/automotive_com/images/bghtml5/player-arrows.png') no-repeat;
+	background-position: -23px 0;
+	height: 13px;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.disabled {
+	cursor:default;
+	color:#6b6b6b;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.disabled:hover {
+	color:#6b6b6b;
+	text-decoration:none;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.previous {
+	background-position:left 2px;
+	padding-left:13px;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.previous:hover { background-position:left -39px; }
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.previous.disabled { background-position: left -79px; }
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.next {
+	background-position: right 2px;
+	padding-right:12px;
+}
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.next:hover { background-position:right -39px; }
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a.next.disabled { background-position: right -79px; }
+.glossy-square-gray-review .thumbnail-scroller.vertical .arrows a.next { background-position: 0 -22px; }
+.glossy-square-gray-review .thumbnail-scroller.horizontal .arrows a:hover {
+	text-decoration:underline;
+	color:#359aff;
+}
+.glossy-square-gray-review .thumbnail-scroller .buttons a.over { background-position: -11px 0; }
+.glossy-square-gray-review .thumbnail-scroller .buttons a.select { background-position: -22px 0; }
+.glossy-square-gray-review .thumbnail-scroller.horizontal .scrollbar { margin-top: 30px; }
+.glossy-square-gray-review .thumbnail-scroller.vertical .scrollbar { margin-left: 30px; }
+.advanced-slider-review  .tooltip {
+	background-color: #DDD;
+	margin-bottom: 20px;
+	border: #EEE solid 4px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+.advanced-slider-review  .tooltip .content {
+	color: #999;
+	padding: 10px;
+	margin: 0;
+}

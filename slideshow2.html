@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+$("#photos > img:gt(0)").hide();	
+});
+setInterval(function() { 
+  $('#photos > img:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#photos');
+},  3000);
+
+setInterval(function(){
+	$('#photos > img:first').fadeOut(1000).next().fadeIn(1000).end().appendTo('#photos');
+},1000);
+
+
+
+</script>
+<style type="text/css">
+#navigation {
+position: relative;
+}
+#content {
+height: 2000px;
+}
+#photos img{height:500px; width:500px; position:absolute; left:0px; top:0px;}
+</style>
+</head>
+
+<body>
+ <div id="photos">
+ 	<img src="images/1.jpg">
+    <img src="images/2.jpg">
+    <img src="images/3.jpg">
+    <img src="images/4.jpg">
+ </div>
+
+</body>
+</html>

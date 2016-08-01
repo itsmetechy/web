@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="../jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+	//	$('h1').mouseover(function(){
+//			$(this).stop().animate({"opacity": "0.5"}, "fast");
+//		})
+//		$('h1').mouseout(function(){
+//		$(this).stop().animate({"opacity": "1"}, "fast");
+//		})
+		
+		})
+</script>
+<style type="text/css">
+*{margin:0px; padding:0px;}
+body{position:relative;}
+div
+{
+width:100px;
+height:100px;
+background:red; border-radius:150px; -moz-border-radius:150px;
+position:relative; left:0px;
+
+}
+
+div:hover
+{
+position:relative; left:300px;
+transition:1s ease-out;
+-moz-transition:1s ease-out; /* Firefox 4 */
+-webkit-transition:1s ease-out; /* Safari and Chrome */
+-o-transition:1s ease-out; /* Opera */
+}
+h1{font-size:40px; text-align:center; font-family:Georgia, "Times New Roman", Times, serif; color:#390; opacity: 1;
+   transition: opacity .25s ease;
+   -moz-transition: opacity .25s ease;
+   -webkit-transition: opacity .25s ease;}
+h1:hover{opacity: 0.1;}
+	 
+</style>
+</head>
+
+<body>
+<h1>check demo text</h1>
+</body>
+</html>

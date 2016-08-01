@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+ $(document).ready(function () {
+var objHeight = $('.popWrap').height();
+var objWidth = $('.popWrap').width();
+				
+				
+				
+				
+				function popup(){
+				var objHeight = $('.popup').height();
+			var objWidth = $('.popup').width();
+ 		 var wWidth =$(window).width();
+		 var wHeight = $(window).height();
+	 	 $('.popup').css({top:(wHeight/2) - (objHeight/2)});
+		 $('.popup').css({left:(wWidth/2) - (objWidth/2)});	 
+		// var $this = $('a');
+		
+		 $('a.click').click(function(){
+					$('.popup').fadeIn().css({
+
+						});
+					$('#yes').click(function(){
+						$('.popup').hide();
+					})
+					$('#no').click(function(){
+						$('.popup').hide();
+					})
+				})
+		 }
+ 		 $(window).resize(function(){
+		//popup();
+	   	})
+ 	 popup();
+            });
+</script>
+<style type="text/css">
+
+	.popWrap{ }
+	.popup{
+		display:none; position:absolute; padding:10px; background:#fff; box-shadow:0px 0px 5px #000;  text-align:center;
+	}
+</style>
+</head>
+
+<body>
+<a href="#" class="click">click</a>
+<div class="popWrap"><div class="popup">
+<h3>some text some text some text some text some text?</h3>
+<input type="button" value="yes" id="yes"/>
+<input type="button" value="no" id="no"/>
+
+</div></div>
+</body>
+</html>

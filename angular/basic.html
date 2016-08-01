@@ -1,0 +1,48 @@
+<!doctype html>
+<html ng-app="myApp" ng-csp="no-unsafe-eval | no-inline-style">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+    <script>
+    
+$(document).ready(function(){
+   $('div').attr('ng-init',"myVar='img/logo.png'")
+});
+    </script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js">
+        < script src = "//ajax.googleapis.com/ajax/libs/angularjs/1.5.0-beta.2/angular-sanitize.js" >
+    </script>
+    <script type="text/javascript" src="lib/angular-construct.js"></script>
+    <script>
+    </script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .even {
+            background: orange
+        }
+    </style>
+</head>
+
+<body>
+<div ng-app="myShoppingList" ng-controller="myCtrl">
+    
+    <p>{{errortext}}</p>
+    <ul>
+        <li ng-repeat="x in products">
+            {{x}}
+            <span ng-click="removeItem($index)">&times;</span>
+        </li>
+    </ul>
+    <input ng-model="addMe">
+    <button ng-click="addItem()">Add</button>
+</div>
+</body>
+
+</html>

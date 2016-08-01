@@ -1,0 +1,321 @@
+.fL {
+	float: left;
+}
+.fR {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.payment-calculator {
+	border: #cacbcd 1px solid;
+	padding: 19px;
+}
+.payment-calculator .ally-payment-calcultor {
+	margin-bottom: 30px;
+}
+
+.payment-calculator .nobor { border:0px; }
+.payment-calculator .mBottom { margin-bottom:20px; }
+.payment-calculator .filterWrap{ float:left; width:100%; margin:16px 10px 38px 0px; }
+
+.ally-payment-calcultor img { float:left; }
+
+.ally-payment-calcultor .paymentTitle {  color:#650360; font-size:18px; font-weight:bold;  display:inline-block;  padding:14px 0 0 15px; }
+.payment-calculator h4 {
+	color: #000;
+	border-bottom: 1px solid #e3e3e3;
+	font-size: 17px;
+	line-height: 20px;
+	float:left;
+	width:100%;
+}
+.payment-calculator .section h4 div {
+	float: left;
+	width: 320px;
+}
+.payment-calculator .section h4 .moLoan {
+	font-size: 25px;
+}
+.payment-calculator .calc-block .section {
+	margin-bottom: 30px;
+}
+.calc-block .section .row {
+	border-bottom: 1px solid #e3e3e3;
+	clear:both;
+	font-size: 14px;
+	padding: 5px 0px;
+}
+
+.calc-block .section .row  span, .calc-block .section .row  input {  background:background: #e8e8e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #e8e8e8 0%, #fdfdfd 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#fdfdfd)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e8e8e8 0%,#fdfdfd 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e8e8e8 0%,#fdfdfd 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e8e8e8 0%,#fdfdfd 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e8e8e8 0%,#fdfdfd 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#fdfdfd',GradientType=0 ); /* IE6-9 */
+border:1px solid #999999; border-radius:5px;
+color: #000; font-weight:bold; line-height:23px;  width:60px;  padding-right:18px;  text-align:right;}
+.calc-block .section .row  span { border:none;  background:none;}
+.calc-block .section .row  span.movRight {  display:inline-block; margin-left:8px; }
+.calc-block .section .row label {
+	display: inline-block;
+	width: 320px;
+}
+.calc-block .section .row label span.inputValue {
+	float: right;
+	width: 56px;
+}
+.calc-block .section .row label span.inputValue .tax {  text-align:center; padding-right:0px; }
+.calc-block .section .row label span.inputValue input { width:40px; }
+
+
+
+.styleSelect select {
+	-o-appearance: none;
+	-moz-appearance: none;
+	 text-indent: 0.01px;
+    text-overflow: '';
+  background:  url(../images/selectArrow.PNG) no-repeat right ;
+  width: 165px;
+  padding: 0px 5px 0px 5px;
+  font-size: 16px;
+  line-height: 1;
+  border: 0;
+  border-radius: 0;
+  height: 23px;
+  -webkit-appearance: none;
+  color: #000;
+  margin-bottom:0px;
+}
+.styleSelect select option { background: #e7e7e7; }
+.yearSelect { width:105px !important; }
+.trimSelect { width:260px !important; }
+.modelSelect { width:178px !important; }
+
+.styleSelect {
+  border-radius:7px;
+ float:left;
+ margin-right:10px;
+  width: 165px;
+  height: 22px;
+  overflow: hidden;
+  background:background: #e8e8e8; /* Old browsers */
+background: -moz-linear-gradient(top,  #e8e8e8 0%	, #fdfdfd 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e8e8e8), color-stop(100%,#fdfdfd)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #e8e8e8 0%,#fdfdfd 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #e8e8e8 0%,#fdfdfd 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #e8e8e8 0%,#fdfdfd 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #e8e8e8 0%,#fdfdfd 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#fdfdfd',GradientType=0 ); /* IE6-9 */
+border: 1px solid #999999;
+}
+
+/* angular js styles for custom select */
+
+
+margin: 0 0 5px;
+  font-size: 16px; }
+   .mod-hp-research-start ul {
+  margin: 0;
+  padding: 0; }
+   .mod-hp-research-start .dropdown {
+  margin: 10px 0 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  font-size: 16px; }
+        .mod-hp-research-start .dropdown > li > i, 
+        .mod-hp-research-start .dropdown > div > li > i, 
+        .mod-hp-research-start .dropdown > li > a > i, 
+        .mod-hp-research-start .dropdown > li > a > div > i {
+    float: right;
+    font-size: 30px;
+    line-height: 24px;
+    color: #0066cc; }
+        .lt-ie9 .mod-hp-research-start .dropdown > li > i:before, 
+        .lt-ie9 .mod-hp-research-start .dropdown > div > li > i:before, 
+        .lt-ie9 .mod-hp-research-start .dropdown > li > a > i:before, 
+        .lt-ie9 .mod-hp-research-start .dropdown > li > a > div > i:before {
+        font-family: inherit;
+        content: '\25bc';
+        display: block; }
+        
+  .mod-hp-research-start .dropdown.fetching > div > li > i, .mod-hp-research-start .dropdown.fetching > li > a > div > i {
+    display: none; }
+  .mod-hp-research-start .dropdown.dropdown-disabled > div > li > i, .mod-hp-research-start .dropdown.dropdown-disabled li > a > div > i, .mod-hp-research-start .dropdown.dropdown-disabled, .mod-hp-research-start .dropdown.fetching {
+    color: #cacaca; }
+  .mod-hp-research-start .dropdown.fetching li {
+    background: white url("/_siteconfigs/automotive_com/images/hp_2014/ajax-loader.gif")  no-repeat 95% center; }
+  .mod-hp-research-start .dropdown.make {
+    z-index: 13; }
+  .mod-hp-research-start .dropdown.model {
+    z-index: 12; }
+  .mod-hp-research-start .dropdown.year {
+    z-index: 11;
+    width: 50%;
+    width: 48.52941%; }
+  .mod-hp-research-start .dropdown.make .options {
+    z-index: 10; }
+  .mod-hp-research-start .dropdown.model .options {
+    z-index: 11; }
+  .mod-hp-research-start .dropdown .options {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 500%;
+    overflow: auto;
+    overflow: auto; }
+  .lt-ie9 .mod-hp-research-start .dropdown.selected .options, .mod-hp-research-start .dropdown:hover.selected .options {
+    display: block;
+    z-index: 5; }
+   .mod-hp-research-start .type-fields .dropdown:hover .options {
+  display: block;
+  z-index: 5; }
+   .mod-hp-research-start .dropdown-disabled li {
+  cursor: default; }
+   .mod-hp-research-start .cta-research 
+   {
+       float:right;
+       color: #fff;
+  background: #0066cc;
+  padding: 12px 0;
+  font-size: 16px;  
+  margin: 0 0 0 2.94118%;
+  line-height: inherit;
+  width: 47%;
+  display: inline-block;
+  text-align: center; }
+   .mod-hp-research-start .cta-research:hover {
+  background: #147ae0; }
+   .mod-hp-research-start .cta-research:hover {
+  text-decoration: none; }
+   .mod-hp-research-start .options li {
+  /* Hacking border/position absolute/box sizing issue with inset box shadow in stead of a border */
+  box-shadow: inset 0 -1px 0 0 #c1c1c1, inset 1px 0px 0 0 #c1c1c1, inset -1px 0px 0 0 #c1c1c1; 
+  font-size:16px;}
+  .lt-ie9 .mod-hp-research-start .options li:first-child {
+    border-top: 1px solid #c1c1c1; }
+   .mod-hp-research-start li {
+  list-style-type: none;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #999;
+ background:background: #e8e8e8; /* Old browsers */
+	background: -moz-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e8e8), color-stop(100%, #fdfdfd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #e8e8e8 0%, #fdfdfd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#fdfdfd', GradientType=0 ); /* IE6-9 */
+	width: 165px;
+	border-radius: 8px;
+	font-weight: bold;
+	float: left;
+	line-height: 23px;
+	font-size: 12px;
+	margin-right: 10px;
+  position: relative;
+  cursor: pointer;
+  /* Hacking border/position absolute/box sizing issue with inset box shadow in stead of a border */
+   }
+  .lt-ie9 .mod-hp-research-start li {
+    border-style:solid;
+    border-color:#c1c1c1;
+    border-width:1px; }
+   .mod-hp-research-start .dropdown.missing div > li {
+  box-shadow: inset 0 -1px 0 0 red, inset 1px 0px 0 0 red, inset -1px 0px 0 0 red, inset 0 1px 0 0 red; }
+  .lt-ie9 .mod-hp-research-start .dropdown.missing div > li {
+    border-bottom: 1px solid red; }
+   .mod-hp-research-start.not-ready .vehicle-fields-wrapper {
+  background: url("/_siteconfigs/automotive_com/images/hp_2014/ajax-loader.gif") no-repeat center center; }
+   .mod-hp-research-start .vehicle-fields-wrapper {
+  background-image: none; }
+   .lt-ie10 .mod-hp-research-start.not-ready .new-used-wrapper *, .lt-ie10 .mod-research-start.not-ready .vehicle-fields-wrapper *, .lt-ie10 .mod-hp-research-start.not-ready .separator * {
+  visibility: hidden; }
+   .mod-hp-research-start.not-ready .new-used-wrapper *, .mod-hp-research-start.not-ready .vehicle-fields-wrapper *, .mod-hp-research-start.not-ready .separator * {
+  opacity: 0; }
+   .mod-hp-research-start .new-used-wrapper *,
+   .mod-hp-research-start .vehicle-fields-wrapper *,
+   .mod-hp-research-start .separator * {
+  -webkit-transition: opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: opacity 600ms cubic-bezier(0.215, 0.61, 0.355, 1); }
+   .mod-hp-research-start .vehicle-fields,
+   .mod-hp-research-start .separator,
+   .mod-hp-research-start .type-fields {
+  display: table-cell;
+  vertical-align: middle; }
+   .mod-hp-research-start .vehicle-fields {
+  width: 50%;
+  font-size: 0; }
+   .mod-hp-research-start .separator {
+  color: #222222;
+  text-transform: uppercase;
+  padding: 25px; }
+   .mod-hp-research-start .type-fields {
+  width: 50%; }
+  .mod-hp-research-start .type-fields .lead {
+    margin-bottom: 133px; }
+  .mod-hp-research-start .type-fields a,
+  .mod-hp-research-start .type-fields a:hover,
+  .mod-hp-research-start .type-fields a:active,
+  .mod-hp-research-start .type-fields a:visited {
+    color: #222222;
+    text-decoration: none; }
+  .mod-hp-research-start .type-fields li {
+    position: relative; }
+  .mod-hp-research-start .type-fields ul a {
+    display: block; }
+  .mod-hp-research-start .type-fields ul a:before {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: block;
+    content: ''; }
+   .mod-hp-research-start .types {
+  position: absolute;
+  width: 205px;
+  height: 135px;
+  top: 0;
+  left: 50%;
+  margin: 60px 0 0 106px;
+  background: url("/_siteconfigs/automotive_com/images/hp_2014/drilldowncartypes.gif") no-repeat; }
+  .mod-hp-research-start .types.vtype-compact {
+    background-position: 0 0; }
+  .mod-hp-research-start .types.vtype-sedans {
+    background-position: 0 -1305PX; }
+  .mod-hp-research-start .types.vtype-suvs {
+    background-position: 0 -1740PX; }
+  .mod-hp-research-start .types.vtype-sports {
+    background-position: 0 -1450PX; }
+  .mod-hp-research-start .types.vtype-minivans-vans {
+    background-position: 0 -1015PX; }
+  .mod-hp-research-start .types.vtype-convertibles {
+    background-position: 0 -145PX; }
+  .mod-hp-research-start .types.vtype-coupes {
+    background-position: 0 -290PX; }
+  .mod-hp-research-start .types.vtype-hatchbacks {
+    background-position: 0 -435PX; }
+  .mod-hp-research-start .types.vtype-hybrid {
+    background-position: 0 -580PX; }
+  .mod-hp-research-start .types.vtype-trucks {
+    background-position: 0 -1885PX; }
+  .mod-hp-research-start .types.vtype-luxury {
+    background-position: 0 -725PX; }
+  .mod-hp-research-start .types.vtype-utility-offroad {
+    background-position: 0 -1160PX; }
+  .mod-hp-research-start .types.vtype-midsize {
+    background-position: 0 -870PX; }
+  .mod-hp-research-start .types.vtype-wagons {
+    background-position: 0 -2030PX; }
+	
+	 .mod-hp-research-start .ng-binding {
+padding-left: 12px;
+}

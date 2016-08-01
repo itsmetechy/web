@@ -1,0 +1,123 @@
+.custom-select {
+	position: relative;
+}
+.custom-select select {
+	display: none;/*Works together with hidecss option depending on accesibility needs*/
+}
+.ie7 .custom-select select {
+	display: block;
+	width: 100%;
+}
+.fake-select {
+	color: #444;
+	cursor: pointer;
+	position: relative;
+}
+.fake-select .option-resize {
+ background:background: #e8e8e8; /* Old browsers */
+	background: -moz-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8e8e8), color-stop(100%, #fdfdfd)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #e8e8e8 0%, #fdfdfd 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #e8e8e8 0%, #fdfdfd 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#fdfdfd', GradientType=0 ); /* IE6-9 */
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	border: 1px solid #999999;
+	border-radius: 8px;
+	font-weight: bold;
+	float:left;
+	line-height: 23px;
+	margin-right:10px;
+	width: 165px;
+	padding-right: 0px;
+}
+.ie7 .fake-select .option-resize {
+	width: 100%;
+}
+.fake-select .option-resize .bg {
+	background: url(../images/selectArrow.PNG) no-repeat right top;
+	padding: 0 0px 0 12px;
+}
+.fake-select .disabled {
+	border-color: #d6d6d6;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.07);
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.07);
+	color: #a0a0a0;
+	cursor: default;
+}
+.fake-select .disabled .bg {
+	background: url(../i/new-car-select.png) no-repeat right bottom transparent;
+}
+.fake-select .option-list {
+	background: #f9f9f9;
+	border-left: 1px solid #999;
+	border-bottom: 1px solid #999;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;
+	display: none;
+	left: 0;
+	max-height: 340px;
+	overflow: auto;
+	position: absolute;
+	top: 24px;
+	width: 100%;
+	z-index: 15;
+}
+.fake-select .option-selected, .fake-select .option-open {
+	border: 1px solid #999;
+	position:relative;
+}
+.fake-select .option-selected .bg, .fake-select .option-open .bg {
+	background-position: right top;
+	color: #595959;
+}
+.fake-select .option-list .select-list-item {
+	border: 1px solid #999;
+	border-left: none;
+	border-bottom: none;
+	color: #363636;
+	font: normal 15px/30px Arial, helvetica;
+	padding: 0 17px;
+}
+.fake-select .option-list .select-list-item:first-child {
+	border-top: none;
+}
+.fake-select .option-list .select-list-item:hover {
+	background: #F0F0F0;
+	color: #2e75f0;
+}
+.custom-select-btn {
+	border: 1px solid #614A41;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 0;
+	line-height: 16px;
+}
+.custom-select-btn {
+	background: #CB1812;
+	background: -moz-linear-gradient(top, #EF0A00 0%, #C10500 40%, #B70400 60%, #E10900 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EF0A00), color-stop(40%, #C10500), color-stop(60%, #B70400), color-stop(100%, #E10900));
+	background: -webkit-linear-gradient(top, #EF0A00 0%, #C10500 40%, #B70400 60%, #E10900 100%);
+	background: -o-linear-gradient(top, #EF0A00 0%, #C10500 40%, #B70400 60%, #E10900 100%);
+	background: -ms-linear-gradient(top, #EF0A00 0%, #C10500 40%, #B70400 60%, #E10900 100%);
+	background: linear-gradient(to bottom, #EF0A00 0%, #C10500 40%, #B70400 60%, #E10900 100%);
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef0a00', endColorstr='#e10900', GradientType=0 );
+	border: 1px solid #DF0900;
+	color: white;
+	display: inline-block;
+	font: normal 21px/33px Arial, helvetica;
+	padding: 0 22px;
+	text-align: center;
+	text-shadow: 0 0 2px rgba(0, 0, 0, 0.7);
+	text-transform: uppercase;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.17);
+	box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.17);
+}

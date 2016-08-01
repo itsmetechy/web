@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+<script src="js/jquery-1.7.2.js"></script>
+
+<body>
+<script type="text/javascript">
+var getWindow = $(window).width();
+if(getWindow < 400){
+	alert($('ul li').length);
+	$('ul li').slice(-2).remove();	
+}	
+
+    $.ajax({
+        type: "GET",
+        dataType: "jsonp",
+        cache: false,
+        url:"https://api.instagram.com/v1/users/49926894/media/recent?access_token=467975718.1fb234f.f4fed8969cb646bf8b299a698d56a80b&max_id=563784495616859270_49926894",
+        success: function(data) {
+        for (var i = 0; i < 20; i++) {
+            $(".media-grid ul").append("<li><div style='margin: 0 0 5px 5px;'><a style='margin: 0;' target='_blank' href='" + data.data[i].link + "'><img alt='Instagram' style='height: 130px; width: 130px' src='" + data.data[i].images.thumbnail.url + "'></img></a></div></li>");
+           }
+        }
+    });
+</script>
+<div class="media-grid">
+<ul></ul>
+</div>
+</body>
+</html>

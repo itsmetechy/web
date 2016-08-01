@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>jQuery</title>
+    <script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+	setTimeout(function(){
+		alert('terst');
+	},5000)
+	        $(document).ready(function() {
+			$( window ).bind( "click", function( event ) {
+   		 		var wWidth = $(this).width();
+				var wheight = $(this).height();
+				var halfWidth = wWidth/2;
+				var leftSpace = event.pageX;
+				var rightSpace = event.pageY;
+				if(leftSpace || rightSpace){
+					//$('div').remove();
+					//$('body').append('<div style="background:orange; width:'+ halfWidth+'px; float:left; height:'+wheight+'px;"></div>');	
+					fixSquare(leftSpace,rightSpace);
+				}
+				
+				function fixSquare(leftSpace,rightSpace){					
+					var checkPostion = leftSpace + 80;
+					console.log("window width:"+ wWidth);
+					console.log("Left space: " +leftSpace);
+					console.log("check position:"+checkPostion);
+					if(checkPostion>=wWidth){
+						var newPosition = leftSpace - 80;
+						$('body').append('<div class="box" style="left:'+newPosition+'px; top:'+rightSpace+'px">');
+					}else{
+						$('body').append('<div class="box" style="left:'+leftSpace+'px; top:'+rightSpace+'px">');	
+					}
+				}
+	    	});
+		});
+    </script>
+    <style type="text/css">
+	* { margin:0px; padding:0px; }
+    	.box { height:80px; width:80px; background:black; position:absolute; }
+    </style>
+    </head>
+
+<body>
+
+</body>
+</html>

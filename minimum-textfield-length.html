@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+ 		 $('input[type="text"]').focus(function()
+		 {
+			this_sel = $(this);
+			minlength = this_sel.attr('minlength');
+ 			
+				if(minlength !=0 && minlength>0 && this_sel.val().length < minlength){
+					this_sel.after(' <span> ' + minlength + 'characters required </span>');	
+				}
+ 	 	 }).keyup(function(){
+				if(this_sel.val().length >= minlength){
+					this_sel.next().remove();	
+				}
+						
+			}).blur(function(){
+				this_sel.next().remove();
+  			});
+	});
+</script>
+<style type="text/css">
+ .box{position:absolute; width:250px; height:150px; background:#000;}
+</style>
+</head>
+
+<body>
+ <p>5 : <input type="text" minlength="5" /></p>
+  <p>10 : <input type="text" minlength="10" /></p>
+</body>
+</html>

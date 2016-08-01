@@ -1,0 +1,239 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #333; }
+
+.clear {
+  clear: both; }
+
+h1 {
+  color: #f6214d; }
+
+.fL {
+  float: left; }
+
+.fR {
+  float: right; }
+
+header {
+  color: #fff;
+  position: fixed;
+  height: 60px;
+  width: 100%; }
+  header a {
+    color: #fff;
+    text-decoration: none; }
+  header .menu {
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    min-height: 584px;
+    top: 61px;
+    position: absolute;
+    right: 0px;
+    width: 314px; }
+    header .menu ul li a {
+      line-height: 60px;
+      padding-left: 28px;
+      display: block;
+      font-size: 23px;
+      border-bottom: 1px solid #818181; }
+
+.quickContainer {
+  background: rgba(0, 0, 0, 0.8);
+  padding-bottom: 10px;
+  position: absolute;
+  top: 61px;
+  width: 100%; }
+  .quickContainer h1 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 25px; }
+  .quickContainer .loginSection {
+    min-height: 500px;
+    width: 100%; }
+    .quickContainer .loginSection .col2 {
+      background: url(../img/or-center.png) no-repeat right center;
+      float: left;
+      width: 50%;
+      min-height: 490px; }
+    .quickContainer .loginSection .col2:last-child {
+      background: none !important; }
+    .quickContainer .loginSection .autoSign, .quickContainer .loginSection .customSign {
+      width: 500px;
+      float: right;
+      margin-top: 100px; }
+      .quickContainer .loginSection .autoSign p.m-bot-20, .quickContainer .loginSection .customSign p.m-bot-20 {
+        margin-bottom: 20px; }
+      .quickContainer .loginSection .autoSign span.cont, .quickContainer .loginSection .customSign span.cont {
+        float: left;
+        color: #fff;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px 0px;
+        width: 380px; }
+      .quickContainer .loginSection .autoSign .fb-login, .quickContainer .loginSection .customSign .fb-login, .quickContainer .loginSection .autoSign .twitter-login, .quickContainer .loginSection .customSign .twitter-login, .quickContainer .loginSection .customSign input.inputBtn, .quickContainer .loginSection .autoSign .newSignup input.inputBtn, .quickContainer .newSignup .loginSection .autoSign input.inputBtn {
+        background: #3b5997 url(../img/fb-icon.png) no-repeat 20px center;
+        border-bottom: 5px solid #1c3b7b;
+        float: left;
+        height: 58px;
+        text-decoration: none;
+        width: 380px; }
+        .quickContainer .loginSection .autoSign .fb-login span, .quickContainer .loginSection .customSign .fb-login span, .quickContainer .loginSection .autoSign .twitter-login span, .quickContainer .loginSection .customSign .twitter-login span, .quickContainer .loginSection .customSign input.inputBtn span, .quickContainer .loginSection .autoSign .newSignup input.inputBtn span, .quickContainer .newSignup .loginSection .autoSign input.inputBtn span {
+          text-transform: uppercase;
+          color: #fff;
+          font-size: 18px;
+          border-left: 1px solid #1c3b7b;
+          line-height: 58px;
+          text-align: left;
+          padding-left: 20px;
+          display: block;
+          margin-left: 60px; }
+      .quickContainer .loginSection .autoSign .twitter-login, .quickContainer .loginSection .customSign .twitter-login {
+        background: #1bb5e7 url(../img/fb-icon.png) no-repeat 20px center;
+        border-bottom: 5px solid #158db4; }
+        .quickContainer .loginSection .autoSign .twitter-login span, .quickContainer .loginSection .customSign .twitter-login span {
+          border-left: 1px solid #158db4; }
+      .quickContainer .loginSection .autoSign p, .quickContainer .loginSection .customSign p {
+        color: #B5B5B5; }
+    .quickContainer .loginSection .customSign {
+      float: left;
+      margin-left: 90px;
+      margin-top: 138px; }
+      .quickContainer .loginSection .customSign input {
+        background: transparent;
+        border: 1px solid #808080;
+        line-height: 53px;
+        font-size: 20px;
+        font-weight: normal;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        width: 362px; }
+      .quickContainer .loginSection .customSign input.inputBtn {
+        background: #f6214d;
+        border: 0px;
+        border-bottom: 5px solid #cb1037;
+        color: #fff;
+        cursor: pointer;
+        text-transform: uppercase; }
+      .quickContainer .loginSection .customSign .fPassword {
+        color: #f6214d;
+        font-size: 14px;
+        text-decoration: none; }
+  .quickContainer .signUp {
+    text-align: center;
+    color: #fff; }
+    .quickContainer .signUp a {
+      color: #f6214d; }
+  .quickContainer .newSignup {
+    min-height: 440px;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 60px; }
+    .quickContainer .newSignup h1 {
+      text-align: center;
+      margin-bottom: 10px; }
+    .quickContainer .newSignup .step2,
+    .quickContainer .newSignup .step3 {
+      display: none; }
+    .quickContainer .newSignup input {
+      background: transparent;
+      border: 1px solid #808080;
+      line-height: 53px;
+      font-size: 20px;
+      font-weight: normal;
+      margin-bottom: 15px;
+      padding-left: 15px;
+      width: 362px; }
+    .quickContainer .newSignup input.inputBtn {
+      background: #f6214d;
+      border: 0px;
+      border-bottom: 5px solid #cb1037;
+      color: #fff;
+      cursor: pointer;
+      text-transform: uppercase;
+      width: 381px; }
+  .quickContainer .searchWrap {
+    margin: 20px 0px 0px 20px;
+    min-height: 500px; }
+    .quickContainer .searchWrap h2 {
+      color: #fff;
+      text-transform: uppercase; }
+    .quickContainer .searchWrap h3 {
+      color: #fff;
+      margin-bottom: 5px; }
+    .quickContainer .searchWrap input.sp-search {
+      background: none;
+      border: 0px;
+      border-bottom: 1px solid #818181;
+      line-height: 60px;
+      width: 98%; }
+    .quickContainer .searchWrap .col2 {
+      float: left;
+      width: 50%; }
+      .quickContainer .searchWrap .col2 h1 {
+        margin-bottom: 10px; }
+      .quickContainer .searchWrap .col2 .driverAvailable {
+        float: left;
+        margin-bottom: 10px;
+        width: 225px; }
+        .quickContainer .searchWrap .col2 .driverAvailable span.driverImg {
+          background: #f6214d;
+          height: 60px;
+          float: left;
+          margin-right: 10px;
+          width: 60px; }
+        .quickContainer .searchWrap .col2 .driverAvailable h2.driverName {
+          color: #fff; }
+        .quickContainer .searchWrap .col2 .driverAvailable p.currentLoc {
+          color: #fff;
+          font-size: 14px; }
+  .quickContainer .detailWrap {
+    display: block !important;
+    min-height: 500px; }
+
+.baseColor {
+  background: rgba(0, 0, 0, 0.8); }
+  .baseColor .logo {
+    background: #f6214d url(../img/car-icon.png) no-repeat bottom center;
+    border-right: 1px solid #818181;
+    display: block;
+    height: 60px;
+    text-indent: -999em;
+    width: 60px; }
+  .baseColor .targetArea {
+    width: 740px;
+    margin: 13px auto 0 auto;
+    float: left; }
+    .baseColor .targetArea .formField .state {
+      width: 180px; }
+    .baseColor .targetArea .formField input {
+      border: 0px;
+      border-bottom: 1px solid #fff;
+      background: transparent;
+      color: #fff;
+      padding: 0px 5px;
+      text-transform: uppercase;
+      font-size: 25px; }
+  .baseColor .quickTab {
+    position: relative; }
+
+.mainBlock {
+  /*  background: url(../img/navopen.jpg) no-repeat top left; */
+  height: 100%;
+  width: 100%; }
+
+.quickTab .loginWrap {
+  margin-top: 23px;
+  margin-right: 20px; }
+.quickTab .quickNav {
+  background: url(../img/quicknav.png) no-repeat center;
+  border-left: 1px solid #818181;
+  height: 60px;
+  text-indent: -999em;
+  width: 60px; }
+
+.targetArea,
+.logo,
+.loginSection,
+.newSignup {
+  display: none !important; }

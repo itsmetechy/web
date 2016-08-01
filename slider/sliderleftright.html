@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script src="../js/jquery-1.7.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$('.right').click(function(e){
+		e.preventDefault();
+		var holder = $('.images');
+		holder.children('img').first().animate({marginLeft:'-310px'},function(){
+		$(this).appendTo(holder).removeAttr('style')
+		});
+	});
+		$('.left').click(function(e){
+		e.preventDefault();
+		var holder = $('.images');
+		holder.children('img').last().prependTo(holder).css('margin-left','-310px').animate({marginLeft:'0px'},function(){
+			$(this).removeAttr('style');
+		});
+	});
+});
+</script>
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+#rotator {
+	width: 310px;
+	height: 220px;
+	position: relative;
+	overflow: hidden;
+	position: relative;
+}
+#rotator .images {
+	width: 1000%;
+	position: relative;
+	z-index: 1;
+}
+#rotator a.arrow {
+	width: 18px;
+	height: 41px;
+	display: block;
+	z-index: 2;
+	text-indent: -50000em;
+	position: absolute;
+	top: 89px;
+	background: #FFF;
+}
+#rotator a.arrow.left {
+	left: 0;
+}
+#rotator a.arrow.right {
+	right: 0;
+}
+#rotator .images {
+	float: left;
+	height: 220px;
+	position: relative;
+}
+#rotator .images .imageHolder span {
+	width: 290px;
+	margin: 10px;
+	color: #FFF;
+	font-size: 18px;
+	position: static;
+	top: 0;
+	left: 0;
+	z-index: 4;
+}
+#rotator .images img {
+	width: 310px;
+	height: 220px;
+	position: static;
+	float:left;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+</style>
+</head>
+
+<body>
+<div id="rotator"> <a href="#" class="arrow left"></a>
+  <div class="images"> 
+  <img src="../images/1.jpg" alt="" /> 
+  <img src="../images/2.jpg" alt="" /> 
+  <img src="../images/3.jpg" alt="" /> 
+  <img src="../images/4.jpg" alt="" /> 
+  </div>
+  <a href="#" class="arrow right"></a> </div>
+</body>
+</html>

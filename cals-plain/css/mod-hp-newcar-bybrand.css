@@ -1,0 +1,60 @@
+.mod-hp-newcar-bybrand {
+    border: 1px solid #CCC;
+    float: left;
+	height:248px;
+	margin-bottom:20px;
+	overflow:hidden;
+    width: 624px;
+}
+
+.mod-hp-newcar-bybrand h3 {
+	background:#E0E0E0;
+	background-image: linear-gradient(top, #F7F7F7 9%, #E0E0E0 55%, #D2D2D2 78%);
+	background-image: -o-linear-gradient(top, #F7F7F7 9%, #E0E0E0 55%, #D2D2D2 78%);
+	background-image: -moz-linear-gradient(top, #F7F7F7 9%, #E0E0E0 55%, #D2D2D2 78%);
+	background-image: -webkit-linear-gradient(top, #F7F7F7 9%, #E0E0E0 55%, #D2D2D2 78%);
+	background-image: -ms-linear-gradient(top, #F7F7F7 9%, #E0E0E0 55%, #D2D2D2 78%);
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0.09, #F7F7F7),
+		color-stop(0.55, #E0E0E0),
+		color-stop(0.78, #D2D2D2)
+	);
+    border-bottom: 1px solid #ba0204;
+    color: #000;
+    font: bold 12px/29px 'Verdana', sans-serif;
+    padding: 0 18px;
+}
+
+.mod-newcar-list-container {
+    border-top: 2px solid #de0202;
+	padding:10px 0 0 20px;
+}
+
+.mod-new-car-brands {
+    -moz-column-count: 5;
+    -webkit-column-count: 5;
+    column-count: 5;
+    -moz-column-gap: 42px;
+    -webkit-column-gap : 42px;	
+    list-style: none;
+    margin: 0;
+}
+
+.mod-new-car-brands li a {
+    color: #2666BE;
+	display:inline-block;
+	font: normal 11px/19px 'Verdana', sans-serif;
+	width: 108px;
+}
+
+.mod-new-car-brands li a:hover {
+    color: #0066CC;
+    text-decoration: underline;
+}
+
+
+
+

@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Photo gallery</title>
+  <meta name="description" content="Photo gallery">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css" type="text/css">  
+</head>
+
+<body>
+
+  <div class="main-image">
+    <img src="images/photo01.jpg" alt="img" class="custom">
+  </div>
+
+  <ul class="thumbnails">
+    <li><a href="images/photo01.jpg"><img width="100" height="100"  src="images/photo01.jpg" alt="Thumbnails"></a></li>
+    <li><a href="images/photo02.jpg"><img width="100" height="100"  src="images/photo02.jpg" alt="Thumbnails"></a></li>
+    <li><a href="images/photo03.jpg"><img width="100" height="100"  src="images/photo03.jpg" alt="Thumbnails"></a></li>
+	<li><a href="images/photo04.jpg"><img width="100" height="100"  src="images/photo04.jpg" alt="Thumbnails"></a></li>
+  </ul>
+   <ul class="thumbnails">
+    <li><a href="images/photo05.jpg"><img width="100" height="100"  src="images/photo05.jpg" alt="Thumbnails"></a></li>
+    <li><a href="images/photo06.jpg"><img width="100" height="100"  src="images/photo06.jpg" alt="Thumbnails"></a></li>
+    <li><a href="images/photo07.jpg"><img width="100" height="100"  src="images/photo07.jpg" alt="Thumbnails"></a></li>
+	<li><a href="images/photo08.jpg"><img width="100" height="100"  src="images/photo08.jpg" alt="Thumbnails"></a></li>
+  </ul>
+  <ul class="thumbnails">
+    <li><a href="images/photo09.jpg"><img width="100" height="100"  src="images/photo09.jpg" alt="Thumbnails"></a></li>
+    <li><a href="images/photo10.jpg"><img width="100" height="100"  src="images/photo10.jpg" alt="Thumbnails"></a></li>
+    <li><a href="images/photo11.jpg"><img width="100" height="100"  src="images/photo11.jpg" alt="Thumbnails"></a></li>
+	<li><a href="images/photo12.jpg"><img width="100" height="100"  src="images/photo12.jpg" alt="Thumbnails"></a></li>
+  </ul>
+
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+  $(document).ready(function () {
+    $('.thumbnails').gallery({
+      mainImage: '.custom'
+    });
+  });
+  </script>
+
+</body>
+</html>

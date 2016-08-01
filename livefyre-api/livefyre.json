@@ -1,0 +1,80 @@
+{
+  "status": "ok",
+  "code": 200,
+  "data": {
+    "stream_type_changes_enabled": {
+      "scope": "global",
+      "value": false
+    },
+    "network": {
+      "liShareEnabled": false,
+      "premoderated": false,
+      "nestLevel": 4,
+      "streamType": 1,
+      "commentsEnabled": true,
+      "richTextEnabled": true,
+      "editCommentInterval": 5,
+      "allowGuestComments": false,
+      "throttle_stream": false,
+      "fbCurateEnabled": false,
+      "repliesEnabled": true,
+      "curateEnabled": false,
+      "email_notifications_enabled": true,
+      "charLimit": 8000,
+      "media_display": 1,
+      "allowEditComments": false,
+      "media_display_changes_enabled": false,
+      "feedCurateEnabled": false,
+      "enabled": true,
+      "media_premoderated": false,
+      "fbShareEnabled": true,
+      "throttle_stream_changes_enabled": false,
+      "twitterShareEnabled": true
+    },
+    "admin_search_poll_interval": {
+      "scope": "global",
+      "value": 10000
+    },
+    "collectionId": "30880088",
+    "stream_type": {
+      "scope": "collection",
+      "value": 1
+    },
+    "site": {
+      "allowGuestComments": false,
+      "enabled": true,
+      "nestLevel": 4,
+      "premoderated": false,
+      "curateEnabled": true,
+      "media_display": 1,
+      "feedCurateEnabled": true
+    },
+    "collection": {
+      "nestLevel": 4,
+      "commentsEnabled": true
+    },
+    "replies_enabled": {
+      "scope": "collection",
+      "value": null
+    },
+    "scheduled_rules": {
+      
+    },
+    "admin_search_since_datetime_limit": {
+      "scope": "global",
+      "value": null
+    },
+    "site_defaults": {
+      "premoderated": false,
+      "nest_level": 4
+    },
+    "nest_level": {
+      "scope": "collection",
+      "value": 4
+    },
+    "commenting_enabled": {
+      "scope": "collection",
+      "value": true
+    }
+  }
+}

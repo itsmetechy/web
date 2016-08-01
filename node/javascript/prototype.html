@@ -1,0 +1,26 @@
+<!Doctype>
+<html>
+<title></title>
+
+<head>
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="demo"></div>
+    <script type="text/javascript">
+        var peopleFactory = function() {
+
+            this.name = 'Shiv';
+            this.age = '32';
+
+        }
+        peopleFactory.prototype.state = 'Chennai';
+        var p1 = new peopleFactory();
+        console.log("name" in p1);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+.cpo-page .extra-content { margin-bottom:20px; }
+.mod-extra-content .slider {
+	border:1px solid #bfbfbf;
+	float:left;
+}
+.mod-extra-content .control {
+	background:#0096cb;
+	float:left;
+	height:248px;
+	width:53px;
+}
+.mod-extra-content .cycled .control { cursor:pointer; }
+.mod-extra-content .prev { border-right:1px solid #bfbfbf; }
+.mod-extra-content .next { border-left:1px solid #bfbfbf; }
+.mod-extra-content .control .arrow {
+	display:block;
+	height:20px;
+	margin-top:114px;
+	visibility:hidden;
+}
+.mod-extra-content .prev .arrow { background:url(../_siteconfigs/automotive_com/images/bghtml5/cpo-arrows.png) no-repeat center top transparent; }
+.mod-extra-content .next .arrow { background:url(../_siteconfigs/automotive_com/images/bghtml5/cpo-arrows.png) no-repeat center bottom transparent; }
+.mod-extra-content .slider-content { float:left; }
+.mod-extra-content .slider-content .item {
+	height:248px;
+	overflow:hidden;
+	position:relative;
+	width:537px;
+}
+.mod-extra-content .slider-content .slider-left {
+	display:block;
+	float:left;
+}
+.mod-extra-content .slider-content .slider-right {
+	display:block;
+	float:right;
+}
+.mod-extra-content .slider-content .slider-text {
+	bottom:0;
+	height:93px;
+	left:0;
+	position:absolute;
+	text-align:center;
+	width:235px;
+}
+.mod-extra-content .slider-content .slider-text .title {
+	color:#0096cb;
+	font:bold 18px/24px Arial, Helvetica;
+	padding-top:6px;
+	text-transform:uppercase;
+}
+.mod-extra-content .slider-content .slider-text .subtitle {
+	color:#333;
+	font:bold 18px/24px Arial, Helvetica;
+	padding: 0 18px;
+}
+.mod-extra-content .mrec { float:right; }

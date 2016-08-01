@@ -1,0 +1,30 @@
+<!Doctype>
+<html>
+<title></title>
+
+<head>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="two.js"></script>
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div id="demo"></div>
+    <script type="text/javascript">
+    
+        var addTo = function(passed){
+           var add = function(inner){
+               return passed + inner;
+           }  
+           return add;
+        }
+        
+        var calc = new addTo(5);        
+        console.dir(calc);
+        
+    </script>
+
+</body>
+
+</html>

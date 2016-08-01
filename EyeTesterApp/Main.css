@@ -1,0 +1,41 @@
+/* Structure*/
+#wrapper {
+	width: 90%;	
+	max-width: 920px;
+	margin: auto;
+	padding: 2%;
+	background:lightblue;
+} 
+label {
+	font-size:12px;
+}
+canvas#colorGrid {
+	float: left;
+}
+#eyeTesterGrid { width: 350px;
+	background: #000;
+	float: left;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul.eachRow {
+	padding-left: 0;
+	margin: 0;
+	display: table;
+	width:100%;
+}
+
+ul.eachRow > li {
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+	color: #fff;
+	border:1px solid #ccc;
+	min-height:35px;
+	display: table-cell;
+}
+
+

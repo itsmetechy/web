@@ -1,0 +1,504 @@
+.mod-bg-certified-costs {
+	border: solid 1px #CCC;
+	margin-bottom: 10px;
+	width: 100%;
+	position: relative;
+}
+.cpo-drill-bg .subtitle{
+	font: normal 12px/30px Arial,Helvetica,verdana;
+	overflow: hidden;
+	width: 100%;
+}
+.cpo-drill-bg .subtitle .asterisk{
+	font-size: 17px;
+	color: #C7171D;
+	padding-left: 4px;
+}
+.mod-bg-certified-costs .header-tabs{
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #f8f8f8 58%, #eeeced 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(58%,#f8f8f8), color-stop(100%,#eeeced)); 
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#f8f8f8 58%,#eeeced 100%); 
+	background: -o-linear-gradient(top,  #ffffff 0%,#f8f8f8 58%,#eeeced 100%); 
+	background: -ms-linear-gradient(top,  #ffffff 0%,#f8f8f8 58%,#eeeced 100%); 
+	background: linear-gradient(to bottom,  #ffffff 0%,#f8f8f8 58%,#eeeced 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeced',GradientType=0 );
+	height: 33px;
+	width: 100%;
+}
+.mod-bg-certified-costs .header-tabs ul{
+	margin: 0 10px;
+	border-right: 1px solid #CCC;
+}
+.mod-bg-certified-costs .header-tabs li{
+	list-style-type: none;
+	display: inline-block;
+	line-height: 30px;
+	border-left: 1px solid #ccc;
+	padding: 0 6px;
+	float: left;
+	z-index: 9999;
+}
+.mod-bg-certified-costs .header-tabs li:last-child{
+	border-right: 1px solid #ccc;
+}
+.mod-bg-certified-costs .header-tabs li a{
+	font: bold 12px/30px Arial,Helvetica,verdana;
+	text-decoration: none;
+	color: #0084C2;
+}
+.mod-bg-certified-costs .header-tabs li a:hover, .mod-bg-certified-costs .overview-img a:hover{
+	text-decoration: underline;
+}
+
+.mod-bg-certified-costs .header-tabs li.selected{
+	background: #FFF;
+	color: black;
+	line-height: 33px;
+	position: relative;
+}
+.mod-bg-certified-costs .header-tabs li.selected a{
+	color: black;
+}
+.mod-bg-certified-costs .header-tabs.border{
+	background: #7bb8d4;
+	background: -moz-linear-gradient(top,  #7bb8d4 0%, #8bcbe6 46%, #a7dffa 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7bb8d4), color-stop(46%,#8bcbe6), color-stop(100%,#a7dffa)); 
+	background: -webkit-linear-gradient(top,  #7bb8d4 0%,#8bcbe6 46%,#a7dffa 100%);
+	background: -o-linear-gradient(top,  #7bb8d4 0%,#8bcbe6 46%,#a7dffa 100%);
+	background: -ms-linear-gradient(top,  #7bb8d4 0%,#8bcbe6 46%,#a7dffa 100%);
+	background: linear-gradient(to bottom,  #7bb8d4 0%,#8bcbe6 46%,#a7dffa 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7bb8d4', endColorstr='#a7dffa',GradientType=0 );
+	height: 3px;
+	width: 100%;
+	position: absolute;
+	top: 30px;
+	left: 0;
+}
+
+.mod-bg-certified-costs .overview-img {
+	float: left;
+	text-align: center;
+	width: 40%;
+	padding: 20px 0 0;
+}
+.mod-bg-certified-costs .overview-img .cpo-listing {
+	color: #000;
+	list-style-type: none;
+	margin: 20px auto 0;
+	padding-left: 10px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 15px;
+	width: 255px;
+}
+.mod-bg-certified-costs .overview-img .cpo-item {
+	line-height: 1.26666666666667em;
+	padding: 0 0 0.66666666666667em 1em;
+}
+
+.mod-bg-certified-costs .information {
+	background: #b9b9b9;
+	border-radius: 7px;
+	cursor: pointer;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;
+	font-size: 10px;
+	height: 13px;
+	line-height: 13px;
+	text-align: center;
+	vertical-align: middle;
+	width: 13px;
+}
+.mod-bg-certified-costs .information-btn {
+	font-style: italic;
+	font-family: serif;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 0 0 2px #fff;
+	text-transform: lowercase;
+}
+.mod-bg-certified-costs .information:hover {
+	background-color: #C91E3D;
+}
+.mod-bg-certified-costs .cpo-item .tooltip {
+	margin: -48px 0 0 30px;
+	width: 240px;
+}
+.mod-bg-certified-costs .information:hover .tooltip {
+	display: block;
+}
+.mod-bg-certified-costs .information .tooltip {
+	display: none;
+	background: #fff;
+	border: 3px solid #bfbfbf;
+	padding: 10px;
+	border: 3px solid #bfbfbf;
+	position: absolute;
+	text-align: left;
+	-moz-box-shadow: 2px 3px 2px 0px rgba(200, 200, 200, 0.64);
+	box-shadow: 2px 3px 2px 0px rgba(200, 200, 200, 0.64);
+	font: normal 13px/14px Verdana,Arial;
+}
+.mod-bg-certified-costs .information .tooltip:after,
+.mod-bg-certified-costs .information .tooltip:before {
+	right: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.mod-bg-certified-costs .information .tooltip:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-right-color: #fff;
+	border-width: 9px;
+	top: 50%;
+	margin-top: -9px;
+}
+.mod-bg-certified-costs .information .tooltip:before {
+	border-color: rgba(191, 191, 191, 0);
+	border-right-color: #bfbfbf;
+	border-width: 13px;
+	top: 50%;
+	margin-top: -13px;
+}
+.mod-bg-certified-costs .overview-spec .tooltip {
+	margin: -27px 0 0 30px;
+	white-space: nowrap;
+	text-transform: none;
+}
+.mod-bg-certified-costs .overview-info {
+	float: left;
+	width: 59.7%;
+	border-left: 1px solid #CCC;
+}
+
+.mod-bg-certified-costs .overview-spec {
+	color: black;
+	font: normal 14px Verdana,Arial;
+	margin: 0;
+}
+.mod-bg-certified-costs .overview-spec .row{
+	width: 100.5%;
+	float: left;
+	border-top: 1px solid #CCC;
+	font: normal 12px Verdana,Arial;
+}
+
+.mod-bg-certified-costs .overview-spec .row.bold{
+	font: bold 12px Verdana,Arial;
+}
+.mod-bg-certified-costs .overview-spec .row:last-child{
+	border-bottom: none;
+}
+.mod-bg-certified-costs .overview-spec .left{
+	border-right: 1px solid #CCC;
+	float: left;
+	width: 40%;
+	text-align: right;
+	padding: 16px 0;
+	padding-right: 0.42999em;
+}
+.mod-bg-certified-costs .overview-spec .left.blank{
+	height: 14px;
+}
+.mod-bg-certified-costs .overview-spec .right.header{
+	font-weight: bold;
+}
+.mod-bg-certified-costs .overview-spec .right.header span{
+	color: black;
+	font: bold 12px Verdana,Arial;
+	text-transform: uppercase;
+	width: 33.33%;
+}
+
+.mod-bg-certified-costs .overview-spec .right span{
+	color: black;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+.mod-bg-certified-costs .overview-spec .sub-header span.asterisk {
+	font-size: 17px;
+	color: #C7171D;
+	padding-left: 4px;
+}
+
+.mod-bg-certified-costs .overview-spec .right{
+	float: right;
+	width: 58.4%;
+	padding: 15px 0;
+}
+
+.mod-bg-certified-costs .overview-spec .sub-header, .mod-bg-certified-costs .sub-header2{
+	background: #EAEBEB;
+	background: -moz-linear-gradient(top, #EAEBEB 0%, #EAEBEB 50%, #E2E2E2 51%, #E2E2E2 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#EAEBEB), color-stop(50%,#EAEBEB), color-stop(51%,#E2E2E2), color-stop(100%,#E2E2E2));
+	background: -webkit-linear-gradient(top, #EAEBEB 0%,#EAEBEB 50%,#E2E2E2 51%,#E2E2E2 100%);
+	background: -o-linear-gradient(top, #EAEBEB 0%,#EAEBEB 50%,#E2E2E2 51%,#E2E2E2 100%);
+	background: -ms-linear-gradient(top, #EAEBEB 0%,#EAEBEB 50%,#E2E2E2 51%,#E2E2E2 100%);
+	background: linear-gradient(to bottom, #EAEBEB 0%,#EAEBEB 50%,#E2E2E2 51%,#E2E2E2 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eaebeb', endColorstr='#e2e2e2',GradientType=0 );
+	font: bold 17px Arial,verdana;
+	float: left;
+	width: 100.5%;
+	padding: 15px 0 15px 0;
+	margin: 1px 0;
+}
+
+.mod-bg-certified-costs .overview-spec .sub-header.child, .mod-bg-certified-costs .sub-header2.child{
+	background: #EAEBEB;
+	border-top: 1px solid #CCC;
+		margin: 0;
+}
+.mod-bg-certified-costs .overview-spec .sub-header span{
+	padding-left: 10px;
+	color: #000;
+	font: 22px  Arial, verdana, Helvetica;
+}
+.mod-bg-certified-costs  .sub-header h3 {
+	color: black;
+	font: 20px Arial,verdana;
+	margin: 0;
+	display: inline-block;
+	padding-left: 10px;
+
+}
+.mod-bg-certified-costs  .sub-header2 h3 {
+	color: black;
+	font: 22px Verdana,Arial;
+	margin: 0;
+	display: inline-block;
+	padding-left: 10px;
+	width: 243px;
+}
+.mod-bg-certified-costs .overview-spec span {
+	color: #0084C2;
+}
+
+.mod-bg-certified-costs .overview-button {
+	background: url('http://static.motortrend.com/_SiteConfigs/motortrend_com/images/bg/overview_quote_bg.gif') no-repeat;
+	width: 414px;
+	height: 70px;
+}
+
+.mod-bg-certified-costs .overview-img .cpo-listing-btn{
+	margin: 5px 15px;
+}
+.mod-bg-certified-costs .overview-img .bg-btn-inner {
+	background: #981311;
+	background: -moz-linear-gradient(top, #981311 0%, #981311 50%, #841210 50%, #841210 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#981311), color-stop(50%,#981311), color-stop(50%,#841210), color-stop(100%,#841210));
+	background: -webkit-linear-gradient(top, #981311 0%,#981311 50%,#841210 50%,#841210 100%);
+	background: -o-linear-gradient(top, #981311 0%,#981311 50%,#841210 50%,#841210 100%);
+	background: -ms-linear-gradient(top, #981311 0%,#981311 50%,#841210 50%,#841210 100%);
+	background: linear-gradient(top, #981311 0%,#981311 50%,#841210 50%,#841210 100%);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	padding: 0 45px;
+}
+
+.mod-bg-certified-costs .overview-img .bg-btn-inner:hover {
+	background: #841210;
+}
+
+.mod-bg-certified-costs .overview-img .btn {
+	border: white 1px solid;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+	font: 16px/37px Arial, Helvetica, sans-serif;
+	float: left;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(204, 204, 204, .5);
+	box-shadow: 0px 0px 1px 1px rgba(204, 204, 204, .5);
+}
+
+
+.overview-info .price-qt .qt-btn{
+	margin: 10px 0 0;
+	float: right;
+	width: 130px;
+}
+.overview-info .qt-btn.price-btn {
+	background: #0099D3;
+	background: -moz-linear-gradient(top, #0099D3 0%, #0084B8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0099D3), color-stop(100%,#0084B8));
+	background: -webkit-linear-gradient(top, #0099D3 0%,#0084B8 100%);
+	background: -o-linear-gradient(top, #0099D3 0%,#0084B8 100%);
+	background: -ms-linear-gradient(top, #0099D3 0%,#0084B8 100%);
+	background: linear-gradient(to bottom, #0099D3 0%,#0084B8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099d3', endColorstr='#0084b8',GradientType=0 );
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font: bold 16px/36px Helvetica, Arial;
+	text-align: center;
+}
+
+.price-qt{
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	padding: 10px;
+	float: left;
+	width: 388px;
+}
+.price-qt .qt-title{
+	font: bold 18px/26px Helvetica, Arial;
+}
+
+.price-qt .qt-desc{
+	font: 13px/16px Helvetica, Arial;
+	margin-top: 10px;
+	width: 240px;
+	display: inline-block;
+	float: left;
+}
+
+.mod-bg-certified-costs .overview-img a{
+	font: normal 15px/16px Helvetica, Arial;
+	color: #0066cc;
+	text-decoration: none;
+}
+.compare-cpo-cost{
+	width: 100%;
+}
+
+.compare-cpo-cost .btn-inner{
+	font-size: 16px;
+	cursor: pointer;
+}
+.compare-cpo-cost h2{
+	font: bold 15px/16px Helvetica, Arial;
+	margin: 20px 0 10px;
+}
+
+.compare-cpo-cost .make{
+	float: left;
+	margin-right: 10px;
+	width: 170px;
+}
+
+.compare-cpo-cost .model{
+	float: left;
+	margin-right: 10px;
+	width: 160px;
+}
+
+.compare-cpo-cost .year {
+	float: left;
+	margin-right: 10px;
+	width: 135px;
+}
+
+.compare-cpo-cost .go.btn {
+	background: #0099D3;
+	background: -moz-linear-gradient(top, #0099D3 0%, #0084B8 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#0099D3), color-stop(100%,#0084B8));
+	background: -webkit-linear-gradient(top, #0099D3 0%,#0084B8 100%);
+	background: -o-linear-gradient(top, #0099D3 0%,#0084B8 100%);
+	background: -ms-linear-gradient(top, #0099D3 0%,#0084B8 100%);
+	background: linear-gradient(to bottom, #0099D3 0%,#0084B8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099d3', endColorstr='#0084b8',GradientType=0 );
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	color: white;
+	cursor: pointer;
+	display: block;
+	font: bold 16px/36px Helvetica, Arial;
+	text-align: center;
+}
+
+.compare-cpo-cost .compare.btn {
+	background: #323232; 
+	background: -moz-linear-gradient(top,  #323232 0%, #111111 51%, #323232 100%); 
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#323232), color-stop(51%,#111111), color-stop(100%,#323232)); 
+	background: -webkit-linear-gradient(top,  #323232 0%,#111111 51%,#323232 100%); 
+	background: -o-linear-gradient(top,  #323232 0%,#111111 51%,#323232 100%);
+	background: -ms-linear-gradient(top,  #323232 0%,#111111 51%,#323232 100%);
+	background: linear-gradient(to bottom,  #323232 0%,#111111 51%,#323232 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323232', endColorstr='#323232',GradientType=0 );
+	color: white;
+	cursor: pointer;
+	font: 20px/25px Arial, verdana, sans-serif;	
+	text-align: center;
+	text-transform: uppercase;
+	padding: 6px;
+	width: 132px;
+	margin: 0 10px;
+}
+.mod-bg-certified-costs .change-vehicle-btn {
+	color: #0066cc;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 0 0 0 15px;
+	padding-right: 10px;
+	vertical-align: text-top;
+}
+
+.mod-bg-certified-costs .change-vehicle-btn::after {
+	content: '\25be';
+	display: inline-block;
+	zoom: 1;
+	font-size: 1.125em;
+	padding: 0 4px;
+}
+.mod-bg-certified-costs .change-vehicle-btn-active::after {
+	content: '\25b4';
+}
+
+/* SMALL CUSTOM SELECT */
+.compare-cpo-cost-small {
+	display: none;
+	margin: 10px 0 0 10px;
+}
+.compare-cpo-cost select {
+	display: inline-block;
+	zoom: 1;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.compare-cpo-cost select.year{
+	width:90px;
+}
+.compare-cpo-cost select.make{
+	width:110px;
+}
+.compare-cpo-cost select.model{
+	width:140px;
+}
+.compare-cpo-cost-small select {
+	display: inline-block;
+	zoom: 1;
+}
+
+.compare-cpo-cost-small select.make{
+	width:125px;
+}
+.compare-cpo-cost-small select.model{
+	width:125px;
+}
+.compare-cpo-cost-small select.year{
+	width:100px;
+}
+

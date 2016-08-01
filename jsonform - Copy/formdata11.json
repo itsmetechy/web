@@ -1,0 +1,75 @@
+{
+  "dawn-quickform": {
+    var "locations" = [{
+       "ID":1687,
+        "DisplayValue":"Dawn Career Institute",
+         "Curriculum":[  
+      {  
+         "CurriculumID":11495,
+         "CurriculumDisplayValue":"Advanced Esthetician",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {  
+         "CurriculumID":566007,
+         "CurriculumDisplayValue":"Dental Assistant",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {  
+         "CurriculumID":563967,
+         "CurriculumDisplayValue":"Health Information Technology",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {  
+         "CurriculumID":566105,
+         "CurriculumDisplayValue":"Medical Assistant",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {  
+         "CurriculumID":566713,
+         "CurriculumDisplayValue":"Medical Billing and Coding",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {  
+         "CurriculumID":11491,
+         "CurriculumDisplayValue":"Nurse Assistant",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {  
+         "CurriculumID":11494,
+         "CurriculumDisplayValue":"Therapeutic Massage Practitioner",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      }
+   ],
+       "ID":32802,
+   		"DisplayValue":"Dawn Career Institute - Online",
+       "Curriculum":[
+      {
+         "CurriculumID":401254,
+         "CurriculumDisplayValue":"Medical Administrative Assistant",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {
+         "CurriculumID":568645,
+         "CurriculumDisplayValue":"Medical Assistant",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      },
+      {
+         "CurriculumID":401255,
+         "CurriculumDisplayValue":"Medical Billing and Coding",
+         "OptionGroupDisplayOrder":0,
+         "OptionGroupDisplayValue":""
+      }
+  	 ]
+    }]
+  }
+}
+

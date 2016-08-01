@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+    <script type="text/javascript">
+        $(function(){            
+            var target = $('p'),
+                dvHTML = '',
+                splittarget = target.text().split(' ');
+                for(var i=0; i<splittarget.length; i++){
+                    if(splittarget[i] == 'address'){
+                         dvHTML += ' ' + '<span>' + splittarget[i] + '</span>';
+                    }else{
+                        dvHTML += ' ' + splittarget[i];
+                    }
+                }
+          $('body').html('<div>' + dvHTML + '</div>');
+        });
+    </script>
+<title>Untitled Document</title>
+<style>
+    span { color:red; }
+</style>
+</head>
+
+<body>
+<p>Also, in addition, please also address a content migration from live for the following resources. Also, in addition, please also address a content migration from live for the following resources. Also, in addition, please also address a content migration from live for the following resources</p>
+</body>
+</html>

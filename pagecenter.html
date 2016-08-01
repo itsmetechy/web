@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+ 		function move_div(){
+			var window_height = $(window).height();
+			var window_width = $(window).width();
+			//alert('width: ' + window_width+' height = '+ window_height);	
+			obj_width = $('.box').width();
+			obj_height = $('.box').height();
+			//alert('width: ' + obj_width+' height = '+ obj_height);	
+			 $('.box').css('top',(window_height / 2) - (obj_height / 2)).css('left',(window_width/2) - (obj_width/2));	
+ 		}
+		move_div();
+		$(window).resize(function(){
+			move_div();
+			})
+	})	
+</script>
+//<script language="javascript">
+//		$('.msgwrap').hide();
+//		$(document).ready(function(){
+// 		function move_div(){
+//		var winHeight = $(window).height();
+//		var winWidth = $(window).width();
+//		var popWidth = $('.msgwrap').width();
+//		var popHeight = $('.msgwrap').height();
+// 		$('.msgwrap').css('top',(winHeight/2)-(popHeight/2 )).css('left',(winWidth/2)-(popWidth/2));
+//  		}
+//		$('#cc').click(function(){
+//		move_div();	
+//		$('.msgwrap').fadeIn();
+//		
+//		})
+// 		$(window).resize(function(){
+//			move_div();
+// 			})
+//			 
+//		})
+// 		</script>
+<style type="text/css">
+ .box{position:absolute; width:250px; height:150px; background:#000;}
+</style>
+</head>
+
+<body>
+
+<div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script type="text/javascript"  src="jquery.js"></script>
+<script type="text/javascript">
+     $(document).ready(function(){  
+    /*  $('.togglerAction').next().css({'display':'none'}).addClass('test');
+      $('.togglerAction').bind('click',function(e){
+      $('.togglerContent').slideUp();
+	  $('.togglerAction').removeClass('green');
+      $(this).addClass('green');
+      $(this).next().slideDown('slow').removeClass('test');
+   });*/
+  // $('.togglerAction').next().css({'display':'none'}).addClass('0');        
+    $('.togglerContent').css('display','none');     
+  $('.togglerAction').click(function(e){   
+   
+ //   $(this).next().slideDown('slow').removeClass('0').addClass('1');        
+   
+    if($(this).next().hasClass('0')){
+	$('.togglerContent').slideUp().removeClass('1').addClass('0');
+    $(this).next().slideDown().addClass('1').removeClass('0');
+     }else if($(this).next().hasClass('1')){
+	$('.togglerContent').slideUp().removeClass('1');	
+	$(this).next().slideUp().removeClass('1').addClass('0');
+    }
+   
+   });
+ })
+</script>
+
+<style type="text/css">
+	
+	.green{color:green;}
+	.orange{color:orange;}
+
+</style>
+</head>
+
+<body>
+	<div class="rowTwo">
+        <div class="clear"></div>
+        
+        <div style="background:url(images/gra-bg-2.jpg) repeat-x #fff;margin-top:2px;padding-top:25px;" class="wel1">
+        <h1 style="text-align:center;line-height:normal;margin:-12px 0 0 0;padding:0 0 5px 0;cursor:pointer;text-shadow:1px 2px 1px #fff;" class="togglerAction">Tools to keep your Website Fresh! <span></span></h1>
+          <div class="togglerContent 0" style="">
+          <table width="90%" cellspacing="0" cellpadding="0" border="0" align="center">
+            <tbody><tr>
+              <td width="36%" valign="top" align="left"><span class="item"><img width="340" height="226" class="content" src="images/cmspic1.png"></span></td>
+              <td width="64%" valign="top" align="left">
+                  <p style="line-height: 26px;padding: 0 30px;">Just as the value of a brand new car depreciates the minute you drive it, a brand new website loses its value over time unless you keep it updated (fresh). That's why we deliver all of our search, social, and mobile friendly websites with an easy-to-use and fully supported Content Management System (CMS) - giving you ultimate control over your website 24/7.</p></td>
+            </tr>
+            <tr>
+              <td valign="top" align="left" colspan="2"><ul>
+                  <h1 style="text-align:left; line-height:normal; padding-left:20px;">All Covered </h1>
+                <p style="padding-left:20px; padding-bottom:15px;">USAWeb houses a team of web development, professional web design, and online marketing specialists ("websters") with over 150 years of combined experience to offer you the best in web solutions and online marketing services. With USAWeb we've got you all covered!</p>
+                <ul style="float:left; margin-left:50px; font-family:droid sans">
+                    <li style="background:none; font-size:20px; margin-left:-25px; color:#000" class="MegaMenuHeader">Web Solutions</li>
+                  <li>Customer Relationship Management (CRM)</li>
+                  <li>Content Management System (CMS)</li>
+                  <li>Social Networking Platform</li>
+                  <li>Managed Web Hosting</li>
+                </ul>
+                <ul style="float:left; margin-left:50px;font-family:droid sans">
+                    <li style="background:none; font-size:20px; margin-left:-25px; color:#000" class="MegaMenuHeader">Web Development</li>
+                  <li class="flagList_headnav">Custom Web Development</li>
+                  <li class="flagList_headnav">Custom Web Videos</li>
+                  <li>Custom E-Commerce</li>
+                  <li class="flagList_headnav">Mobile App Development</li>
+                </ul>
+                <ul style="float:left; margin-left:50px;font-family:droid sans;">
+                    <li style="background:none; font-size:20px; margin-left:-25px; color:#000">Online Marketing</li>
+                  <li>Web Leads</li>
+                  <li>Organic (SEO)</li>
+                  <li>Online Reputation Management</li>
+                  <li>Managed E-Mail Marketing</li>
+                </ul></ul></td>
+            </tr>
+          </tbody></table>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <div style="background:url(images/gra-bg-2.jpg) repeat-x #fff;margin-top:2px;padding-top:25px;" class="wel1">
+          <h1 style="cursor:pointer;text-shadow:1px 2px 1px #fff;" class="togglerAction">What You Get With USAW<font style="text-transform:none;text-shadow:1px 2px 1px #fff;">eb</font> <span></span></h1>
+          <div class="togglerContent 0" style="">
+          <br>
+          <ul class="post-list">
+            <li>
+              <div class="post-div">
+                <div class="post-img"> <img alt="" src="images/experience.jpg"> </div>
+                <div class="message-div">
+                  <h2>Experience</h2>
+                  <p>We've been designing award-winning sites for corporations and growing businesses for over 12 years</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="post-div">
+                <div class="post-img"> <img alt="" src="images/spped.jpg"></div>
+                <div class="message-div">
+                  <h2>Speed</h2>
+                  <p>With experience comes efficiency, we deliver the fastest turn-around time for custom web sites in the industry</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="post-div">
+                <div class="post-img"> <img alt="" src="images/expertise.png"></div>
+                <div class="message-div">
+                  <h2>Quality</h2>
+                  <p>Our professional web design team working in a culture of "paying attention to detail" offers our clients the highest quality of service</p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="post-div">
+                <div class="post-img"><img alt="" src="images/quality.jpg"></div>
+                <div class="message-div">
+                  <h2>Guarantee</h2>
+                  <p>Each site comes with 1 year of post launch warranty, guaranteeing full functionality and compatibility</p>
+                </div>
+              </div>
+            </li>
+            <!--<li>
+              <div class="post-div">
+                <div class="post-img"> <img src="images/handso.jpg" alt="" /></div>
+                <div class="message-div">
+                  <h2>Hands-On</h2>
+                  <p>Every client is assigned an experienced project manager who will help realize their particular objectives</p>
+                </div>
+              </div>
+            </li>-->
+            <!--<li>
+              <div class="post-div">
+                <div class="post-img"> <img src="images/satisfaction.jpg" alt="" /></div>
+                <div class="message-div">
+                  <h2>Satisfaction</h2>
+                  <p>We deliver on our promises and strive to exceed your expectations</p>
+                </div>
+              </div>
+</body>
+ 
+</html>

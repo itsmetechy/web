@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Twitter feed</title>
+<script src="js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script>
+<script language="javascript" type="text/javascript" src="js/twitter-1.11.2.js"></script>
+ 
+<style type="text/css">
+<!--
+#footer-content {
+	width: 215px;
+ 	background-repeat: no-repeat;
+	background-position: left top;
+	height: 110px;
+}
+#tweet {
+	font-size: 13px;
+	font-family:"Droid Serif";
+	line-height: 18px;
+	padding-top:1px;
+}
+li {
+	margin: 0px;
+	padding: 0px;
+
+}
+#tweet li {
+	list-style-type: none;
+	padding-bottom:6px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+a#twitter-link {
+	display:block;
+	font-size:12px;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	z-index:1300;
+	height:50px;
+	position:absolute;
+	color:#179ce9;
+	background-color: transparent;
+	left: 75px;
+	top: 77px;
+	line-height:15px;
+}
+#tweet a {
+	color: #FFC706;
+	font-family:"Droid Serif";
+}
+#tweet p{ margin-right:10px; padding:0; width:248px; color:#fff;}
+-->
+
+ 
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29796712-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+
+<body bgcolor="black">
+ 
+<div id="footer-content">
+  <div id="tweet">
+    <p style="padding:0;">Please wait while my tweets load<br />
+      <a href="https://twitter.com/newyorkbeerco" target="_blank">If you can't wait - check out what I've been tweetin'.</a>
+     </p>
+  </div>
+ </div> 
+<!-- twitter start here -->
+<script language="javascript">
+$(document).ready(function(){
+getTwitters('tweet', { 
+  id: 'newyorkbeerco', 
+  count:5, 
+  enableLinks: true, 
+  ignoreReplies: true, 
+  clearContents: true,
+  template: '<p>%text%</p>'
+});
+//$('#tweet ul li').each(function(){
+//	
+//	})
+ 
+
+ });		
+</script>
+<script type="text/javascript">
+	$(window).load(function(){
+	var counts = $('#tweet ul li').size();
+	alert(counts);
+	for(i = 0; i < counts.length; i++) {
+     $('#tweet ul li').addClass('test');
+	}
+	})
+</script>
+<!-- twitter end here -->
+
+</body>
+</html>

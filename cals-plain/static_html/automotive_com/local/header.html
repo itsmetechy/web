@@ -1,0 +1,104 @@
+<header class="fed-page-header">
+  <div class="fed-header-container">
+    <div class="group">
+      <div class="fed-logocontainer"> <a href="http://10.0.0.99" onclick="s_objectID='Navbar_Sitename'" class="fed-logo" title="Automotive.com">Automotive.com</a> </div>
+      <div class="global-search-bg group">
+        <input type="text" class="global-search-textbox" placeholder="Search site" />
+        <span class="global-search-btn">Go</span>
+      </div>
+      <div class="main-login"> <span class="login-user"></span> <span class="login"> <span class="login-text jr-dialog" data-dialog="sso-log-in"><span class="arrow"></span></span> </span>
+        <ul class="login-menu">
+          <li class="jr-dialog" data-dialog="sso-update">My Profile</li>
+          <li class="jr-logout">Logout</li>
+        </ul>
+      </div>
+      <script type="text/javascript" src="http://staging2.int.automotive.com/_siteconfigs/_statichtml/automotive_com/staging2/js/masthead.js"></script>
+      <script type="text/javascript">
+      	$(function(){
+			var $searchInput = $(".global-search-bg input.global-search-textbox")
+			$searchInput.val($searchInput.attr("placeholder")); // not using data() becauase some parts of AMAG are still on jQuery 1.3.2
+			$searchInput.focus(function () {
+				if ($searchInput.attr('placeholder') === $searchInput.val()) {
+					$searchInput.val("");
+				}
+			});
+			$searchInput.blur(function () {
+				if ($searchInput.val() === "") {
+					$searchInput.val($searchInput.attr('placeholder'));
+				}
+			});
+		});
+      </script>
+    </div>
+    <nav class="fed-page-header-nav group">
+      <ul title="Automotive.com Navigation" class="fed-headernav">
+        <li class="fed-headernav-separator"></li>
+        <li> <a href="http://10.0.0.99/new-cars/" onclick="s_objectID='Navbar_Menu_NC';" title="New Car Buyer's Guide">New Cars</a>
+          <div class="fed-headernav-submenu">
+            <ul>
+              <li> <a href="http://10.0.0.99/new-cars/" onclick="s_objectID='Navbar_Submenu_NC_Research';" title="New Car Research">Research New Cars</a> </li>
+              <li> <a href="http://10.0.0.99/new-cars/compare/" onclick="s_objectID='Navbar_Submenu_NC_Compare';" title="New Car Comparisons">Compare Cars</a> </li>
+              <li> <a href="http://10.0.0.99/new-cars/pricing/" onclick="s_objectID='Navbar_Submenu_NC_ExplorePricing';" title="New Car Pricing">Explore Pricing</a> </li>
+              <li> <a href="http://10.0.0.99/new-cars/photos/" onclick="s_objectID='Navbar_Submenu_NC_Photos';" title="New Car Photos">View Photos</a> </li>
+              <li> <a href="http://10.0.0.99/new-cars/rebates/" onclick="s_objectID='Navbar_Submenu_NC_Rebates';" title="New Car Rebates">Rebates &amp; Incentives</a> </li>
+              <li> <a href="http://10.0.0.99/new-cars/lease/" onclick="s_objectID='Navbar_Submenu_NC_Lease';" title="Lease Calculator">Lease Calculator</a> </li>
+              <li> <a href="http://10.0.0.99/car-dealers/" onclick="s_objectID='Navbar_Submenu_NC_Dealer';" title="Find a New Car Dealer">Find a Dealer</a> </li>
+              <li> <a rel="nofollow" title="Get A New Car Quote" href="#" onclick="s_objectID='Navbar_Submenu_NC_Quote';javascript:post_to_url('http://autos.10.0.0.99',{'rsit':'2886','sit':'2886','wtl':'NC_NCSubnavQuote_Link','wtpt':'New Cars: Index','wts':'New Cars'});return false;">Get a Quote</a> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="fed-headernav-separator"></li>
+        <li> <a href="http://10.0.0.99/used-cars/" onclick="s_objectID='Navbar_menu_UC';" title="Used Car Buyer's Guide">Used Cars</a>
+          <div class="fed-headernav-submenu">
+            <ul>
+              <li> <a href="http://10.0.0.99/used-cars/" onclick="s_objectID='Navbar_Submenu_UC_Research';" title="Used Car Research">Research Used Cars</a> </li>
+              <li> <a href="http://10.0.0.99/cars-for-sale/" onclick="s_objectID='Navbar_Submenu_UC_ForSale';" title="Find Used Cars for Sale">Find Cars for Sale</a> </li>
+              <li> <a href="http://10.0.0.99/used-cars/pricing/" onclick="s_objectID='Navbar_Submenu_UC_Pricing';" title="Used Car Pricing">Explore Pricing</a> </li>
+              <li> <a href="http://10.0.0.99/used-cars/photos/" onclick="s_objectID='Navbar_Submenu_UC_Photos';" title="Used Car Photos">View Photos</a> </li>
+              <li> <a href="http://10.0.0.99/used-car-dealers/" onclick="s_objectID='Navbar_Submenu_UC_Dealer';" title="Used Car Dealerships">Find a Dealer</a> </li>
+              <li> <a href="http://10.0.0.99/used-cars/car-buying-tips/" onclick="s_objectID='Navbar_Submenu_UC_Tips';" title="Tips for Buying and Selling Cars">Buying &amp; Selling Tips</a> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="fed-headernav-separator"></li>
+        <li> <a href="http://10.0.0.99/cars-for-sale/" onclick="s_objectID='Navbar_Menu_Classifieds';" title="Cars for Sale">Cars for Sale</a>
+          <div class="fed-headernav-submenu">
+            <ul>
+              <li> <a href="http://10.0.0.99/cars-for-sale/" onclick="s_objectID='Navbar_Submenu_Classifieds_BasicSearch';" title="Basic Used Car Search">Basic Car Search</a> </li>
+              <li> <a href="http://10.0.0.99/cars-for-sale/advanced.html" onclick="s_objectID='Navbar_Submenu_Classifieds_AdvancedSearch';" title="Advanced Used Car Search">Advanced Car Search</a> </li>
+              <li> <a href="http://10.0.0.99/4-121/certified-pre-owned-vehicles.html" onclick="s_objectID='Navbar_Submenu_Classifieds_CPO';" title="Certified Preowned Car Programs">Explore CPO Programs</a> </li>
+              <li> <a href="http://10.0.0.99/used-car-dealers/" onclick="s_objectID='Navbar_Submenu_Classifieds_Dealer';" title="Used Car Dealerships">Find a Dealer</a> </li>
+              <li> <a href="http://10.0.0.99/used-cars/car-buying-tips/" onclick="s_objectID='Navbar_Submenu_Classifieds_Tips';" title="Tips for Buying and Selling Cars">Buying &amp; Selling Tips</a> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="fed-headernav-separator"></li>
+        <li> <a href="http://10.0.0.99/car-reviews/t3-8-1-1/" onclick="s_objectID='Navbar_Menu_NewsReviews';" title="Car Reviews">Car Reviews &amp; News</a>
+          <div class="fed-headernav-submenu">
+            <ul>
+              <li> <a href="http://10.0.0.99/car-reviews/t3-8-1-1/" onclick="s_objectID='Navbar_Menu_ NewsReviews_CarReviews';" title="Car Reviews">Car Reviews</a> </li>
+              <li> <a href="http://blogs.10.0.0.99/" onclick="s_objectID='Navbar_Menu_NewsReviews_LatestNews';" title="Latest Automotive News">Latest News</a> </li>
+              <li> <a href="http://10.0.0.99/auto-shows/t3-10-1/" onclick="s_objectID='Navbar_Menu_NewsReviews_AutoShows';" title="Auto Show Coverage">Auto Shows</a> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="fed-headernav-separator"></li>
+        <li> <a href="http://10.0.0.99/car-tools/" onclick="s_objectID='Navbar_Menu_Tools';" title="Car Tools &amp; Advice">Tools &amp; Advice</a>
+          <div class="fed-headernav-submenu">
+            <ul>
+              <li> <a href="http://10.0.0.99/car-tools/" onclick="s_objectID='Navbar_Submenu_Tools_Tools';" title="View Car Tools">View Tools</a> </li>
+              <li> <a href="http://10.0.0.99/auto-insurance/" onclick="s_objectID='Navbar_Submenu_Tools_Insurance';" title="Auto Insurance Quotes">Insurance Tips &amp; Tools</a> </li>
+              <li> <a href="http://10.0.0.99/auto-loans/" onclick="s_objectID='Navbar_Submenu_Tools_LoanTips';" title="Auto Loan Tips">Loan Tips &amp; Tools</a> </li>
+              <li> <a rel="nofollow" href="#" onclick="s_objectID='Navbar_Submenu_Tools_GetLoan';javascript:post_to_url('http://autos.10.0.0.99',{'rsit':'2887','customer.address.zip':'','sit':'2886','wtl':'AL_ALSubnavQuote_Link','wtpt':'Auto Loans: Index','wts':'Auto Loans'});return false;" title="Get an Auto Loan">Get an Auto Loan</a> </li>
+              <li> <a href="http://10.0.0.99/auto-loan-calculator/" onclick="s_objectID='Navbar_Submenu_Tools_Calculator';" title="Auto Loan Calculator">Loan Calculator</a> </li>
+              <li> <a href="http://10.0.0.99/gas-prices/" onclick="s_objectID='Navbar_Submenu_Tools_GasPrice';" title="Check Local Gas Prices">Check Gas Prices</a> </li>
+              <li> <a href="http://forums.10.0.0.99/index.html" onclick="s_objectID='Navbar_Submenu_Community_Forums';" title="Automotive Forums">Explore Forums</a> </li>
+            </ul>
+          </div>
+        </li>
+        <li class="fed-headernav-separator"></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<script type="text/javascript" src="static_html/automotive_com/local/js/sitemap.js"></script>

@@ -1,0 +1,16 @@
+.cpo-drill .main-content{
+	margin-bottom:20px;
+}
+.cpo-drill .main-left{
+	float:left;
+	min-height:600px;
+	width:800px;
+	position: relative;
+	z-index: 2000;
+}
+.cpo-drill .right-rail{
+	float:right;
+	width:160px;
+	position: relative;
+	z-index: 1;
+}

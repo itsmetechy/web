@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script src="js/jquery-1.7.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+//	var path = 'http://www.google.com/';
+//			var index = path.lastIndexOf('/');
+//if(index != -1)
+//{
+//    var newStr = path.substring(index + 1);
+//	alert(newStr);
+//}
+
+function changeurl(){
+
+			var path =window.location;
+			var _array = path.split('/'),
+	        _foo = _array[_array.length-2];
+			var tt = path.length - 2;
+			if(path.lastIndexOf('/') !=tt) {
+			path = path.substring(0,tt);
+		 	var lastValue = path.substring(0, path.lastIndexOf('/')+1);
+			
+				history.replaceState(null, null,lastValue+12 );
+	};
+};
+    $(document).ready(function() {
+		changeurl();
+		$('.test').click(function(e){
+			if(!$(this).hasClass('test')){
+				e.preventDefault();
+				changeurl();
+			}
+			//var _array = path.split('/');
+			//var lastValue = path.substring(0, path.lastIndexOf('/')-1);
+			//_foo = _array[_array.length-2];
+			//alert(lastValue);
+			
+		
+			//var path = 'http://wot.local.int.motortrend.com/2014-mitsubishi-outlander-is-iihs-top-safety-pick-w-video-391199.html/2014-mitsubishi-outlander-dummy-head/';	
+
+		//	history.replaceState(null, null, 'shiva');
+		
+		});
+
+    });
+</script>
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.box {
+	width: 250px;
+	height: 250px;
+	border: 1px solid red;
+}
+</style>
+</head>
+
+<body>
+<span href="12345" class="test">text</span> <span href="sometext" class="test">number</span>
+</body>
+</html>

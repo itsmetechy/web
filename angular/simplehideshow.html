@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html ng-app="myFirstModule">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#toggleShowHide').change(function () {
+                $('#specialParagraph').toggle($(this).prop('checked'));
+            });
+        });
+    </script>
+</head>
+
+<body>
+<input type="checkbox" id="toggleShowHide">
+    <div id="specialParagraph">some text</div>
+</body>
+
+</html>

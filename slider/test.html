@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery</title>
+<script src="../js/jquery-1.7.2.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.slider img:first').addClass('active');                    
+    var imagewidth = $('.visible-area').width();                  
+    var totalimages = $('.slider img').size();                    
+    var sliderwidth = imagewidth * totalimages;                   
+    $('.slider').css({'width': sliderwidth});                     
+	
+	function animateAction(){
+        var count = $active.attr('alt') -1;                       
+        var sliderposition = count * imagewidth;               
+        $('.slider').animate({'left': -sliderposition}, 500); 	
+	}
+    $('.next').click(function(){                               
+        $active = $('.slider img.active').next().length?$active.next():$active.parent().children(':first');
+		$('.slider img').removeClass('active');
+		$active.addClass('active');
+		animateAction();
+								
+    }); 
+	
+    $('.previous').click(function(){                            
+        $active = $('.slider img.active').length?$active.prev():$active.parent().children(':last');
+		$('.slider img').removeClass('active');
+		$active.addClass('active');
+		animateAction();
+    }); 
+});
+</script>
+<style type="text/css">
+* {
+	margin: 0px;
+	padding: 0px;
+}
+.wrapper {
+	width: 800px;
+	position: relative;
+	margin: 20px auto;
+}
+.visible-area {
+	width: 800px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+.slider {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.slider img {
+	float: left;
+}
+.previous {
+	width: 100px;
+	float: left;
+	color: #fff;
+	height: 30px;
+	margin-top: 10px;
+	background: #f00;
+	line-height: 28px;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.next {
+	width: 100px;
+	float: right;
+	color: #fff;
+	height: 30px;
+	margin-top: 10px;
+	background: #f00;
+	line-height: 28px;
+	text-align: center;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.clear {
+	clear: both;
+}
+</style>
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="visible-area">
+    <div class="slider"> <img src="../images/1.jpg" width="800" height="300" alt="1"/> <img src="../images/2.jpg" width="800" height="300" alt="2"/> <img src="../images/3.jpg" width="800" height="300" alt="3"/> <img src="../images/4.jpg" width="800" height="300" alt="4"/> </div>
+  </div>
+  <a href="#" class="previous">Previous</a> <a href="#" class="next">Next</a>
+  <div class="clear"></div>
+</div>
+</body>
+</html>

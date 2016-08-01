@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Checkboxtree Document</title>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <style>
+        .check-box-change-controll{
+        	margin:0 auto;
+        	width:800px;
+        	height:300px;
+        }
+        .check-box{
+        	color: #000000;
+            font-family: Arial,Helvetica,sans-serif;
+            font-size: 16px;
+            margin: 0 auto;
+            position: relative;
+            text-align: center;
+            top: 100px;
+            width: 300px;
+        }
+        
+        .lable {
+            color: #FFFFFF;
+            position: relative;
+            top: 70px;
+        }
+    </style>
+
+    <script>
+        $(document).ready(
+    $('.k-top > k-checkbox.input').addClass('parentCheckBox-cnt');
+$('.k-mid > k-checkbox.input').addClass('childCheckBox-cnt');
+$('.k-bot > k-checkbox.input').addClass('childCheckBox-cnt');
+//clicking the parent checkbox should check or uncheck all child checkboxes
+$(".parentCheckBox-cnt").click(
+    function () {
+        $(this).parents('fieldset:eq(0)').find('.childCheckBox-cnt').attr('checked', this.checked);
+    }
+);
+//clicking the last unchecked or checked checkbox should check or uncheck the parent checkbox
+$('.childCheckBox-cnt').click(
+    function () {
+        if ($(this).parents('fieldset:eq(0)').find('.parentCheckBox-cnt').attr('checked') == true && this.checked == false)
+            $(this).parents('fieldset:eq(0)').find('.parentCheckBox-cnt').attr('checked', false);
+        if (this.checked == true) {
+            var flag = true;
+            $(this).parents('fieldset:eq(0)').find('.childCheckBox-cnt').each(
+                function () {
+                    if (this.checked == false)
+                        flag = false;
+                }
+            );
+            $(this).parents('fieldset:eq(0)').find('.parentCheckBox-cnt').attr('checked', flag);
+        }
+    }
+);
+//End
+    }
+);
+    </script>
+
+
+</head>
+
+<body>
+
+    <fieldset>
+        <input type="checkbox" class="parentCheckBox" />Parent 1
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 1-1
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 1-2
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 1-3
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 1-4
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 1-5
+        <br />
+    </fieldset>
+    <fieldset>
+        <input type="checkbox" class="parentCheckBox" />Parent 2
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 2-1
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 2-2
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 2-3
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 2-4
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 2-5
+        <br />
+    </fieldset>
+    <fieldset>
+        <input type="checkbox" class="parentCheckBox" />Parent 3
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 3-1
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 3-2
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 3-3
+        <br />
+        <input type="checkbox" class="childCheckBox" />Child 3-4
+        <br />
+        <input type="chec
+</body>
+
+</html>

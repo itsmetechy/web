@@ -1,0 +1,558 @@
+/*  HTML5 Boilerplate  */
+header, footer, nav  {
+    border:0;
+    display:block;
+    font-size:100%;
+    margin:0;
+    outline:0;
+    padding:0;
+    vertical-align:baseline;
+}
+
+header h2, footer h2, footer p, nav h2 {
+    margin:  0;
+    padding:  0;
+}
+
+nav ul {
+    list-style:none; 
+}
+
+/* Make buttons play nice in IE: */
+button {
+    overflow: visible;
+    width: auto; 
+}
+
+/* Bicubic resizing for non-native sized IMG:
+   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+.ie7 img { 
+    -ms-interpolation-mode: bicubic; 
+}
+
+
+.ir { 
+    background-repeat: no-repeat;
+    direction: ltr; 
+    display: block; 
+    overflow: hidden; 
+    text-align: left; 
+    text-indent: -999em; 
+}
+
+.hidden { 
+    display: none; 
+    visibility: hidden; 
+ }
+ 
+.visuallyhidden { 
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px; width: 1px; 
+    overflow: hidden;
+    position: absolute !important;
+ }
+ 
+.invisible { 
+    visibility: hidden; 
+}
+
+.group:before, .group:after  { 
+    content: "\0020"; 
+    display: block; 
+    height: 0; 
+    overflow: hidden; 
+} 
+
+.group:after { 
+    clear: both; 
+}
+
+.group { 
+    zoom: 1; 
+}
+
+/**
+ * General group contains body styles and default element styles (after reset)
+ */
+/* @group general */
+
+html {
+    font-family: Verdana;
+}
+
+
+body 
+{
+    /*background-image: url('[relative-path]/automotive_com/[dir-var]/img/masthead_bg.png');
+    background-repeat: repeat-x;*/
+    color: #000;  
+    font-size: 11px;
+    height: 100%;
+    margin:0 auto;    
+}
+
+.ie6 .fed-page-header {
+    height: 120px;
+}
+
+.ie7 .fed-page-header, .ie6 .fed-page-header {
+    min-height: 120px;
+}
+.fed-page-header {
+	background-image: url('[relative-path]/automotive_com/[dir-var]/img/masthead_bg.png');
+    background-repeat: repeat-x;
+	margin: 0 auto;
+	padding:  0;
+	position: relative;
+	z-index: 2000000;
+}
+.fed-page-header-nav {
+    font-family:Arial;
+    font-size:13px;
+    margin: 0 auto;
+}
+/* Header related */
+
+.fed-logocontainer {
+    padding-top: 20px;
+	text-align: left;
+}
+
+.fed-logo {
+    background: transparent url('[relative-path]/automotive_com/[dir-var]/img/headersitemap.png') 0 -430px no-repeat;
+    display: block; 
+    height: 42px;
+    width: 592px;
+    margin: 0 0 0 7px;
+    text-indent: -99999px;   
+}
+
+.ie6 .fed-logo {
+	background-image: url('[relative-path]/automotive_com/[dir-var]/img/headersitemap.gif');
+}
+
+.fed-socialmedia {
+    background-color: #7d100e;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    display: inline;
+    float: right;
+    height: 48px;
+    padding: 0 14px;
+    width: 176px;
+}
+
+.ie6 .fed-socialmedia, .ie7 .fed-socialmedia {
+    margin-top: 0;
+}
+
+.fed-socialmedia p  {
+    color: #FFFFFF;
+    display:inline;
+    font-family: Arial;
+    font-size: 12px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 12px;
+    padding-top: 0;
+}
+
+.fed-facebook, .fed-twitter {
+    background: transparent url('[relative-path]/automotive_com/[dir-var]/img/headersitemap.png') 0 -356px no-repeat;
+    height: 24px;
+    float:left;
+    margin: 12px 0 0 8px;
+    width: 24px;
+	text-indent: -99999px;
+}
+
+
+.fed-facebook {
+	background-position: 0 -186px;
+    margin-left: 9px;
+}
+
+.ie6 .fed-twitter, .ie6 .fed-facebook {
+	background-image:  url('[relative-path]/automotive_com/[dir-var]/img/headersitemap.gif');
+}
+
+.fed-headernav {
+    display: inline;
+    font-size: 16px;
+    height: 46px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.fed-headernav li {
+	float: left;
+	margin: 0; 
+	padding: 0;
+	position: relative;
+}
+
+.fed-headernav a, .fed-headernav a:link, .fed-headernav a:hover, .fed-headernav a:active, .fed-headernav a:visited {
+	border-top: 3px solid transparent; 
+	float: left; 
+	height: 44px;
+	color: #FFF;
+	font-family: Arial;
+    line-height: 44px;
+	padding: 0 20px;
+	margin: 12px 0 0 0;
+    text-align: center;
+	text-decoration:none;
+}
+
+
+.ie6 .fed-headernav a, .ie6 fed-headernav a:link, .ie6 .fed-headernav a:hover, .ie6 .fed-headernav a:active, .ie6 .fed-headernav a:visited  {
+    border-color: #631700;
+    filter: chroma(color=#631700);
+}
+
+.fed-headernav > li:hover a, ul.fed-headernav > li:focus a {
+   background-color: #6d100e;
+   border-top: 3px solid #660000;
+}
+
+.fed-headernav li .fed-headernav-submenu {
+    background-color: #FFF;
+    float: left;
+    left: 0;
+    padding: 0 0 0 0;
+	position: absolute;	
+	top: 58px;
+    visibility: hidden;	
+    z-index: 2000000;
+}
+
+.fed-headernav li:hover .fed-headernav-submenu {
+    visibility: visible;
+}
+
+
+.fed-headernav li .row  {
+    clear: both; 
+    float: left; 
+    margin-bottom: 10px;
+    width: 100%;  
+}
+
+.fed-headernav li .fed-headernav-submenu ul {
+    background-color: #000;
+	list-style: none;
+	float: left;
+	margin: 0; 
+	width: 200px;
+	padding: 7px 0;
+}
+
+.fed-headernav .fed-headernav-submenu ul li {
+    color: #FFF;
+    width : 100%;
+}
+
+
+.fed-headernav .fed-headernav-submenu ul li a,
+.fed-headernav .fed-headernav-submenu ul li a:link,
+.fed-headernav .fed-headernav-submenu ul li a:hover,
+.fed-headernav .fed-headernav-submenu ul li a:active,
+.fed-headernav .fed-headernav-submenu ul li a:visited {
+    background-color: #000;
+	border: none;
+	color: #FFF;
+	display: block;
+	float: none; 
+	font-size: 14px;
+	font-weight: normal;
+	height: auto;
+	line-height: 24px;
+	margin:  0;
+	padding: 7px 0 7px 18px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.fed-headernav .fed-headernav-submenu ul li a:hover, ul.fed-headernav .fed-headernav-submenu ul li a:hover  {
+    background-color : #CCCCCC;
+    color: #FFF;  
+    border-right: 1px solid #000;
+}
+
+.fed-headernav li.fed-headernav-separator {
+    background-color: #C61C19;
+    border-right: 2px solid #590202; 
+    height: 24px; 
+    margin-top: 22px;
+    width: 1px;
+}
+
+.fed-sitemap-btn {
+	background-color: #6D100E;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-shadow: inset 0 2px 1px #450000;
+	-webkit-box-shadow: inset 0 2px 1px #450000;
+	box-shadow: inset 0 2px 1px #450000;
+	color: white;
+	display: inline;
+	float: right;
+	font-family: Arial;
+	font-size: 14px;
+	margin-top: 20px;
+	padding: 6px 6px;
+	text-align: center;
+	text-decoration: none;
+	width: 62px;
+}
+
+.fed-sitemap-btn:hover {
+    background-color: #FFFFFF;
+    -moz-box-shadow:  inset  0 2px 1px #A1A1A1;
+    -webkit-box-shadow: inset  0 2px 1px  #A1A1A1;
+    box-shadow: inset  0 2px 1px #A1A1A1;
+    color: #6d100e;
+	text-decoration: none;
+}
+
+.fed-sitemap-btn:visited, .fed-sitemap-btn:focus {
+   text-decoration: none;
+}
+
+.fed-sitemap-btn:visited {
+   background-color: #FFFFFF;
+   color: #77201E; 
+}
+
+/* Footer related */
+.fed-footer{
+	background:#a80906;
+}
+.fed-footer-logo{
+	background:url("[relative-path]/automotive_com/[dir-var]/img/footer-logo.png") no-repeat center 28px;
+	height:68px;
+	border-bottom:1px solid #c83d3a;
+}
+.fed-footer-logo img{
+	display:block;
+	margin:0 auto;
+	padding-top:28px;
+}
+.fed-footer-links{
+	border-bottom:1px solid #c83d3a;
+	font-size:13px;
+	height:40px;
+	padding-top:8px;
+	overflow:hidden;
+	position:relative;
+	text-align:center;
+}
+.fed-footer-links a{
+	color:#fff;
+	text-decoration:none;
+}
+.fed-footer-links .left-links{
+	position:absolute;
+	left:50%;	
+	margin-left:-490px;
+	text-align:right;
+	top:0;
+	width:385px;
+}
+.fed-footer-links .left-links a{
+	line-height:48px;
+	margin-left:10px;
+}
+.fed-footer-links .right-links{
+	position:absolute;
+	left:50%;
+	margin-left:100px;
+	text-align:left;
+	top:0;
+	width:385px;
+}
+.fed-footer-links .right-links a{
+	line-height:48px;
+	margin-right:10px;
+}
+.fed-footer-links  .social{
+	margin:0 auto;
+	overflow:hidden;
+	width:144px;
+}
+.fed-footer-links a.pinterest{
+	background-position:112px 0;
+}
+.fed-footer-links  a.gplus{
+	background-position:84px 0;
+}
+.fed-footer-links  a.facebook{
+	background-position:56px 0;
+}
+.fed-footer-links  .bottom{
+	background:#171717;
+	height:30px;
+	margin-top:30px;
+}
+.fed-footer-copyright{
+	color:#fff;
+	font-size:11px;
+	height:56px;
+	padding:10px 0 40px;
+	text-align:center;
+}
+.fed-footer-links .adchoices{
+	background:url("[relative-path]/automotive_com/[dir-var]/img/adchoices_12.png") right center no-repeat;
+	padding-right:15px;
+}
+
+/* Sitemap related */
+
+.fed-sitemap {
+    display: none;
+    margin: 0 0;
+    padding: 10px 0 30px 40px; 
+}
+
+
+.fed-sitemapnav {
+         margin: 0 0;
+         padding: 0 0;
+}
+
+.fed-sitemapcolumn {
+        border: 0;
+        display: block;
+        float: left;
+		font-family: Arial, sans-serif;
+		font-size: 13px;
+        margin: 0 0;
+        outline: 0;
+        padding: 2px 2px; 
+        vertical-align: baseline;
+        width: auto;
+}
+
+
+.ie6 .fed-sitemapcolumn {
+	width: 95px;
+}
+
+
+.fed-sitemapcolumn ul {
+        list-style: none;
+}
+
+.fed-sitemapcolumn li {
+        padding-top: 10px;
+}
+
+.fed-sitemap h2, .fed-sitemap p {
+       color: #000;
+       font-size: 12px;
+       font-weight: bold;
+  
+}
+
+.fed-sitemap a {
+       font-size: 10px;
+       color: #8b100d;
+	   line-height: 13px;
+       text-decoration: none;
+}
+
+.fed-sitemap a:hover, .fed-sitemap a:focus {
+    text-decoration: underline;
+}
+
+.fed-sitemapseparator {
+       background-color: #CCC;
+       display:inline;
+       float: left;
+       height: 280px;
+	   margin: 20px 19px 0 19px;
+       width: 1px; 
+       padding-top: 5%;
+       padding-bottom: 5%;  
+}
+
+.fed-privacypopup {
+    display: none;
+	margin: 0;
+	padding: 25px 0 25px 125px;
+}
+
+.fed-usercontentpopup {
+    display: none;
+	margin: 0;
+	padding: 25px 15px 50px 25px;
+}
+
+.fed-feedbackpopup {
+	display:none;
+	margin:0;
+}
+/* dialog popups */
+.simsd-overlay {
+	background-color: #000000;
+	background-color: hsla(0,0%,0%,0.5);
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* first   -ms-filter must go before filter otherwise */
+    filter: alpha(opacity=50);				                          /* If you don’t use this order, IE8-as-IE7 doesn’t apply the opacity, although IE8 and a pure IE7  */
+}
+
+.ie7 .simsd-overlay, .ie6 .simsd-overlay {
+	background-image: url('[relative-path]/automotive_com/[dir-var]/img/simoverlay.png');
+	background-color: transparent;
+    background-position: 0 0;
+}
+
+.simsd-container {
+	background: #ffffff;
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    border-radius: 4px; 
+	padding: 10px 0 10px 0;
+}
+
+
+
+/* states and images */
+.simsd-close { 
+    background-repeat: no-repeat; 
+	background-image: url('[relative-path]/automotive_com/[dir-var]/img/headersitemap.png');
+	background-color: transparent; 
+    background-position: 0 0; 
+    display: block; 
+    height: 43px; 
+	margin: -18px -9px 0 0;
+    overflow: hidden; 
+	position: absolute;
+	right: 0;
+    text-indent: -99999px; 
+	top: 0;
+    width: 43px; 
+ }
+ 
+.ie6 .simsd-close {
+	margin:  -8px 0 0 0;
+	background-image: url('[relative-path]/automotive_com/[dir-var]/img/headersitemap.gif');
+}
+
+.simsd-close:hover {  
+    background-color: transparent; 
+    background-position: 0 -93px; 
+	height: 43px;
+    width: 43px; 
+}
+
+.ie6  .simsd-header{
+    margin: -2px -3px 0 0;  
+    overflow: hidden;
+}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Regent Business QCF</title>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+<link href="css/quickform-styles.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+<script type="text/javascript">
+    $(function(){
+        $.ajax({
+            url:'temp.json',
+            success: function(data){
+                console.log(data.users);
+            }
+            
+            
+
+        });
+    });
+        
+</script>
+</head>
+
+<body>
+<h3>If you can see the vaules below, which you entered in the url,Then session is working fine..</h3>
+
+<h2 id="a"></h2>
+<h2 id="b"></h2>
+<h2 id="c"></h2>
+
+<a href="index.html">Go back to form page</a>
+</body>
+</html>

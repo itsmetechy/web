@@ -1,0 +1,249 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** PREVIEW SETTINGS - DELETE WHEN SETTING THE FORM LIVE ****/
+body.preview-version {
+	max-width: 241px;
+}
+/*** END OF PREVIEW SETTINGS ****/
+
+
+/************ FORM ************/
+#quick-form, #quick-form *, #quick-form *:before, #quick-form *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+#quick-form {
+	border:2px solid #525051;
+	width: 100%;
+	height: auto;
+	background-color:#54868e;
+	border-radius:2px;
+	padding-bottom:3px;
+}
+
+#quick-form #form-title {
+	font: 400 31px Arial, Helvetica, sans-serif;
+	color: #1B569C;
+	height:80px;
+	position: relative;
+	text-align: center;
+	padding-top:0px;
+}
+
+#quick-form #form-fields {
+	padding: 0 6px 14px;
+}
+
+#quick-form p.express-consent {
+	font: normal 9px/12px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-align: center;
+	margin: 0px 0 5px 0px;
+	padding: 0;
+}
+
+#quick-form .form-row {
+    float: left;
+    padding-top: 0;
+    padding-bottom: 5px;
+	width:100%;
+	position: relative;
+}
+
+/* Change these numbers to get the correct space inbetween your split row form fields, then set the padding on #form-fields to get the distance on the edges*/
+#quick-form .form-row, #quick-form .form-row div.split-form-row {
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+#quick-form .form-row.form-row-double {
+    padding-right: 0px;
+	padding-left: 0px;
+}
+
+#quick-form .form-row div.split-form-row {
+	float: left;
+	width: 50%;
+	padding-top: 0;
+	padding-bottom: 0;
+	position: relative;
+}
+
+#quick-form .divide {
+	background-color: #CFCFCF;
+	clear: both;
+	height: 1px;
+	margin: 15px 0 0 0;
+	width: 465px;
+}
+
+/************ FORM STYLES ************/
+#quick-form br {
+	clear: both;
+}
+
+#quick-form input, #quick-form select, #quick-form textarea {
+	clear: both;
+	float: left;
+	border:0px;
+	border:1px solid #9e9e9e;
+	background: #fff;
+	resize:none;
+	font: 400 13px 'ralewayregular','Helvetica', arial, sans-serif;
+	color: #051a39;
+	width: 100%;
+	margin: 0;
+	border: 2px solid #bdc2c5;
+	border-radius: 2px;
+}
+
+/** LABELS **/
+#quick-form label {
+    color: #000000;
+    display: block;
+    float: left;
+    font: bold 13px/18px 'Arial',sans-serif;
+    margin: 0;
+    padding: 0 0 3px;
+    text-align: left;
+}
+
+#quick-form label.error {
+    color: #f3b13f;
+    font: bold italic 18px/14px 'ralewayregular','Helvetica', arial, sans-serif;
+    margin: 0;
+    padding: 7px 0;
+    width: auto;
+	clear:both;
+	width:auto;
+	min-width: 27px;
+	background: #0077BD;
+	color: #fff;
+	position: absolute;
+	top: 4px;
+	right: 6px;
+	border-radius: 36px;
+	text-align: center;
+}
+
+/** INPUTS **/
+#quick-form input {
+    padding: 8px 7px;
+}
+
+/** SELECT BOXES **/
+#quick-form select {
+    padding: 7px 4px;
+    position: inherit;
+    min-width: 97%;
+	border: 2px solid #bdc2c5;
+	border-radius: 2px;
+}
+
+/** RADIO BUTTONS **/
+#quick-form .radio input {
+	border: none;
+	cursor: pointer;
+	margin: 5px 8px 0 10px;
+	margin-top: 3px \9;
+	*margin-top: 1px;
+	width: 15px;
+}
+
+/** NO BORDER ON FOCUS **/
+#quick-form input#submit:focus, input#submit.sffocus, .radio input:focus, .radio input.sffocus { 
+	border: none;
+}
+
+/** FORM BUTTONS **/
+
+#quick-form .submit-container {
+    clear: both;
+    text-align: center;
+}
+#quick-form #submit {
+	float: none;
+	border: 0px;
+	padding: 0px;
+	font-size: 25px;
+	font-weight: 400;
+	color: #fff;
+	background: url(../images/btn-quick-form-submit.png) no-repeat;
+	width: 207px;
+	height:43px;
+	cursor: pointer;
+}
+#quick-form .clear {
+	clear: both; 
+}
+#quick-form .privacy{
+	font: 400 11px/15px 'ralewayregular','Helvetica', arial, sans-serif;
+	color: #fff;
+	padding: 0px 10px;
+	background: url(../images/lock.jpg) no-repeat;
+	text-align: center;
+	width: 110px;
+	margin: 10px auto;
+	margin-bottom: 0px; 
+}
+
+.bottom-color {
+background: #660d07;
+width: 195px;
+margin: 0 auto;
+padding: 3px;
+}
+
+/* Thank you page style */
+
+.thank-page{
+	width:425px;
+}
+.thank-page .title{
+	font-family:'ralewayregular','Helvetica', arial, sans-serif;
+	color:#870f0e;
+	margin:0px;
+	padding:0px;
+	font-weight:normal;
+}
+.thank-page .content{
+	font-size:13px;
+	width: 390px;
+	float:left;
+	margin-bottom:13px;
+}
+.thank-page .content p { color:#4d4d4d; line-height:20px; font-family:'ralewayregular','Helvetica', arial, sans-serif;}
+.thank-page .content a{
+	text-decoration:underline;
+	color:#00579f;
+}
+.social-button-wrap{
+}
+.social-button-wrap .social-btn { background:url(../images/btn-bg.jpg) repeat-x; float:left; 	width: 199px; }
+.social-button-wrap .social-btn span{
+	float: left;
+	margin-bottom: 20px;
+	color: #fff;
+	font-size: 12px;
+	line-height: 34px;
+	padding-left: 40px;
+}
+.social-button-wrap .mgn-left{
+	margin-left:12px;
+}
+.social-button-wrap span.facebook-btn{
+	background: url(../images/facebook-icon.png);
+	background-repeat: no-repeat;
+}
+.social-button-wrap span.twitter-btn{
+	background-image: url(../images/twitter-icon.png);
+	background-repeat: no-repeat;
+}
+.social-button-wrap span.youtube-btn{
+	background-image: url(../images/youtube-icon.png);
+	background-repeat: no-repeat;
+}
+.social-button-wrap span.instagram-btn{
+	background-image: url(../images/insta-icon.png);
+	background-repeat: no-repeat;
+}

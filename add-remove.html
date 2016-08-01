@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JQuery Collapse</title>
+<script type="text/javascript" src="jquery.js"></script>
+<style type="text/css">  
+  a {  
+   display: block;  
+   border: 1px solid #aaa;  
+   text-decoration: none;  
+   background-color: #fafafa;  
+   color: #123456;  
+   margin: 2px;  
+   clear:both;  
+  }  
+  div {  
+   float:left;  
+   text-align: center;  
+   margin: 10px;  
+  }  
+  select {  
+   width: 100px;  
+   height: 80px;  
+  }  
+ </style>  
+<script type="text/javascript">
+
+    $().ready(function() { 
+      $('#add').click(function() {  
+      return !$('#select1 option:selected').remove().appendTo('#select2');  
+      });  
+     $('#remove').click(function() {  
+      return !$('#select2 option:selected').remove().appendTo('#select1');  
+     });  
+    });  
+
+</script>
+  
+
+</head>
+<body>
+	<div>  
+  <select multiple id="select1">  
+   <option value="1">Option 1</option>  
+   <option value="2">Option 2</option>  
+   <option value="3">Option 3</option>  
+   <option value="4">Option 4</option>  
+  </select>  
+  <a href="#" id="add">add &gt;&gt;</a>  
+ </div>  
+ <div>  
+  <select multiple id="select2"></select>  
+  <a href="#" id="remove">&lt;&lt; remove</a>  
+ </div>  
+
+</body>
+</html>

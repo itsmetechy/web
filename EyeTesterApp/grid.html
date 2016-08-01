@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Logic</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var num = 6, createDiv = '', wrapDiv;
+            function createGrid(num){
+                console.log(num);
+                for(var i = 1; i<=num; i++){
+                    createDiv += '<li>' +i+ '</li>';
+                    $('#grid').append("<ul class='eachRow'>"+createDiv+"</ul>");
+                }
+            }
+            createGrid(num);
+        });
+
+    </script>
+</head>
+<body>
+<div id="grid">
+
+</div>
+</body>
+</html>

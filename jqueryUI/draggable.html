@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="css/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+	<script src="js/jquery-1.9.1.js"></script>
+	<script src="js/jquery-ui-1.10.3.custom.js"></script>
+	<script>
+function endMove() {
+    $(this).removeClass('movable');
+}
+function startMove() {
+    $('#containerDiv').on('mousemove', function(event) {
+        var thisX = event.pageX - $(this).width() / 2,
+        thisY = event.pageY - $(this).height() / 2;
+
+        $('.movable').offset({
+            left: thisX,
+            top: thisY
+        });
+    });
+}
+$(document).ready(function() {
+    $("#containerDiv").on('mousedown', function() {
+        $(this).parent().addClass('movable');
+        startMove();
+    }).on('mouseup', function() {
+        $('.wrapper').removeClass('movable');
+        endMove();
+    });
+
+});
+	</script>
+	<style>
+ 	.box { height:250px; width:250px; position:absolute;  background:red; }
+	.box2 { height:15px; width:250px; position:absolute;  background:green; cursor:move; }
+	#containerDiv {
+    background:#333;
+    position:absolute;
+    width:200px;
+    height:100px;
+    cursor:move ;
+    line-height:100px;
+    text-align:center;
+    color:#fff;
+    border:#aaa 1px solid;
+}
+#containerDiv.movable {
+    background:#ef0;
+    color:#444;
+    border:#000 1px solid;
+}
+	</style>
+</head>
+<body>
+<div  class="wrapper"><div id="containerDiv">drag me</div></div>
+</body>
+</html>

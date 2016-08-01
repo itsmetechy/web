@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Untitled Document</title>
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+
+	var $slides = $("#screen li");
+	var $pagerItems = $("#dots li");
+	var activeClass = "act";
+	
+	 
+
+});
+</script>
+<style type="text/css">
+*{margin:0px; padding:0px;}
+#masthead{
+	
+}
+	
+	#masthead #screen {
+		background: url('img/bg_screen.png') no-repeat scroll top left;
+		width:775px;
+		height: 460px;
+		position: relative;
+		margin-left: 0px;
+	}
+	
+	#masthead #screen li{
+		display: none;
+		list-style:none;
+		position: absolute;
+ 
+	}
+		#masthead #screen li:first-child{
+			display: block;
+		}
+	
+	#masthead #dots{
+		width:47px;
+		margin: 0 0 0 397px;
+	}
+	
+	#masthead #dots li{
+		float:left;
+		margin-right: 5px;
+		background: transparent url('img/spr_dots.png') no-repeat 0 -8px;
+		height:8px;
+		width:8px;
+		list-style:none;
+ 	}
+		#masthead #dots li a {
+			display: block; color:#000;
+		}
+	
+	#masthead #dots li.act{
+		background-position: 0 0;
+	}
+	
+	#masthead #dots li.last{
+		margin:0;
+	}
+	#float-clear{clear:both;}
+</style>
+</head>
+
+<body>
+<div id="masthead">
+				<ul id="screen">
+					<li style="display: block;"><img width="775" height="460" alt="Home Fixed" src="images/Chrysanthemum.jpg"></li>
+					<li style="display: none;"><img width="775" height="460" alt="Home Fixed" src="images/Desert.jpg"></li>
+					<li style="display: none;"><img width="775" height="460" alt="Home Fixed" src="images/Hydrangeas.jpg"></li>
+					<li style="display: none;"><img width="775" height="460" alt="Home Fixed" src="images/Jellyfish.jpg"></li>
+				</ul>
+				<ul class="float-clear" id="dots">
+					<li class="act"><a href="asdf">1</a></li>
+					<li class=""><a href="asdf">2</a></li>
+					<li class=""><a href="asdf">3</a></li>
+					<li class="last"><a href="asdf">4</a></li>
+				</ul>	
+			</div>
+</body>
+</html>
