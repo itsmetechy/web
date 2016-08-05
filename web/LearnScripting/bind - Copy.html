@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Bind</title>
+<script type="text/javascript" src="jquery-1.7.2.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.add').live({
+			click:function(){
+ 				$(this).after('<input type="file" class="file"/>   <a href="#" class="add">add</a>');
+				}
+			})	
+	})
+</script>
+</head>
+
+<body>
+<input type="file"  class="file"><a href="#" class="add">add</a>
+
+</body>
+</html>
