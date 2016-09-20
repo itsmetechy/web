@@ -1,0 +1,33 @@
+import {Component} from 'angular2/core';
+
+@Component({
+    selector:'test',
+    template: `
+         <ul>
+            <li *ngFor="#contact of contacts" (click)="onSelect()" [class.clicked]="showDetail === true">
+                {{contact.firstName }} {{contact.lastName }}
+            </li>            
+        </ul>
+        <div *ngIf="showDetail=true">
+            Phone Number: {{contact.phone}}<br>
+            Email: {{contact.email}}
+        </div>
+    `,
+    styleUrls: ['../src/css/app.css']
+})
+
+export class TestComponent{
+
+    public contacts = [
+            {firstName:'Shiv',lastName:'Shankar', phone:'7299870510',    email:'ssivashakar@gmail.com'}
+            {firstName:'Shiv1',lastName:'Shankar1', phone:'7299870511',    email:'ssivashakar1@gmail.com'},
+            {firstName:'Shiv2',lastName:'Shankar2', phone:'7299870512',    email:'ssivashakar2@gmail.com'},
+            {firstName:'Shiv3',lastName:'Shankar3', phone:'7299870513',    email:'ssivashakar3@gmail.com'}
+        ]
+    
+    public showDetail = false;
+    onSelect(){
+        this.showDetail = true;
+    }
+    
+}

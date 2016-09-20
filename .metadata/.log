@@ -755,3 +755,209 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.debug.ui 4 120 2016-09-20 10:59:00.886
 !MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:03:37.693
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:03:37.693
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:03:37.693
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:03:37.693
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.693
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.693
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:03:37.693
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.693
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.693
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:03:37.697
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:03:37.697
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:03:37.697
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:03:37.697
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.697
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.697
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:03:37.697
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.697
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.697
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:03:37.709
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:03:37.709
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:03:37.709
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:03:37.709
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.709
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.709
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:03:37.709
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.709
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.709
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:03:37.710
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:03:37.710
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:03:37.710
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:03:37.710
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.710
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.710
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:03:37.710
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.710
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:03:37.710
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2016-09-20 11:19:08.349
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2016-09-20 11:19:08.349
+!MESSAGE session context was:(profile=nodeclipse.package.enide.product, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-09-20 11:19:08.349
+!MESSAGE Unable to read repository at http://oss.opensagres.fr/angular2-eclipse/1.0.0/plugins/ts.eclipse.ide.server.nodejs.embed.win32.win32.x86_64_1.0.0.201608222040.jar.
+!STACK 0
+org.apache.http.ConnectionClosedException: Premature end of Content-Length delimited message body (expected: 5614852; received: 5184029
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:180)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:178)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:35:32.098
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:35:32.098
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:35:32.098
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:35:32.098
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.098
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.098
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:35:32.098
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.098
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.098
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:35:32.102
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:35:32.102
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:35:32.102
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:35:32.102
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.102
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.102
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:35:32.102
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.102
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.102
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:35:32.111
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:35:32.111
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:35:32.111
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:35:32.111
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:35:32.111
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 10053 2016-09-20 11:35:32.111
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 1 10001 2016-09-20 11:35:32.111
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 1 10003 2016-09-20 11:35:32.111
+!MESSAGE "minimal-json" is already installed, so an update will be performed instead.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10053 2016-09-20 11:35:32.111
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE Software being installed: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE Missing requirement: Angular2 - CLI 1.0.0.201608222247 (ts.eclipse.ide.angular2.cli 1.0.0.201608222247) requires 'bundle org.eclipse.wst.jsdt.js.cli 1.0.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 11:35:32.111
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE From: Angular2 Eclipse 1.0.0.201608222247 (angular2-feature.feature.group 1.0.0.201608222247)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 11:35:32.111
+!MESSAGE To: ts.eclipse.ide.angular2.cli [1.0.0.201608222247]
+!SESSION 2016-09-20 11:37:24.348 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product nodeclipse.package.enide.product -product nodeclipse.package.enide.product -product nodeclipse.package.enide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product nodeclipse.package.enide.product -product nodeclipse.package.enide.product -data file:/C:/xampp/htdocs/web/plattform/web-tut/ -product nodeclipse.package.enide.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-09-20 11:37:44.514
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ssiva_000'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-09-20 11:37:44.869
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 1 4 2016-09-20 11:38:03.574
+!MESSAGE The error reporting server is not available. Error reporting will be disabled until next restart. Version: 1.0.0.v20150617-0732
+!STACK 0
+org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException.newTrace(Logs.java:382)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:126)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.CheckServerAvailabilityJob.run(CheckServerAvailabilityJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 18 2016-09-20 11:38:45.805
+!MESSAGE Updating the index from remote failed. Version: 1.0.0.v20150617-0732
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.getEtag(ProblemsDatabaseUpdateJob.java:95)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 6 2016-09-20 11:38:45.809
+!MESSAGE Failed to determine ETAG for remote problems database. Stopping update. Version: 1.0.0.v20150617-0732
