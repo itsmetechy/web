@@ -1,0 +1,30 @@
+import {Component} from 'angular2/core';
+import {TestComponent} from './test.component';
+import {FormComponent} from './form.component';
+
+@Component({
+ selector:'my-component',
+ template:`
+   <h1> Hi, I'm <span [style.color]="inputElement.value === 'yes' ? 'red':'green'">{{name}}</span></h1>
+    <h2> My second component from my component</h2>
+
+<p> Hi, I'm {{name}}, <br>This tutorial is <span [class.is-awesome] = "inputElement.value === 'yes'"> Awesome?</span> </p>
+    
+    Is it Awesome, {{name}}
+    <input type="text" #inputElement (keyup)="0">
+    <br><br>
+    <button [disabled]="inputElement.value !== 'yes'"> Enable on demand </button>
+    <br><br>
+
+ `,
+ styleUrls:['src/css/mycomponent.css'],
+ directives: [TestComponent]
+})
+
+export class MyComponentComponent implements OnInit{
+    name: string;
+    
+    ngOnInit():any{
+    this.name = "Shivv";
+    }
+}

@@ -1,0 +1,23 @@
+import {Component} from 'angular2/core';
+import {MyComponentComponent} from './my-component.component';
+import {DataComponent} from './data.component';
+import {TestComponent} from './test.component';
+
+@Component({
+    selector: 'my-app',
+    template: `
+        <h1>Angular 2 Boilerplate </h1>
+        <p>Title from first App component</p>
+        <br><br>
+        <my-component></my-component>
+        <br>
+        <br>
+        <data-component></data-component>
+        <br>
+        <test></test>
+        
+    `,
+    directives: [MyComponentComponent, DataComponent, TestComponent]
+})
+export class AppComponent {
+}

@@ -1,0 +1,31 @@
+<!doctype html>
+<html ng-app="myApp" ng-init="mySwitch=true">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-construct.js"></script>
+    <script>
+        
+        var app = angular.module('myApp', []);
+        app.controller('switch', function($scope){
+            $scope.myFunc = function(ev){
+                $scope.x = ev.clientX;
+                $scope.y = ev.clientY;
+            }
+        });
+        
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body ng-controller="switch">
+    <button ng-disabled="mySwitch">Click</button>
+    <input type="checkbox" ng-model="mySwitch">
+   {{}}
+</body>
+
+</html>

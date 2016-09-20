@@ -6,7 +6,8 @@ app.controller("myCtrl", function($scope) {
         $scope.errortext = "";
         if(!$scope.addMe) { return; }
         if($scope.products.indexOf($scope.addMe) == -1){
-            $scope.push.products($scope.addMe);
+            $scope.products.push($scope.addMe);
+            $scope.addMe = '';
         }else{
             $scope.errortext = "Product already eixst";
         }

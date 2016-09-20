@@ -1,0 +1,29 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-construct.js"></script>
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('locCtrl', function($scope, $location) {
+            $scope.myUrl = $location.absUrl();
+            console.log($location.host());
+            console.log($location);
+        });
+    
+    </script>
+    <style>
+
+    </style>
+</head>
+
+<body>
+<div class="test" ng-controller="locCtrl">
+    <h3>{{myUrl}}</h3>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<!doctype html>
+<html ng-app="myApp" ng-csp="no-unsafe-eval | no-inline-style" ng-controller="myCtrl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+</head>
+
+<body style="width:100%; height:100%;" ng-mousemove="myFunc($event)">
+<div ng-app="myShoppingList"  >
+   
+    <h2 >some text</h2>
+    
+    x : {{x}}
+    y : {{y}}
+   
+</div>
+    <script>
+         var app = angular.module('myApp',[]);
+        app.controller('myCtrl', function($scope){
+            $scope.myFunc = function(a){
+                $scope.x = a.clientX;
+                $scope.y = a.clientY;
+            }
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-construct.js"></script>
+
+    <style>
+        * { margin: 0px; padding: 0px; }
+        .test { width: 500px; margin: 0 auto;}
+        input { margin: 10px; margin-left: 0px; padding: 8px; width: inherit; }
+        table, th , td {
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+}
+table tr:nth-child(odd) {
+  background-color: #f1f1f1;
+}
+table tr:nth-child(even) {
+  background-color: #ffffff;
+}
+    </style>
+</head>
+
+<body>
+    <div class="test" ng-controller="customersCtrl">
+        <input type="text" ng-model="search.Name">
+         <table>
+          <tr ng-repeat="x in myData | filter:search | orderBy:'Name'">
+            <td>{{ x.Name }}</td>
+            <td>{{ x.Country }}</td>
+          </tr>
+        </table>
+    </div>
+    <script>
+        var app = angular.module('myApp', []);
+app.controller('customersCtrl', function($scope, $http) {
+    $http.get("customer.json").then(function(response) {
+        $scope.myData = response.data.records;
+    });
+});
+    </script>
+</body>
+
+</html>

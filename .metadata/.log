@@ -1,0 +1,757 @@
+!SESSION 2016-09-20 09:22:28.468 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product nodeclipse.package.enide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product nodeclipse.package.enide.product
+
+!ENTRY org.eclipse.ui 4 4 2016-09-20 09:23:10.961
+!MESSAGE Referenced part does not exist yet: org.eclipse.ui.views.TaskList.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 1 4 2016-09-20 09:23:28.288
+!MESSAGE The error reporting server is not available. Error reporting will be disabled until next restart. Version: 1.0.0.v20150617-0732
+!STACK 0
+org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException.newTrace(Logs.java:382)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:126)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.CheckServerAvailabilityJob.run(CheckServerAvailabilityJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-09-20 09:23:37.916
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ssiva_000'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 18 2016-09-20 09:24:15.309
+!MESSAGE Updating the index from remote failed. Version: 1.0.0.v20150617-0732
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.getEtag(ProblemsDatabaseUpdateJob.java:95)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 6 2016-09-20 09:24:15.311
+!MESSAGE Failed to determine ETAG for remote problems database. Stopping update. Version: 1.0.0.v20150617-0732
+
+!ENTRY org.eclipse.ui.monitoring 4 0 2016-09-20 09:36:35.813
+!MESSAGE UI freeze of 14s at 09:36:22.277
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.813
+!MESSAGE Sample at 09:36:27.629 (+5.352s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+	at java.io.File.isDirectory(Unknown Source)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.isRecursiveLink(FileSystemStructureProvider.java:61)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.getChildren(FileSystemStructureProvider.java:45)
+	at org.eclipse.ui.internal.wizards.datatransfer.MinimizedFileSystemElement.populate(MinimizedFileSystemElement.java:76)
+	at org.eclipse.ui.internal.wizards.datatransfer.MinimizedFileSystemElement.getFiles(MinimizedFileSystemElement.java:44)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1$13.getChildren(WizardFileSystemResourceImportPage1.java:681)
+	at org.eclipse.ui.model.BaseWorkbenchContentProvider.getElements(BaseWorkbenchContentProvider.java:76)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:458)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems(ResourceTreeAndListGroup.java:525)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems(ResourceTreeAndListGroup.java:604)
+	at org.eclipse.ui.dialogs.WizardResourceImportPage.getSelectedResources(WizardResourceImportPage.java:336)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1.finish(WizardFileSystemResourceImportPage1.java:652)
+	at org.eclipse.ui.wizards.datatransfer.FileSystemImportWizard.performFinish(FileSystemImportWizard.java:104)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:799)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:429)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:158)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:343)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:160)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:175)
+	at org.eclipse.ui.actions.ImportResourcesAction.run(ImportResourcesAction.java:99)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:170)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.813
+!MESSAGE Thread 'DLTK indexing' tid=39 (WAITING)
+Waiting for: org.eclipse.dltk.core.search.indexing.IndexManager@4e331c6e
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:447)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.813
+!MESSAGE Thread 'Java indexing' tid=28 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@6b80ab28
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:382)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.813
+!MESSAGE Thread 'EMF Reference Cleaner' tid=23 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@541e154a
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.813
+!MESSAGE Thread 'Worker-JM' tid=18 (WAITING)
+Waiting for: java.util.ArrayList@3a292d0a
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.813
+!MESSAGE Thread 'Thread-8' tid=53 (TIMED_WAITING)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:68)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.813
+!MESSAGE Sample at 09:36:30.299 (+2.670s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.io.WinNTFileSystem.list(Native Method)
+	at java.io.File.list(Unknown Source)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.getChildren(FileSystemStructureProvider.java:39)
+	at org.eclipse.ui.internal.wizards.datatransfer.MinimizedFileSystemElement.populate(MinimizedFileSystemElement.java:76)
+	at org.eclipse.ui.internal.wizards.datatransfer.MinimizedFileSystemElement.getFiles(MinimizedFileSystemElement.java:44)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1$13.getChildren(WizardFileSystemResourceImportPage1.java:681)
+	at org.eclipse.ui.model.BaseWorkbenchContentProvider.getElements(BaseWorkbenchContentProvider.java:76)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:458)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems(ResourceTreeAndListGroup.java:525)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems(ResourceTreeAndListGroup.java:604)
+	at org.eclipse.ui.dialogs.WizardResourceImportPage.getSelectedResources(WizardResourceImportPage.java:336)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1.finish(WizardFileSystemResourceImportPage1.java:652)
+	at org.eclipse.ui.wizards.datatransfer.FileSystemImportWizard.performFinish(FileSystemImportWizard.java:104)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:799)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:429)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:158)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:343)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:160)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:175)
+	at org.eclipse.ui.actions.ImportResourcesAction.run(ImportResourcesAction.java:99)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:170)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.814
+!MESSAGE Thread 'DLTK indexing' tid=39 (WAITING)
+Waiting for: org.eclipse.dltk.core.search.indexing.IndexManager@4e331c6e
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:447)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.814
+!MESSAGE Thread 'Java indexing' tid=28 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@6b80ab28
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:382)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.814
+!MESSAGE Thread 'EMF Reference Cleaner' tid=23 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@541e154a
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.814
+!MESSAGE Thread 'Worker-JM' tid=18 (WAITING)
+Waiting for: java.util.ArrayList@3a292d0a
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.814
+!MESSAGE Thread 'Thread-8' tid=53 (TIMED_WAITING)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:68)
+!SUBENTRY 1 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.814
+!MESSAGE Sample at 09:36:32.962 (+2.663s)
+Thread 'main' tid=1 (RUNNABLE)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.io.WinNTFileSystem.getBooleanAttributes(Native Method)
+	at java.io.File.isDirectory(Unknown Source)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.isRecursiveLink(FileSystemStructureProvider.java:61)
+	at org.eclipse.ui.internal.ide.filesystem.FileSystemStructureProvider.getChildren(FileSystemStructureProvider.java:45)
+	at org.eclipse.ui.internal.wizards.datatransfer.MinimizedFileSystemElement.populate(MinimizedFileSystemElement.java:76)
+	at org.eclipse.ui.internal.wizards.datatransfer.MinimizedFileSystemElement.getFiles(MinimizedFileSystemElement.java:44)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1$13.getChildren(WizardFileSystemResourceImportPage1.java:681)
+	at org.eclipse.ui.model.BaseWorkbenchContentProvider.getElements(BaseWorkbenchContentProvider.java:76)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:458)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.findAllSelectedListElements(ResourceTreeAndListGroup.java:471)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems(ResourceTreeAndListGroup.java:525)
+	at org.eclipse.ui.ide.dialogs.ResourceTreeAndListGroup.getAllCheckedListItems(ResourceTreeAndListGroup.java:604)
+	at org.eclipse.ui.dialogs.WizardResourceImportPage.getSelectedResources(WizardResourceImportPage.java:336)
+	at org.eclipse.ui.internal.wizards.datatransfer.WizardFileSystemResourceImportPage1.finish(WizardFileSystemResourceImportPage1.java:652)
+	at org.eclipse.ui.wizards.datatransfer.FileSystemImportWizard.performFinish(FileSystemImportWizard.java:104)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:799)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:429)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:827)
+	at org.eclipse.jface.window.Window.open(Window.java:803)
+	at org.eclipse.ui.internal.handlers.WizardHandler$Import.executeHandler(WizardHandler.java:158)
+	at org.eclipse.ui.internal.handlers.WizardHandler.execute(WizardHandler.java:290)
+	at org.eclipse.ui.internal.handlers.HandlerProxy.execute(HandlerProxy.java:295)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:90)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:252)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:234)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:132)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:152)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:493)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:486)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:210)
+	at org.eclipse.ui.internal.handlers.LegacyHandlerService.executeCommand(LegacyHandlerService.java:343)
+	at org.eclipse.ui.internal.actions.CommandAction.runWithEvent(CommandAction.java:160)
+	at org.eclipse.ui.internal.actions.CommandAction.run(CommandAction.java:175)
+	at org.eclipse.ui.actions.ImportResourcesAction.run(ImportResourcesAction.java:99)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:170)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4362)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1113)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4180)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1127)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.815
+!MESSAGE Thread 'DLTK indexing' tid=39 (WAITING)
+Waiting for: org.eclipse.dltk.core.search.indexing.IndexManager@4e331c6e
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.dltk.internal.core.search.processing.JobManager.run(JobManager.java:447)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.815
+!MESSAGE Thread 'Java indexing' tid=28 (WAITING)
+Waiting for: org.eclipse.jdt.internal.core.search.indexing.IndexManager@6b80ab28
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Unknown Source)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.run(JobManager.java:382)
+	at java.lang.Thread.run(Unknown Source)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.815
+!MESSAGE Thread 'EMF Reference Cleaner' tid=23 (WAITING)
+Waiting for: java.lang.ref.ReferenceQueue$Lock@541e154a
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at org.eclipse.emf.common.util.CommonUtil$1ReferenceClearingQueuePollingThread.run(CommonUtil.java:70)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.815
+!MESSAGE Thread 'Worker-JM' tid=18 (WAITING)
+Waiting for: java.util.ArrayList@3a292d0a
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Object.wait(Native Method)
+	at org.eclipse.core.internal.jobs.InternalWorker.run(InternalWorker.java:59)
+!SUBENTRY 2 org.eclipse.ui.monitoring 1 0 2016-09-20 09:36:35.815
+!MESSAGE Thread 'Thread-8' tid=53 (TIMED_WAITING)
+!STACK 0
+java.lang.Exception: Stack Trace
+	at java.lang.Thread.sleep(Native Method)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:68)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-09-20 09:48:18.745
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-09-20 09:48:18.745
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE Software being installed: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE Software currently installed: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.745
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.9.201409260936 (org.chromium.debug.core 0.3.9.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.8.201210040400 (org.chromium.debug.core 0.3.8.201210040400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.745
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE From: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE To: org.chromium.debug.feature.group [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.745
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.feature.feature.group 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE To: org.nodeclipse.phantomjs.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.745
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE To: nodeclipse.package.enide.feature.feature.group [4.5.0.20150706-0926]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.745
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE From: Chromium JavaScript Remote Debugger 0.3.8.201210040400 (org.chromium.debug.feature.group 0.3.8.201210040400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE To: org.chromium.debug.core [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.745
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE From: Nodeclipse 0.17.0.201409260936 (org.nodeclipse.debug 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE To: bundle org.chromium.debug.core 0.3.9
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.745
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE From: Nodeclipse PhantomJS 0.17.0.201409260936 (org.nodeclipse.phantomjs.feature.feature.group 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.745
+!MESSAGE To: org.nodeclipse.debug 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-09-20 09:48:18.750
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-09-20 09:48:18.750
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE Software being installed: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE Software currently installed: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.750
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.9.201409260936 (org.chromium.debug.core 0.3.9.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.8.201210040400 (org.chromium.debug.core 0.3.8.201210040400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.750
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE From: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE To: org.chromium.debug.feature.group [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.750
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.feature.feature.group 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE To: org.nodeclipse.phantomjs.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.750
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE To: nodeclipse.package.enide.feature.feature.group [4.5.0.20150706-0926]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.750
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE From: Chromium JavaScript Remote Debugger 0.3.8.201210040400 (org.chromium.debug.feature.group 0.3.8.201210040400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE To: org.chromium.debug.core [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.750
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE From: Nodeclipse 0.17.0.201409260936 (org.nodeclipse.debug 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE To: bundle org.chromium.debug.core 0.3.9
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:18.750
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE From: Nodeclipse PhantomJS 0.17.0.201409260936 (org.nodeclipse.phantomjs.feature.feature.group 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:18.750
+!MESSAGE To: org.nodeclipse.debug 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-09-20 09:48:47.064
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-09-20 09:48:47.064
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE Software being installed: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE Software currently installed: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.064
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.9.201409260936 (org.chromium.debug.core 0.3.9.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.8.201210040400 (org.chromium.debug.core 0.3.8.201210040400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.064
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE From: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE To: org.chromium.debug.feature.group [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.064
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.feature.feature.group 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE To: org.nodeclipse.phantomjs.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.064
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE To: nodeclipse.package.enide.feature.feature.group [4.5.0.20150706-0926]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.064
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE From: Chromium JavaScript Remote Debugger 0.3.8.201210040400 (org.chromium.debug.feature.group 0.3.8.201210040400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE To: org.chromium.debug.core [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.064
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE From: Nodeclipse 0.17.0.201409260936 (org.nodeclipse.debug 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE To: bundle org.chromium.debug.core 0.3.9
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.064
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE From: Nodeclipse PhantomJS 0.17.0.201409260936 (org.nodeclipse.phantomjs.feature.feature.group 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.064
+!MESSAGE To: org.nodeclipse.debug 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-09-20 09:48:47.066
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 10054 2016-09-20 09:48:47.066
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE Software being installed: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE Software currently installed: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.066
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.9.201409260936 (org.chromium.debug.core 0.3.9.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE Chromium JavaScript Remote Debugger Core 0.3.8.201210040400 (org.chromium.debug.core 0.3.8.201210040400)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.066
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE From: TypEcs - TypeScript IDE for Eclipse 4.0.0.201508061529 (com.axmor.eclipse.typescript.feature.feature.group 4.0.0.201508061529)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE To: org.chromium.debug.feature.group [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.066
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.feature.feature.group 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE To: org.nodeclipse.phantomjs.feature.feature.group 0.0.0
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.066
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE From: Enide 2015 4.5.0.20150706-0926 (nodeclipse.package.enide.product 4.5.0.20150706-0926)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE To: nodeclipse.package.enide.feature.feature.group [4.5.0.20150706-0926]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.066
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE From: Chromium JavaScript Remote Debugger 0.3.8.201210040400 (org.chromium.debug.feature.group 0.3.8.201210040400)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE To: org.chromium.debug.core [0.3.8.201210040400]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.066
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE From: Nodeclipse 0.17.0.201409260936 (org.nodeclipse.debug 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE To: bundle org.chromium.debug.core 0.3.9
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-09-20 09:48:47.066
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE From: Nodeclipse PhantomJS 0.17.0.201409260936 (org.nodeclipse.phantomjs.feature.feature.group 0.17.0.201409260936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-09-20 09:48:47.066
+!MESSAGE To: org.nodeclipse.debug 0.0.0
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2016-09-20 09:56:21.881
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: Unable to read repository at http://download.eclipse.org/releases/mars/201510021000/artifacts.xml.xz.
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.updateCache(CacheManager.java:428)
+	at org.eclipse.equinox.internal.p2.repository.CacheManager.createCacheFromFile(CacheManager.java:132)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.getLocalFile(XZedSimpleArtifactRepositoryFactory.java:60)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:82)
+	at org.eclipse.equinox.internal.p2.artifact.repository.simple.XZedSimpleArtifactRepositoryFactory.load(XZedSimpleArtifactRepositoryFactory.java:37)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:116)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:344)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:146)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:414)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.load(CompositeArtifactRepository.java:474)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.addChild(CompositeArtifactRepository.java:172)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepository.<init>(CompositeArtifactRepository.java:96)
+	at org.eclipse.equinox.internal.p2.artifact.repository.CompositeArtifactRepositoryFactory.load(CompositeArtifactRepositoryFactory.java:116)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.factoryLoad(ArtifactRepositoryManager.java:73)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:768)
+	at sun.reflect.GeneratedMethodAccessor69.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:116)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:344)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:146)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Artifact.loadRepository(CachingRepositoryManager.java:414)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedArtifactRepositories(ProvisioningContext.java:160)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getArtifactRepositories(ProvisioningContext.java:143)
+	at org.eclipse.equinox.internal.p2.engine.DownloadManager.start(DownloadManager.java:91)
+	at org.eclipse.equinox.internal.p2.engine.phases.Collect.completePhase(Collect.java:104)
+	at org.eclipse.equinox.internal.p2.engine.Phase.postPerform(Phase.java:251)
+	at org.eclipse.equinox.internal.p2.engine.Phase.perform(Phase.java:101)
+	at org.eclipse.equinox.internal.p2.engine.PhaseSet.perform(PhaseSet.java:47)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:75)
+	at org.eclipse.equinox.internal.p2.engine.Engine.perform(Engine.java:44)
+	at org.eclipse.equinox.p2.operations.ProvisioningSession.performProvisioningPlan(ProvisioningSession.java:175)
+	at org.eclipse.equinox.p2.operations.ProfileModificationJob.runModal(ProfileModificationJob.java:79)
+	at org.eclipse.equinox.p2.operations.ProvisioningJob.run(ProvisioningJob.java:177)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:198)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:178)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:178)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	... 1 more
+!SUBENTRY 1 org.eclipse.equinox.p2.transport.ecf 4 1002 2016-09-20 09:56:21.883
+!MESSAGE Unable to read repository at http://download.eclipse.org/releases/mars/201510021000/artifacts.xml.xz.
+!STACK 0
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.AbstractSessionInputBuffer.read(AbstractSessionInputBuffer.java:198)
+	at org.apache.http.impl.io.ContentLengthInputStream.read(ContentLengthInputStream.java:178)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at java.io.FilterInputStream.read(Unknown Source)
+	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:178)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SESSION 2016-09-20 10:07:20.841 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product nodeclipse.package.enide.product -product nodeclipse.package.enide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product nodeclipse.package.enide.product -data file:/C:/xampp/htdocs/web/plattform/web-tut/ -product nodeclipse.package.enide.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-09-20 10:07:33.348
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ssiva_000'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 1 4 2016-09-20 10:07:46.103
+!MESSAGE The error reporting server is not available. Error reporting will be disabled until next restart. Version: 1.0.0.v20150617-0732
+!STACK 0
+org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException.newTrace(Logs.java:382)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:126)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.CheckServerAvailabilityJob.run(CheckServerAvailabilityJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 18 2016-09-20 10:08:34.746
+!MESSAGE Updating the index from remote failed. Version: 1.0.0.v20150617-0732
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.getEtag(ProblemsDatabaseUpdateJob.java:95)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 6 2016-09-20 10:08:34.749
+!MESSAGE Failed to determine ETAG for remote problems database. Stopping update. Version: 1.0.0.v20150617-0732
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-09-20 10:59:00.780
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-09-20 10:59:00.886
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory

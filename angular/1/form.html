@@ -1,0 +1,66 @@
+<!doctype html>
+<html ng-app="myApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <script type="text/javascript" src="lib/angular.min.js"></script>
+    <script type="text/javascript" src="lib/angular-construct.js"></script>
+    <script>
+        
+        var app = angular.module('myApp', []);
+        app.controller('formController', function($scope){
+            $scope.firstname = "";
+            $scope.lastname = "";
+        });
+        
+    </script>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .form-wrap{
+            width: 500px;
+            margin: 100px auto;
+        }
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body ng-controller="formController">
+ 
+    <div class="form-wrap">
+    <form name="myForm" novalidate>
+    <input type="text" name="firstname" ng-model="firstname" placeholder="firstname"  required><br>     
+         <span style="color:red" ng-show="myForm.firstname.$error.required"> Username is required </span>
+        
+        
+     <input type="text" name="lastname" ng-model="lastname" placeholder="Last Name" required><br>
+         <span style="color:red" ng-show="myForm.lastname.$error.required"> Username is required </span>
+        
+        
+     <input type="email" name="email" ng-model="email" placeholder="Email" required>
+     <span style="color:red" ng-show="myForm.email.$dirty && myForm.email.$invalid"></span>
+<span ng-show="myForm.email.$error.required">Email is required.</span>
+<span ng-show="myForm.email.$error.email">Invalid email address.</span>
+        
+        <button ng-disabled="myForm.firstname.$dirty && myForm.firstname.$invalid"> Submit </button><br>
+        
+    </form>
+        <span ng-show="firstname">FirstName: {{firstname}}</span><br>
+        <span ng-show="lastname">LastName: {{lastname}}</span><br>
+        <span ng-show="email">Email: {{email}}</span>
+        
+        
+    </div>
+    
+</body>
+
+</html>

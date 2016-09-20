@@ -1,0 +1,13 @@
+import {Component} from 'angular2/core';
+
+@Component({
+    selector:'test',
+    template:"<h2>test</h2>"
+
+})
+
+export class TestComponent{
+
+
+    
+}
