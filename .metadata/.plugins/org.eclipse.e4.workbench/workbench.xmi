@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_veXmsH7lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_veXmsX7lEea3wb-B8CQHqQ" bindingContexts="_veXms37lEea3wb-B8CQHqQ">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;contact-list.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;contact.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;app.css&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/src/css/app.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/src/css/app.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;my-component.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/my-component.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/my-component.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;test.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;app.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/app.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/app.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;data.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/data.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/data.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;datacom-back.txt&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/datacom-back.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/datacom-back.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;form.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/form.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/form.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.nodeclipse.ui.editors.NodeEditor&quot; name=&quot;data.component.js&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/app/data.component.js&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/app/data.component.js&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;sarf.html&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/sarf.html&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/sarf.html&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;ts.eclipse.ide.jsdt.ui.editor.TypeScriptEditor&quot; name=&quot;test.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;contact-list.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;contact.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.wst.css.core.csssource.source&quot; name=&quot;app.css&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/src/css/app.css&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/src/css/app.css&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;my-component.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/my-component.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/my-component.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;app.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/app.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/app.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;data.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/data.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/data.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.DefaultTextEditor&quot; name=&quot;datacom-back.txt&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/datacom-back.txt&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/datacom-back.txt&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;form.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/form.component.ts&quot;>&#xD;&#xA;&lt;persistable path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/form.component.ts&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_veXmsX7lEea3wb-B8CQHqQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_vvhBEn7lEea3wb-B8CQHqQ" label="%trimmedwindow.label.eclipseSDK" x="12" y="6" width="1029" height="1026">
@@ -9,7 +9,7 @@
     <persistedState key="isRestored" value="true"/>
     <persistedState key="workingSets" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workingSets/>"/>
     <persistedState key="aggregateWorkingSetId" value="Aggregate for window 1474343591307"/>
-    <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time/>"/>
+    <persistedState key="show_in_time" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;show_in_time>&#xD;&#xA;&lt;id IMemento.internal.id=&quot;org.eclipse.ui.navigator.ProjectExplorer&quot;/>&#xD;&#xA;&lt;/show_in_time>"/>
     <tags>topLevel</tags>
     <children xsi:type="basic:PartSashContainer" xmi:id="_vvhBEn7lEea3wb-B8CQHqQ" selectedElement="_vvhBE37lEea3wb-B8CQHqQ" horizontal="true">
       <children xsi:type="advanced:PerspectiveStack" xmi:id="_vvhBE37lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.ide.perspectivestack" containerData="7500" selectedElement="_v6uLgH7lEea3wb-B8CQHqQ">
@@ -78,12 +78,12 @@
           <tags>persp.perspSC:org.eclipse.wst.jsdt.ui.JavaPerspective</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_v6uLgX7lEea3wb-B8CQHqQ" selectedElement="_v6uLi37lEea3wb-B8CQHqQ" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_v6uLgn7lEea3wb-B8CQHqQ" containerData="2572" selectedElement="_v6uLg37lEea3wb-B8CQHqQ">
-              <children xsi:type="basic:PartStack" xmi:id="_v6uLg37lEea3wb-B8CQHqQ" elementId="left" containerData="6000" selectedElement="_v6uLhH7lEea3wb-B8CQHqQ">
+              <children xsi:type="basic:PartStack" xmi:id="_v6uLg37lEea3wb-B8CQHqQ" elementId="left" containerData="6000" selectedElement="_v6uLh37lEea3wb-B8CQHqQ">
                 <tags>org.eclipse.e4.primaryNavigationStack</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_v6uLhH7lEea3wb-B8CQHqQ" elementId="org.eclipse.jdt.ui.PackageExplorer" ref="_v6fiAH7lEea3wb-B8CQHqQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_v6uLhX7lEea3wb-B8CQHqQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_v6gwIH7lEea3wb-B8CQHqQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_v6uLhn7lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_v6gwIX7lEea3wb-B8CQHqQ"/>
-                <children xsi:type="advanced:Placeholder" xmi:id="_v6uLh37lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" toBeRendered="false" ref="_v6gwIn7lEea3wb-B8CQHqQ"/>
+                <children xsi:type="advanced:Placeholder" xmi:id="_v6uLh37lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_v6gwIn7lEea3wb-B8CQHqQ"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_v6uLiH7lEea3wb-B8CQHqQ" elementId="org.eclipse.jdt.junit.ResultView" toBeRendered="false" ref="_v6s9YH7lEea3wb-B8CQHqQ"/>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_v6uLiX7lEea3wb-B8CQHqQ" elementId="org.eclipse.egit.ui.RepositoriesViewMStack" toBeRendered="false" containerData="4000">
@@ -149,23 +149,23 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_v6XmMH7lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.editorss" selectedElement="_v6XmMX7lEea3wb-B8CQHqQ">
-      <children xsi:type="basic:PartStack" xmi:id="_v6XmMX7lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_XVQ0gH7sEea3_4pir7pW-A">
+      <children xsi:type="basic:PartStack" xmi:id="_v6XmMX7lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_TOiPsH7sEea3_4pir7pW-A">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_TOiPsH7sEea3_4pir7pW-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="test.component.ts" iconURI="platform:/plugin/com.palantir.typescript/icons/typeScript.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;test.component.ts&quot; partName=&quot;test.component.ts&quot; title=&quot;test.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;9&quot; selectionOffset=&quot;378&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>com.palantir.typescript.text.typeScriptEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_XVQ0gH7sEea3_4pir7pW-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="contact-list.component.ts" iconURI="platform:/plugin/com.palantir.typescript/icons/typeScript.png" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;contact-list.component.ts&quot; partName=&quot;contact-list.component.ts&quot; title=&quot;contact-list.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;264&quot; selectionOffset=&quot;165&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;test.component.ts&quot; partName=&quot;test.component.ts&quot; title=&quot;test.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/test.component.ts&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;332&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>com.palantir.typescript.text.typeScriptEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_XVQ0gH7sEea3_4pir7pW-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="contact-list.component.ts" iconURI="platform:/plugin/com.palantir.typescript/icons/typeScript.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;contact-list.component.ts&quot; partName=&quot;contact-list.component.ts&quot; title=&quot;contact-list.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact-list.component.ts&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;44&quot; selectionOffset=&quot;338&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>com.palantir.typescript.text.typeScriptEditor</tags>
+          <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_XdMogH7sEea3_4pir7pW-A" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="contact.component.ts" iconURI="platform:/plugin/com.palantir.typescript/icons/typeScript.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.palantir.typescript.text.typeScriptEditor&quot; name=&quot;contact.component.ts&quot; partName=&quot;contact.component.ts&quot; title=&quot;contact.component.ts&quot; tooltip=&quot;Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact.component.ts&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Angular2/2/angular-2-beta-boilerplate/dev/contacts/contact.component.ts&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;18&quot; selectionOffset=&quot;296&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -201,7 +201,7 @@
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
       </menus>
-      <toolbar xmi:id="_v7ckQX7lEea3wb-B8CQHqQ" elementId="org.eclipse.jdt.ui.PackageExplorer"/>
+      <toolbar xmi:id="_v7ckQX7lEea3wb-B8CQHqQ" elementId="org.eclipse.jdt.ui.PackageExplorer" visible="false"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_v6gwIH7lEea3wb-B8CQHqQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Type Hierarchy" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/eview16/class_hi.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -212,8 +212,14 @@
       <tags>categoryTag:General</tags>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_v6gwIn7lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" tooltip="" closeable="true">
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <menus xmi:id="_h0SgEH9YEeae097te4M11Q" elementId="org.eclipse.ui.navigator.ProjectExplorer">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_h0SgEX9YEeae097te4M11Q" elementId="org.eclipse.ui.navigator.ProjectExplorer"/>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_v6gwI37lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.views.ProblemView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Problems" iconURI="platform:/plugin/org.eclipse.ui.ide/icons/full/eview16/problems_view.png" tooltip="" closeable="true">
       <tags>View</tags>
@@ -306,6 +312,11 @@
     <sharedElements xsi:type="basic:Part" xmi:id="_v6tkcH7lEea3wb-B8CQHqQ" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Terminal" iconURI="platform:/plugin/org.eclipse.tm.terminal.view.ui/icons/eview16/terminal_view.gif" tooltip="" closeable="true">
       <tags>View</tags>
       <tags>categoryTag:Terminal</tags>
+      <menus xmi:id="_i7950H9YEeae097te4M11Q" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView">
+        <tags>ViewMenu</tags>
+        <tags>menuContribution:menu</tags>
+      </menus>
+      <toolbar xmi:id="_i7_H8H9YEeae097te4M11Q" elementId="org.eclipse.tm.terminal.view.ui.TerminalsView" visible="false"/>
     </sharedElements>
     <trimBars xmi:id="_vvoV0H7lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.main.toolbar">
       <children xsi:type="menu:ToolBar" xmi:id="_vxYCQH7lEea3wb-B8CQHqQ" elementId="group.file" toBeRendered="false">
@@ -314,7 +325,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_vxYpUH7lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8UHiYH7rEea3_4pir7pW-A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ve39OH7lEea3wb-B8CQHqQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_cwBU8H9YEeae097te4M11Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_ve39OH7lEea3wb-B8CQHqQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_vxYpUX7lEea3wb-B8CQHqQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -344,7 +355,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_vxZQY37lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_8UIwhH7rEea3_4pir7pW-A" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ve3WMn7lEea3wb-B8CQHqQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_cwCjFH9YEeae097te4M11Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_ve3WMn7lEea3wb-B8CQHqQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_vxZQZH7lEea3wb-B8CQHqQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -979,6 +990,19 @@
     <bindings xmi:id="_8FAvYH7rEea3_4pir7pW-A" keySequence="CTRL+SHIFT+P" command="_8EOsRX7rEea3_4pir7pW-A"/>
     <bindings xmi:id="_8FAvYX7rEea3_4pir7pW-A" keySequence="CTRL+7" command="_8EOsQ37rEea3_4pir7pW-A"/>
   </bindingTables>
+  <bindingTables xmi:id="_iQi_4H74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.typeScriptViewScope" bindingContext="_iQFF0X74Eea2IvgtusT-xA">
+    <bindings xmi:id="_iQkOAH74Eea2IvgtusT-xA" keySequence="CTRL+SHIFT+C" command="_iQCChH74Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQpGgH74Eea2IvgtusT-xA" keySequence="CTRL+SHIFT+F" command="_iQCCgH74Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQqUoH74Eea2IvgtusT-xA" keySequence="CTRL+SHIFT+G" command="_iQCChn74Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQtX8H74Eea2IvgtusT-xA" keySequence="CTRL+SHIFT+/" command="_iQCCin74Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQt_AH74Eea2IvgtusT-xA" keySequence="CTRL+I" command="_iQCCg374Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQv0MH74Eea2IvgtusT-xA" keySequence="CTRL+/" command="_iQCChH74Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQv0MX74Eea2IvgtusT-xA" keySequence="CTRL+7" command="_iQCChH74Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQzekH74Eea2IvgtusT-xA" keySequence="CTRL+O" command="_iQCCh374Eea2IvgtusT-xA"/>
+    <bindings xmi:id="_iQ1TwH74Eea2IvgtusT-xA" keySequence="CTRL+SHIFT+\" command="_iQCCgn74Eea2IvgtusT-xA"/>
+  </bindingTables>
+  <bindingTables xmi:id="_ifpL0X74Eea2IvgtusT-xA" bindingContext="_ifpL0H74Eea2IvgtusT-xA"/>
+  <bindingTables xmi:id="_ifpy4X74Eea2IvgtusT-xA" bindingContext="_ifpy4H74Eea2IvgtusT-xA"/>
   <rootContext xmi:id="_veXms37lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/org.eclipse.platform" name="In Dialogs and Windows" description="Either a dialog or a window is open">
     <children xmi:id="_veXmtH7lEea3wb-B8CQHqQ" elementId="org.eclipse.ui.contexts.window" contributorURI="platform:/plugin/org.eclipse.platform" name="In Windows" description="A window is open">
       <children xmi:id="_veXmtX7lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.ui.contexts.views" contributorURI="platform:/plugin/org.eclipse.platform" name="%bindingcontext.name.bindingView"/>
@@ -1021,6 +1045,9 @@
         <children xmi:id="_ve7AhX7lEea3wb-B8CQHqQ" elementId="org.dadacoalition.yedit.yeditScope" name="YEdit editor context"/>
         <children xmi:id="_ve7AiH7lEea3wb-B8CQHqQ" elementId="org.eclipse.jdt.ui.propertiesEditorScope" name="Editing Properties Files" description="Editing Properties Files Context"/>
         <children xmi:id="_8ERIgH7rEea3_4pir7pW-A" elementId="com.palantir.typescript.text.typeScriptEditorScope" name="TypeScript"/>
+        <children xmi:id="_iQFF0H74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.typeScriptEditorScope" name="Editing TypeScript Source" description="Editing TypeScript Source Context">
+          <children xmi:id="_iQFF0X74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.typeScriptViewScope" name="TypeScript View" description="TypeScript View Context"/>
+        </children>
       </children>
       <children xmi:id="_ve7AVX7lEea3wb-B8CQHqQ" elementId="org.eclipse.compare.compareEditorScope" name="Comparing in an Editor" description="Comparing in an Editor"/>
       <children xmi:id="_ve7AV37lEea3wb-B8CQHqQ" elementId="org.eclipse.debug.ui.memoryview" name="In Memory View" description="In memory view"/>
@@ -1105,6 +1132,8 @@
   <rootContext xmi:id="_v6ds2H7lEea3wb-B8CQHqQ" elementId="org.springsource.ide.eclipse.gradle.ui.global" name="Auto::org.springsource.ide.eclipse.gradle.ui.global"/>
   <rootContext xmi:id="_v6ds2n7lEea3wb-B8CQHqQ" elementId="pm.eclipse.editbox.ActionSetId" name="Auto::pm.eclipse.editbox.ActionSetId"/>
   <rootContext xmi:id="_v6ds3H7lEea3wb-B8CQHqQ" elementId="winterwell.markdown.actionSet" name="Auto::winterwell.markdown.actionSet"/>
+  <rootContext xmi:id="_ifpL0H74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.CodingActionSet" name="Auto::ts.eclipse.ide.jsdt.ui.CodingActionSet"/>
+  <rootContext xmi:id="_ifpy4H74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.SearchActionSet" name="Auto::ts.eclipse.ide.jsdt.ui.SearchActionSet"/>
   <descriptors xmi:id="_vhU0EH7lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.ui.compatibility.editor" allowMultiple="true" category="org.eclipse.e4.primaryDataStack" closeable="true" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor">
     <tags>Editor</tags>
   </descriptors>
@@ -2809,6 +2838,20 @@
   <commands xmi:id="_8EPTUH7rEea3_4pir7pW-A" elementId="com.palantir.typescript.text.rename" commandName="Rename" category="_vewoVX7lEea3wb-B8CQHqQ"/>
   <commands xmi:id="_8EPTUX7rEea3_4pir7pW-A" elementId="com.palantir.typescript.navigate.openType" commandName="Open Type" category="_vewoVX7lEea3wb-B8CQHqQ"/>
   <commands xmi:id="_8EPTUn7rEea3_4pir7pW-A" elementId="com.palantir.typescript.text.findReferences" commandName="Find References" category="_vewoVX7lEea3wb-B8CQHqQ"/>
+  <commands xmi:id="_iQCCgH74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.format" commandName="Format" description="Format the selected text" category="_iQANUX74Eea2IvgtusT-xA"/>
+  <commands xmi:id="_iQCCgX74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.ui.commands.AddTypeScriptBuildPath" commandName="Add to TypeScript BuildPath..." category="_vewoVX7lEea3wb-B8CQHqQ"/>
+  <commands xmi:id="_iQCCgn74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.remove.block.comment" commandName="Remove Block Comment" description="Remove the block comment enclosing the selection" category="_iQANUX74Eea2IvgtusT-xA"/>
+  <commands xmi:id="_iQCCg374Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.indent" commandName="Indent Line" description="Indents the current line" category="_iQANUX74Eea2IvgtusT-xA"/>
+  <commands xmi:id="_iQCChH74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.toggle.comment" commandName="Toggle Comment" description="Toggle comment the selected lines" category="_iQANUX74Eea2IvgtusT-xA"/>
+  <commands xmi:id="_iQCChX74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.comment" commandName="Comment" description="Turn the selected lines into JavaScript comments" category="_iQANUX74Eea2IvgtusT-xA"/>
+  <commands xmi:id="_iQCChn74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.search.references.in.project" commandName="References in Project" description="Search for references to the selected element in the enclosing project" category="_vewoaX7lEea3wb-B8CQHqQ"/>
+  <commands xmi:id="_iQCCh374Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.show.outline" commandName="Quick Outline" description="Show the quick outline for the editor input" category="_vewoXn7lEea3wb-B8CQHqQ"/>
+  <commands xmi:id="_iQCCiH74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.ui.commands.RemoveTypeScriptBuilder" commandName="Remove TypeScript Builder..." category="_vewoSn7lEea3wb-B8CQHqQ"/>
+  <commands xmi:id="_iQCCiX74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.ui.commands.AddTypeScriptBuilder" commandName="Add TypeScript Builder..." category="_vewoSn7lEea3wb-B8CQHqQ"/>
+  <commands xmi:id="_iQCCin74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.add.block.comment" commandName="Add Block Comment" description="Enclose the selection with a block comment" category="_iQANUX74Eea2IvgtusT-xA"/>
+  <commands xmi:id="_iQCCi374Eea2IvgtusT-xA" elementId="ts.eclipse.ide.ui.commands.RemoveTypeScriptBuildPath" commandName="Remove to TypeScript BuildPath..." category="_vewoVX7lEea3wb-B8CQHqQ"/>
+  <commands xmi:id="_iQCpkH74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.edit.text.java.uncomment" commandName="Uncomment" description="Uncomment the selected JavaScript comment lines" category="_iQANUX74Eea2IvgtusT-xA"/>
+  <commands xmi:id="_ifD9AH74Eea2IvgtusT-xA" elementId="AUTOGEN:::ts.eclipse.ide.jsdt.debug.ui.togglebreakpoint/org.eclipse.wst.jsdt.debug.ui.RulerToggleBreakpoint" commandName="Toggle Breakpoint" category="_vewoVX7lEea3wb-B8CQHqQ"/>
   <addons xmi:id="_veXmt37lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_veXmuH7lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_veXmuX7lEea3wb-B8CQHqQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
@@ -2871,4 +2914,5 @@
   <categories xmi:id="_vewob37lEea3wb-B8CQHqQ" elementId="org.eclipse.pde.runtime.spy.commands.category" name="Spy"/>
   <categories xmi:id="_vewocH7lEea3wb-B8CQHqQ" elementId="org.eclipse.dltk.ui.category.refactoring" name="Refactor - DLTK" description="DLTK Refactoring Actions"/>
   <categories xmi:id="_8EOFMX7rEea3_4pir7pW-A" elementId="com.palantir.typescript.typeScriptNature.category" name="TypeScript"/>
+  <categories xmi:id="_iQANUX74Eea2IvgtusT-xA" elementId="ts.eclipse.ide.jsdt.ui.category.source" name="Source" description="TypeScript Source Actions"/>
 </application:Application>

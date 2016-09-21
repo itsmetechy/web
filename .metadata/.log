@@ -961,3 +961,126 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.epp.logging.aeri.ui 2 6 2016-09-20 11:38:45.809
 !MESSAGE Failed to determine ETAG for remote problems database. Stopping update. Version: 1.0.0.v20150617-0732
+!SESSION 2016-09-20 23:04:05.792 -----------------------------------------------
+eclipse.buildId=4.5.0.I20150603-2000
+java.version=1.8.0_91
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product nodeclipse.package.enide.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product nodeclipse.package.enide.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-09-20 23:04:17.652
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ssiva_000'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-09-20 23:04:18.866
+!MESSAGE Project facet jst.ejb has not been defined. It is used in plugin org.eclipse.jst.j2ee.
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 1 4 2016-09-20 23:04:32.001
+!MESSAGE The error reporting server is not available. Error reporting will be disabled until next restart. Version: 1.0.0.v20150617-0732
+!STACK 0
+org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs$LogTraceException.newTrace(Logs.java:382)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:134)
+	at org.eclipse.epp.internal.logging.aeri.ui.l10n.Logs.log(Logs.java:126)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.CheckServerAvailabilityJob.run(CheckServerAvailabilityJob.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 18 2016-09-20 23:05:19.027
+!MESSAGE Updating the index from remote failed. Version: 1.0.0.v20150617-0732
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.getEtag(ProblemsDatabaseUpdateJob.java:95)
+	at org.eclipse.epp.internal.logging.aeri.ui.log.ProblemsDatabaseUpdateJob.run(ProblemsDatabaseUpdateJob.java:58)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.epp.logging.aeri.ui 2 6 2016-09-20 23:05:19.031
+!MESSAGE Failed to determine ETAG for remote problems database. Stopping update. Version: 1.0.0.v20150617-0732
+
+!ENTRY org.eclipse.debug.ui 4 120 2016-09-20 23:05:41.894
+!MESSAGE org.eclipse.debug.ui.toggleBreakpointsTargetFactory extension failed to load breakpoint toggle target because the specified id is already registered.  Specified ID is: org.chromium.debug.ui.ChromiumToggleBreakpointTargetFactory
+
+!ENTRY org.eclipse.jface.text 4 0 2016-09-20 23:09:08.393
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.RuntimeException: The following request caused an error to be thrown:
+{"endpoint":"language","method":"getQuickInfoAtPosition","arguments":["5eb88d56-71b5-4d27-b1b1-27ebbb9fd25e","5eb88d56-71b5-4d27-b1b1-27ebbb9fd25e.ts",633]}
+Error: Debug Failure. False expression: 
+	at Object.assert (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:1706:23)
+	at checkChangeRange (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:13041:26)
+	at Object.updateSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:12678:13)
+	at Object.updateSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:7623:34)
+	at updateLanguageServiceSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48215:44)
+	at acquireOrUpdateDocument (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48297:40)
+	at Object.updateDocument (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48275:20)
+	at Object.getOrCreateSourceFile [as getSourceFile] (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48977:49)
+	at tryReuseStructureFromOldProgram (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:39774:42)
+	at Object.createProgram (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:39688:14)
+	at com.palantir.typescript.services.Bridge.processRequest(Bridge.java:142)
+	at com.palantir.typescript.services.Bridge.call(Bridge.java:95)
+	at com.palantir.typescript.services.Bridge.call(Bridge.java:83)
+	at com.palantir.typescript.services.language.LanguageEndpoint.getQuickInfoAtPosition(LanguageEndpoint.java:263)
+	at com.palantir.typescript.text.FileLanguageService.getQuickInfoAtPosition(FileLanguageService.java:128)
+	at com.palantir.typescript.text.TextHover.getHoverInfo2(TextHover.java:68)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.jface.text 4 0 2016-09-20 23:09:33.933
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.RuntimeException: The following request caused an error to be thrown:
+{"endpoint":"language","method":"getQuickInfoAtPosition","arguments":["5eb88d56-71b5-4d27-b1b1-27ebbb9fd25e","5eb88d56-71b5-4d27-b1b1-27ebbb9fd25e.ts",824]}
+Error: Debug Failure. False expression: 
+	at Object.assert (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:1706:23)
+	at checkChangeRange (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:13041:26)
+	at Object.updateSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:12678:13)
+	at Object.updateSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:7623:34)
+	at updateLanguageServiceSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48215:44)
+	at acquireOrUpdateDocument (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48297:40)
+	at Object.updateDocument (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48275:20)
+	at Object.getOrCreateSourceFile [as getSourceFile] (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48977:49)
+	at tryReuseStructureFromOldProgram (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:39774:42)
+	at Object.createProgram (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:39688:14)
+	at com.palantir.typescript.services.Bridge.processRequest(Bridge.java:142)
+	at com.palantir.typescript.services.Bridge.call(Bridge.java:95)
+	at com.palantir.typescript.services.Bridge.call(Bridge.java:83)
+	at com.palantir.typescript.services.language.LanguageEndpoint.getQuickInfoAtPosition(LanguageEndpoint.java:263)
+	at com.palantir.typescript.text.FileLanguageService.getQuickInfoAtPosition(FileLanguageService.java:128)
+	at com.palantir.typescript.text.TextHover.getHoverInfo2(TextHover.java:68)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY org.eclipse.jface.text 4 0 2016-09-20 23:09:47.078
+!MESSAGE Unexpected runtime error while computing a text hover
+!STACK 0
+java.lang.RuntimeException: The following request caused an error to be thrown:
+{"endpoint":"language","method":"getQuickInfoAtPosition","arguments":["5eb88d56-71b5-4d27-b1b1-27ebbb9fd25e","5eb88d56-71b5-4d27-b1b1-27ebbb9fd25e.ts",256]}
+Error: Debug Failure. False expression: 
+	at Object.assert (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:1706:23)
+	at checkChangeRange (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:13041:26)
+	at Object.updateSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:12678:13)
+	at Object.updateSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:7623:34)
+	at updateLanguageServiceSourceFile (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48215:44)
+	at acquireOrUpdateDocument (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48297:40)
+	at Object.updateDocument (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48275:20)
+	at Object.getOrCreateSourceFile [as getSourceFile] (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:48977:49)
+	at tryReuseStructureFromOldProgram (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:39774:42)
+	at Object.createProgram (C:\Users\ssiva_000\Downloads\Enide-2015-7-windows-x64-20150706\eclipse\plugins\com.palantir.typescript_1.8.0.v20160504-1733\bin\bridge.js:39688:14)
+	at com.palantir.typescript.services.Bridge.processRequest(Bridge.java:142)
+	at com.palantir.typescript.services.Bridge.call(Bridge.java:95)
+	at com.palantir.typescript.services.Bridge.call(Bridge.java:83)
+	at com.palantir.typescript.services.language.LanguageEndpoint.getQuickInfoAtPosition(LanguageEndpoint.java:263)
+	at com.palantir.typescript.text.FileLanguageService.getQuickInfoAtPosition(FileLanguageService.java:128)
+	at com.palantir.typescript.text.TextHover.getHoverInfo2(TextHover.java:68)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY ts.eclipse.ide.validation.core 4 0 2016-09-20 23:12:45.567
+!MESSAGE Error while TypeScript validation.
+!STACK 0
+ts.client.TypeScriptTimeoutException: Timeout error 10000000000ms
+	at ts.internal.client.protocol.Request.call(Request.java:74)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

@@ -1,0 +1,32 @@
+import{Component} from 'angular2/core';
+import{ContactComponent} from './contact.component';
+
+@Component({
+    selector:'contact-list',
+    template: `
+        <ul>
+            <li *ngFor="#contact of contacts" 
+            (click)="onSelect(contact)" 
+            [class.clicked] = "selectedContact === contact">
+               {{contact.firstName }} {{contact.lastName }}
+            </li>            
+        </ul>
+        <contact-wrap [contact]="selectedContact"></contact-wrap>
+    `
+    directives: [ContactComponent],
+    styleUrls: ['../src/css/app.css']
+})
+
+export class ContactListComponent{
+    public contacts = [
+            {firstName:'Shiv',lastName:'Shankar', phone:'7299870510',    email:'ssivashakar@gmail.com'},
+            {firstName:'Shiv1',lastName:'Shankar1', phone:'7299870511',    email:'ssivashakar1@gmail.com'}
+            {firstName:'Shiv2',lastName:'Shankar2', phone:'7299870512',    email:'ssivashakar2@gmail.com'}
+            {firstName:'Shiv3',lastName:'Shankar3', phone:'7299870513',    email:'ssivashakar3@gmail.com'}
+        ]
+
+        public selectedContact = {};    
+        onSelect(contact){
+            this.selectedContact = contact;
+        }
+}
